@@ -162,69 +162,10 @@
 				<div class="sl-slider">
 				
 					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
-
 						<div class="bg-img bg-img-1"></div>
-
-						<div class="slide-caption">
-                            <div class="caption-content">
-                                <h2 class="animated fadeInDown">Pragyan 2016</h2>
-                                <span class="animated fadeInDown">Inter Hostel Technical Tournament</span>
-                                <!-- <a href="{{ url('/register') }}" class="btn btn-blue btn-effect">Participate</a> -->
-                            </div>
-                        </div>
-						
-					</div>
-					
-					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
-					
-						<div class="bg-img bg-img-2"></div>
-						<div class="slide-caption">
-                            <div class="caption-content">
-                                <h2>Pragyan 2016</h2>
-                                <span>Inter Hostel Technical Tournament</span>
-                                <!-- <a href="{{ url('/register') }}" class="btn btn-blue btn-effect">Participate</a> -->
-                            </div>
-                        </div>
-						
-					</div>
-					
-					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
-						
-						<div class="bg-img bg-img-3"></div>
-						<div class="slide-caption">
-                            <div class="caption-content">
-                                <h2>Pragyan 2016</h2>
-                                <span>Inter Hostel Technical Tournament</span>
-                                <!-- <a href="{{ url('/register') }}" class="btn btn-blue btn-effect">Participate</a> -->
-                            </div>
-                        </div>
-
 					</div>
 
 				</div><!-- /sl-slider -->
-
-                <!-- 
-                <nav id="nav-arrows" class="nav-arrows">
-                    <span class="nav-arrow-prev">Previous</span>
-                    <span class="nav-arrow-next">Next</span>
-                </nav>
-                -->
-                
-                <nav id="nav-arrows" class="nav-arrows hidden-xs hidden-sm visible-md visible-lg">
-                    <a href="javascript:;" class="sl-prev">
-                        <i class="fa fa-angle-left fa-3x"></i>
-                    </a>
-                    <a href="javascript:;" class="sl-next">
-                        <i class="fa fa-angle-right fa-3x"></i>
-                    </a>
-                </nav>
-                
-
-				<nav id="nav-dots" class="nav-dots visible-xs visible-sm hidden-md hidden-lg">
-					<span class="nav-dot-current"></span>
-					<span></span>
-					<span></span>
-				</nav>
 
 			</div><!-- /slider-wrapper -->
 		</section>
@@ -238,7 +179,7 @@
 						<div class="row">
 						
 							<div class="sec-title text-center white wow animated fadeInDown">
-								<h2>Pragyan 2016 Inter Hostel Technical Tournament</h2>
+								<h2>Pragyan 2017 Inter Hostel Technical Tournament</h2>
 							</div>
 							
 							<div id="testimonial" class=" wow animated fadeInUp">
@@ -246,10 +187,10 @@
 									<!-- <img src="img/member-1.jpg" alt="Our Clients"> -->
 									<br>
 									<div class="clearfix">
-									
+
 										<span></span>
-										<p style="font-size:1.2em"> First year into college. Boundless enthusiasm and passion to discover. A tournament that gives this enthusiasm a release and a platform for the technical inquisitiveness in you.
-Pragyan 16 presents the Inter Hostel Tournament 2015. A series of contests exclusively for first years.
+										<p style="font-size:1.2em;margin-left:10px;">First year into college. Boundless enthusiasm and passion to discover. A tournament that gives this enthusiasm a release and a platform for the technical inquisitiveness in you.
+Pragyan 17 presents the Inter Hostel Tournament. A series of contests exclusively for first years.
 This tournament consists of a splash of every flavour of Pragyan. Events are designed to cater to every interest and give the newest members of NIT Trichy a glimpse of Pragyan will hold for them.</p>
 									
 									</div>
@@ -290,49 +231,45 @@ This tournament consists of a splash of every flavour of Pragyan. Events are des
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn">
 							<div class="service-item">
 								<div class="service-icon">
-									<a href="{{asset('/pdfs/3.pdf')}}" target="_blank"><i class="fa fa-android fa-3x"></i></a>
+									<a href="{{asset('/pdfs/2017/3.pdf')}}" target="_blank"><i class="fa fa-android fa-3x"></i></a>
 								</div>
-								<h3>Grab To Smash</h3>
-								<p>Gain access to smash your opponents by grabbing your powers.</p>
+								<h3>Line Follower</h3>
+								<p>Without stammering on the white, follow the black line to victory!</p>
 							</div>
 						</div>
 					
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
 							<div class="service-item">
 								<div class="service-icon">
-								<a href="{{asset('/pdfs/2.pdf')}}" target="_blank">
+								<a href="{{asset('/pdfs/2017/2.pdf')}}" target="_blank">
 									<i class="fa fa-bolt fa-3x" onclick="$.fancybox({});"></i></a>
 								</div>
 								<h3>Electrolution</h3>
-								<p>Work on some of the most cutting-edge technologies in the world of elect
-ronics and
-be amazed at what you are capable of</p>
+								<p>Bring out the engineer in you and make technology your slave by making it do your bidding!</p>
 							</div>
 						</div>
 					
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
 							<div class="service-item">
 								<div class="service-icon">
-								<a href="{{asset('/pdfs/4.pdf')}}" target="_blank">
-									<i class="fa fa-cube fa-3x"></i></a>
+								<a href="{{asset('/pdfs/2017/4.pdf')}}" target="_blank">
+									<i class="fa fa-area-chart fa-3x"></i></a>
 								</div>
-								<h4>Pragyan Design Challenge</h4>
-								<p>Unleash your engineering skills, creativity and intuition, and structure your ideas for
-the given problem statement and present it by a drawing/ sketchup/ 3D Modelling  </p>
+								<h4>Design Challenge</h4>
+								<p>Do you think you have ideas as good as IKEA's? 
+Not the creator of grand design, but can you design your path to victory? Then this is for you!</p>
 							</div>
 						</div>
 					
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
 							<div class="service-item">
 								<div class="service-icon">
-								<a href="{{asset('/pdfs/8.pdf')}}" target="_blank">
+								<a href="{{asset('/pdfs/2017/8.pdf')}}" target="_blank">
 									<i class="fa fa-heart fa-3x"></i></a>
 								</div>
 								
-								<h3>Yaconai</h3>
-								<p>The main idea/aim of this Event is to elevate/bring-out some of the existing problems wi
-thin the
-college using Existing Technologies which are feasible at the same time. </p>							
+								<h3>Green Tech</h3>
+								<p>Help and Save the world - one innovation at a time!</p>							
 							</div>
 						</div>
 					</div>
@@ -343,25 +280,20 @@ college using Existing Technologies which are feasible at the same time. </p>
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn">
 							<div class="service-item">
 								<div class="service-icon">
-								<a href="{{asset('/pdfs/1.pdf')}}" target="_blank">	<i class="fa fa-code fa-3x"></i>
+								<a href="{{asset('/pdfs/2017/1.pdf')}}" target="_blank">	<i class="fa fa-code fa-3x"></i>
 								</a></div>
-								<h3>Bytecode junior</h3>
-								<p>ByteCode Junior is an online algorithm programming conte
-st. The contest tests your skills in Algorithms and Data
-Structures. </p>
+								<h3>Hunt the Code</h3>
+								<p>Can you survive the rebellion against the abyss of buggy code and hunt it down to victory?</p>
 							</div>
 						</div>
 					
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
 							<div class="service-item">
 								<div class="service-icon">
-								<a href="{{asset('/pdfs/5.pdf')}}" target="_blank">	<i class="fa fa-users fa-3x"></i>
+								<a href="{{asset('/pdfs/2017/5.pdf')}}" target="_blank">	<i class="fa fa-users fa-3x"></i>
 								</a></div>
 								<h3>The Ultimate Manager</h3>
-								<p>A fun filled, creative and challenging event, where we wil
-l test you on your business acumen,
-creativity, “thinking-outside-the-box” capabilities and g
-eneral awareness. </p>
+								<p>Swot your brain, explore and unleash your innate talents and let your ideas burn bright! Be the Ultimate Manager!</p>
 							</div>
 						</div>
 					
@@ -371,31 +303,28 @@ eneral awareness. </p>
 								<a href="{{asset('/pdfs/7.pdf')}}" target="_blank">	<i class="fa fa-rocket fa-3x"></i>
 								</a></div>
 								<h3>Water Rocket</h3>
-								<p>Take your first big step to propel yourself into the world of aerodynamics!</p>
+								<p>Unravel your hidden passion for aerodynamics. May the force be with your rocket!</p>
 							</div>
 						</div>
 					
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
 							<div class="service-item">
 								<div class="service-icon">
-								<a href="{{asset('/pdfs/6.pdf')}}" target="_blank">
-									<i class="fa fa-smile-o fa-3x"></i></a>
+								<a href="{{asset('/pdfs/2017/6.pdf')}}" target="_blank">
+									<i class="fa fa-cubes fa-3x"></i></a>
 								</div>
 								
-								<h3>Trollphy</h3>
-								<p> Trollphy event is for those w
-ho want everyone to have a good laugh with humorous memes
-on
-physics/physicists. </p>							
+								<h3>Sanrachna</h3>
+								<p>Let loose your creative side and test the limits of your imagination by transforming materials of everyday use into inventions that could change the world.</p>							
 							</div>
 						</div>
 					</div>
 
-					<div class="row" style="margin-top: 50px">
+					<div class="row" style="margin-top: 50px;">
 						<h2 style="padding-top: 20px; padding-bottom: 0px; text-align: center"> SCHEDULE</h2>
 						<div class="col-md-6">
 							<h4 style="padding: 10px; padding-bottom: 0px; text-align: center">Day 1</h4>
-							<h4 style="padding-bottom: 10px; text-align: center">(Date: 28-11-2015)</h4>
+							<h4 style="padding-bottom: 10px; text-align: center">(Date: 03-12-2016)</h4>
 					 		<div class="table-responsive">
 							<table  id="my-table" class="table table-striped" >
 							  <thead>
@@ -407,23 +336,23 @@ physics/physicists. </p>
 							  </thead>
 							  <tbody>
 							    <tr>
-							      <td>The Ultimate Manager</td>
-							      <td>10 am to 3 pm</td>
-							      <td>A2</td>
+							      <td>Water Rocket</td>
+							      <td>9 am to 12:30 pm</td>
+							      <td>CEESAT Ground</td>
+							    </tr>
+							    <tr>
+							      <td>Green Tech</td>
+							      <td>10:30 am to 12:30 pm</td>
+							      <td>A12</td>
 							    </tr>
 							    <tr>
 							      <td>Electrolution</td>
-							      <td>10 am to 4 pm</td>
-							      <td>LHC / Orion</td>
+							      <td>1:30 pm to 5 pm</td>
+							      <td>LHC/Orion</td>
 							    </tr>
 							    <tr>
-							      <td>PDC</td>
-							      <td>2 pm to 5 pm</td>
-							      <td>A11</td>
-							    </tr>
-							    <tr>
-							      <td>Bytecode Junior</td>
-							      <td>5:30 pm to 8:30 pm</td>
+							      <td>Sanrachana</td>
+							      <td>5 pm</td>
 							      <td>-</td>
 							    </tr>
 							  </tbody>
@@ -432,7 +361,7 @@ physics/physicists. </p>
 						</div>
 						<div class="col-md-6">
 						<h4 style="padding: 10px; padding-bottom: 0px; text-align: center">Day 2</h4>
-						<h4 style="padding-bottom: 10px; text-align: center">(Date: 29-11-2015)</h4>
+						<h4 style="padding-bottom: 10px; text-align: center">(Date: 04-12-2016)</h4>
 						<div class="table-responsive">
 							<table  id="my-table" class="table table-striped" >
 						  <thead>
@@ -444,29 +373,24 @@ physics/physicists. </p>
 						  </thead>
 						  <tbody>
 						    <tr>
-						    	<td>Grab to Smash</td>
-						      <td>10 am to 4 pm</td>
+						    <td>Line Follower</td>
+						      <td>9 am to 12 noon</td>
 						      <td>Barn Hall</td>
 						    </tr>
 						    <tr>
-						      <td>Yocanai</td>
-						      <td>10 am to 1 pm</td>
-						      <td>A11</td>
+						      <td>PDC</td>
+						      <td>10:30 am to 12:30 pm</td>
+						      <td>A12</td>
 						    </tr>
 						    <tr>
-						      <td>Water Rocket</td>
-						      <td>9:30 to 12:30 pm</td>
-						      <td>CEESAT Ground</td>
+						      <td>Hunt the Code</td>
+						      <td>10:30 am to 12:30 pm</td>
+						      <td>LHC/Orion</td>
 						    </tr>
 						    <tr>
-						      <td>TrollPhy (2nd round)</td>
-						      <td>2 pm to 4 pm</td>
-						      <td>A11</td>
-						    </tr>
-						    <tr>
-						    	<td>Validiction</td>
-						    	<td>5:30 pm</td>
-						    	<td>EEE Audi</td>
+						      <td>Ultimate Manager</td>
+						      <td>1:30 pm to 5 pm</td>
+						      <td>A13</td>
 						    </tr>
 						    </tbody>
 						</table>
@@ -534,7 +458,7 @@ physics/physicists. </p>
         </thead>
         <tbody>
           <tr>
-            <td>Grab To Smash</td>
+            <td>Line Follower</td>
             <td id="first1">{{ $scores[0]->first }}</td>
             <td id="second1">{{ $scores[0]->second }}</td>
             <td id="third1">{{ $scores[0]->third }}</td>
@@ -559,7 +483,7 @@ physics/physicists. </p>
             </td>
           </tr>
           <tr>
-            <td>Pragyan Design Challenge</td>
+            <td>Design Challenge</td>
             <td id="first3">{{ $scores[2]->first }}</td>
             <td id="second3">{{ $scores[2]->second }}</td>
             <td id="third3">{{ $scores[2]->third }}</td>
@@ -571,7 +495,7 @@ physics/physicists. </p>
             </td>
           </tr>
           <tr>
-            <td>Yaconai</td>
+            <td>Green Tech</td>
             <td id="first4">{{ $scores[3]->first }}</td>
             <td id="second4">{{ $scores[3]->second }}</td>
             <td id="third4">{{ $scores[3]->third }}</td>
@@ -583,7 +507,7 @@ physics/physicists. </p>
             </td>
           </tr>
           <tr>
-            <td>Bytecode junior</td>
+            <td>Hunt the Code</td>
             <td id="first5">{{ $scores[4]->first }}</td>
             <td id="second5">{{ $scores[4]->second }}</td>
             <td id="third5">{{ $scores[4]->third }}</td>
@@ -619,7 +543,7 @@ physics/physicists. </p>
             </td>
           </tr>
           <tr>
-            <td>Trollphy</td>
+            <td>Sanrachana</td>
             <td id="first8">{{ $scores[7]->first }}</td>
             <td id="second8">{{ $scores[7]->second }}</td>
             <td id="third8">{{ $scores[7]->third }}</td>
