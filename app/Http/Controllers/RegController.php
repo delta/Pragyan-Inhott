@@ -46,7 +46,6 @@ class RegController extends Controller
 				'electrolution'    => $electrolution,
 				'huntTheCode'    => $huntTheCode,
 				'theUltimateManager'    => $theUltimateManager,
-				'bytecodeJunior'    => $bytecodeJunior,
 				'waterRocket'    => $waterRocket,
 				'sanrachana'    => $sanrachana));
 		}

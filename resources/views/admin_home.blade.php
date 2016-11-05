@@ -9,9 +9,9 @@
 		<meta charset="utf-8">
 		<!-- Always force latest IE rendering engine or request Chrome Frame -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>Pragyan 16</title>   
+		<title>Pragyan 17</title>   
 		<!-- Meta Description -->
-		<meta name="description" content="Pragyan 2016">
+		<meta name="description" content="Pragyan 2017">
 		<meta name="keywords" content="Pragyan, Delta Delta Force">
 		<meta name="author" content="Delta Force">
 		
@@ -78,7 +78,7 @@
 					
 					<!-- logo -->
 					<h1 class="navbar-brand">
-						<a href="{{ action("ViewController@index") }}">Pragyan 16</a>
+						<a href="{{ action("ViewController@index") }}">Pragyan 17</a>
 					</h1>
 					<!-- /logo -->
 				</div>
@@ -347,7 +347,7 @@
 					<div class="footer-content">
 						<div class="wow animated fadeInDown">
 							<p>Let's Celebrate Technology</p>
-							<p>Enjoy Pragyan 16</p>
+							<p>Enjoy Pragyan 17</p>
 						</div>
 						<!--  <form action="#" method="post" class="subscribe-form wow animated fadeInUp">
 						     <div class="input-field">

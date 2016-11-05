@@ -117,7 +117,7 @@
 					
 					<!-- logo -->
 					<h1 class="navbar-brand">
-						<a href="{{url('/')}}">Pragyan 17</a>
+						<a href="{{url('/')}}"><img src="{{asset('img/p17_logo.png')}}" style="height:100px;margin-top:-40px;margin-left:0px;"></a>
 					</h1>
 					<!-- /logo -->
                 </div>
@@ -189,9 +189,7 @@
 									<div class="clearfix">
 
 										<span></span>
-										<p style="font-size:1.2em;margin-left:10px;">First year into college. Boundless enthusiasm and passion to discover. A tournament that gives this enthusiasm a release and a platform for the technical inquisitiveness in you.
-Pragyan 17 presents the Inter Hostel Tournament. A series of contests exclusively for first years.
-This tournament consists of a splash of every flavour of Pragyan. Events are designed to cater to every interest and give the newest members of NIT Trichy a glimpse of Pragyan will hold for them.</p>
+										<p style="font-size:1.2em;margin-left:10px;">Take your first steps into the world of Engineering and Technology. Put on your thinking caps and test your creativity, technical expertise and problem solving skills to compete against the many technocrats of your batch. Fire up your competitive spirit and bring glory to your hostel! Furthermore, get a sneak peek of the coveted technical clubs of our college. Experience all this and more as Pragyan '17 brings to you the InHoTT - Inter Hostel Technical Tournament!</p>
 									
 									</div>
 								</div>
@@ -255,7 +253,7 @@ This tournament consists of a splash of every flavour of Pragyan. Events are des
 								<a href="{{asset('/pdfs/2017/4.pdf')}}" target="_blank">
 									<i class="fa fa-area-chart fa-3x"></i></a>
 								</div>
-								<h4>Design Challenge</h4>
+								<h3>Design Challenge</h3>
 								<p>Do you think you have ideas as good as IKEA's? 
 Not the creator of grand design, but can you design your path to victory? Then this is for you!</p>
 							</div>
@@ -300,7 +298,7 @@ Not the creator of grand design, but can you design your path to victory? Then t
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
 							<div class="service-item">
 								<div class="service-icon">
-								<a href="{{asset('/pdfs/7.pdf')}}" target="_blank">	<i class="fa fa-rocket fa-3x"></i>
+								<a href="{{asset('/pdfs/2017/7.pdf')}}" target="_blank">	<i class="fa fa-rocket fa-3x"></i>
 								</a></div>
 								<h3>Water Rocket</h3>
 								<p>Unravel your hidden passion for aerodynamics. May the force be with your rocket!</p>
