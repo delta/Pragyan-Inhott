@@ -140,7 +140,7 @@
 								</div>
 								<div id="event" name="event">
 										<div class="checkbox">
-										<label><input type="checkbox" name="grabToSmash" value="grabToSmash" >Grab to smash</label>
+										<label><input type="checkbox" name="lineFollower" value="lineFollower" >Line Follower</label>
 										</div>
 
 										<div class="checkbox">
@@ -151,7 +151,7 @@
 										
 										<div class="checkbox">
 										<label>
-										<input type="checkbox" name="yaconai" value="yaconai">Yaconai<br>
+										<input type="checkbox" name="greenTech" value="greenTech">greenTech<br>
 										</label>
 										</div>
 
@@ -165,7 +165,7 @@
 										
 										<div class="checkbox">
 										<label>
-										<input type="checkbox" name="bytecodeJunior" value="bytecodeJunior">Bytecode Junior<br>
+										<input type="checkbox" name="huntTheCode" value="huntTheCode">Hunt The Code<br>
 										</label>
 										</div>
 
@@ -184,7 +184,7 @@
 										
 										<div class="checkbox">
 										<label>
-										<input type="checkbox" name="trollphy" value="trollphy">Trollphy<br>
+										<input type="checkbox" name="sanrachana" value="sanrachana">Sanrachana<br>
 										</label>
 										</div>
 									</div>

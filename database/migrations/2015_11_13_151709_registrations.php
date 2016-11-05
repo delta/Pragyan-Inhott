@@ -17,14 +17,14 @@ class Registrations extends Migration
             $table->string('name');
             $table->string('mobile');
             $table->string('hostel');
-            $table->string('grabToSmash');
+            $table->string('lineFollower');
             $table->string('pragyanDesignChallenge');
-            $table->string('yaconai');
+            $table->string('greenTech');
             $table->string('electrolution');
-            $table->string('bytecodeJunior');
+            $table->string('huntTheCode');
             $table->string('theUltimateManager');
             $table->string('waterRocket');
-            $table->string('trollphy');
+            $table->string('sanrachana');
         
             
         });

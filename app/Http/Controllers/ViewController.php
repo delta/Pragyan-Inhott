@@ -40,7 +40,7 @@ class ViewController extends Controller
             $p2 = ["hostel"=>$second,"val"=>0];
             $p3 = ["hostel"=>$third,"val"=>0];
 
-            if($i==1) // grab to smash
+            if($i==1) // Line Follower
             {
                 $p1["val"] = 15;
                 $p2["val"] = 10;
@@ -52,7 +52,7 @@ class ViewController extends Controller
                 $p2["val"] = 5;
                 $p3["val"] = 3;
             }
-            else if ($i==8) // trollphy
+            else if ($i==8) // Sanrachana
             {
                 $p1["val"] = 5;
                 $p2["val"] = 3;

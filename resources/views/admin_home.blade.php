@@ -89,8 +89,8 @@
 		
 		<main class="site-content" role="main">
 			
-			<label for="GrabToSmash">GRAB TO SMASH</label>
-			<a href="#" class="export">Download grab to smash</a>
+			<label for="GrabToSmash">Line Follower</label>
+			<a href="#" class="export">Download line Follower</a>
 			<div id="dvData"><table class="table table-hover table-striped" id="GrabToSmash" >
 				<thead>
 					<tr>
@@ -104,7 +104,7 @@
 					
 					@foreach ($details as $detail)
 						
-						@if( $detail->grabToSmash =='1' )
+						@if( $detail->lineFollower =='1' )
 							<tr id="{{ $detail->rollno }}">
 								<td> {{ $detail->rollno }} </td>
 								<td> {{ $detail->name }} </td>
@@ -146,8 +146,8 @@
 				</tbody>
 			</table></div>
 
-			<label for="Yaconai"> YACONAI </label>
-			<a href="#" class="export3">Download yaco</a>
+			<label for="Yaconai"> Green Tech </label>
+			<a href="#" class="export3">Download green Tech</a>
 			<div id="dvData3">
 			<table class="table table-bordered table-hover table-striped" id="Yaconai">
 				<thead>
@@ -161,7 +161,7 @@
 				<tbody>
 					
 					@foreach ($details as $detail)
-						@if( $detail->yaconai =='1' )
+						@if( $detail->greenTech =='1' )
 							<tr id="{{ $detail->rollno }}">
 								<td> {{ $detail->rollno }} </td>
 								<td> {{ $detail->name }} </td>
@@ -202,8 +202,8 @@
 				</tbody>
 			</table></div>
 
-			<label for="BytecodeJunior">BYTECODE JUNIOR</label>
-			<a href="#" class="export5">Download bytecode</a>
+			<label for="BytecodeJunior">Hunt the Code</label>
+			<a href="#" class="export5">Download Hunt the Code</a>
 			<div id="dvData5">
 			<table class="table table-bordered table-hover table-striped" id="BytecodeJunior">
 				<thead>
@@ -217,7 +217,7 @@
 				<tbody>
 					
 					@foreach ($details as $detail)
-						@if( $detail->bytecodeJunior =='1' )
+						@if( $detail->huntTheCode =='1' )
 							<tr id="{{ $detail->rollno }}">
 								<td> {{ $detail->rollno }} </td>
 								<td> {{ $detail->name }} </td>
@@ -286,8 +286,8 @@
 				</tbody>
 			</table></div>
 
-			<label for="Trollphy"> TROLLPHY </label>
-			<a href="#" class="export8">Download Trollphy</a>
+			<label for="Trollphy"> Sanrachana </label>
+			<a href="#" class="export8">Download Sanrachana</a>
 			<div id="dvData8">
 			<table class="table table-bordered table-hover table-striped" id="Trollphy">
 				<thead>
@@ -301,7 +301,7 @@
 				<tbody>
 					
 					@foreach ($details as $detail)
-						@if( $detail->trollphy =='1' )
+						@if( $detail->sanrachana =='1' )
 							<tr id="{{ $detail->rollno }}">
 								<td> {{ $detail->rollno }} </td>
 								<td> {{ $detail->name }} </td>
@@ -324,14 +324,14 @@
 			     <td> {{ $detail->rollno }} </td>
 			     <td> {{ $detail->name }} </td>
 			     <td> {{ $detail->hostel }} </td>
-			     <td> {{ $detail->grabToSmash }} </td>
+			     <td> {{ $detail->lineFollower }} </td>
 			     <td> {{ $detail->pragyanDesignChallenge }} </td>
-			     <td> {{ $detail->yaconai }} </td>
+			     <td> {{ $detail->greenTech }} </td>
 			     <td> {{ $detail->electrolution }} </td>
-			     <td> {{ $detail->bytecodeJunior }} </td>
+			     <td> {{ $detail->huntTheCode }} </td>
 			     <td> {{ $detail->theUltimateManager }} </td>
 			     <td> {{ $detail->waterRocket }} </td>
-			     <td> {{ $detail->trollphy }} </td>
+			     <td> {{ $detail->sanrachana }} </td>
 			     </tr>
 			     @endforeach 
 			     

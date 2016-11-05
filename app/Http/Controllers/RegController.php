@@ -21,14 +21,14 @@ class RegController extends Controller
 		$name = $request->get('name');
 		$hostel = $request->get('hostel');
 		$mobile = $request->get('mobile');
-		$grabToSmash = Input::has('grabToSmash');;
+		$lineFollower = Input::has('lineFollower');;
 		$pragyanDesignChallenge = Input::has('pragyanDesignChallenge');
-		$yaconai = Input::has('yaconai');
+		$greenTech = Input::has('greenTech');
 		$electrolution = Input::has('electrolution');
-		$bytecodeJunior = Input::has('bytecodeJunior');
+		$huntTheCode = Input::has('huntTheCode');
 		$theUltimateManager = Input::has('theUltimateManager');
 		$waterRocket = Input::has('waterRocket');
-		$trollphy = Input::has('trollphy');
+		$sanrachana = Input::has('sanrachana');
 		
 		$exists = DB::table('registrations')->where('rollno', $rollno)->get();
 		if(count($exists)!=0)
@@ -40,15 +40,15 @@ class RegController extends Controller
 				'name'   => $name,
 				'mobile'     => $mobile,
 				'hostel'       => $hostel,
-				'grabToSmash'     => $grabToSmash,
+				'lineFollower'     => $lineFollower,
 				'pragyanDesignChallenge'   => $pragyanDesignChallenge,
-				'yaconai'      => $yaconai,
+				'greenTech'      => $greenTech,
 				'electrolution'    => $electrolution,
-				'bytecodeJunior'    => $bytecodeJunior,
+				'huntTheCode'    => $huntTheCode,
 				'theUltimateManager'    => $theUltimateManager,
 				'bytecodeJunior'    => $bytecodeJunior,
 				'waterRocket'    => $waterRocket,
-				'trollphy'    => $trollphy));
+				'sanrachana'    => $sanrachana));
 		}
 		else
 		{
@@ -58,15 +58,14 @@ class RegController extends Controller
 												'name'   => $name,
 												'mobile'     => $mobile,
 												'hostel'       => $hostel,
-												'grabToSmash'     => $grabToSmash,
+												'lineFollower'     => $lineFollower,
 												'pragyanDesignChallenge'   => $pragyanDesignChallenge,
-												'yaconai'      => $yaconai,
+												'greenTech'      => $greenTech,
 												'electrolution'    => $electrolution,
-												'bytecodeJunior'    => $bytecodeJunior,
+												'huntTheCode'    => $huntTheCode,
 												'theUltimateManager'    => $theUltimateManager,
-												'bytecodeJunior'    => $bytecodeJunior,
 												'waterRocket'    => $waterRocket,
-												'trollphy'    => $trollphy));
+												'sanrachana'    => $sanrachana));
 			
 		}
 
