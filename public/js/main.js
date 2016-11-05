@@ -180,7 +180,7 @@ $(document).ready(function(){
 
 	$.ajax({
 		method: "GET",
-		url: base_url+"/points",
+		url: "./points",
 	}).done(function( msg ) {
 		// console.log(msg);
 		// console.log("adding table");
