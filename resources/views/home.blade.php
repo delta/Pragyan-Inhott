@@ -8,9 +8,9 @@
 	<meta charset="utf-8">
 	<!-- Always force latest IE rendering engine or request Chrome Frame -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Pragyan 18</title>
+	<title>Pragyan InHoTT</title>
 	<!-- Meta Description -->
-	<meta name="description" content="Pragyan 2018">
+	<meta name="description" content="Pragyan 2018 InHoTT">
 	<meta name="keywords" content="Pragyan, inhott, Delta, Delta Force,">
 	<meta name="author" content="Delta Force">
 	<meta name="_token" content="{{ csrf_token() }}"/>
@@ -216,7 +216,7 @@
 							</div>
 							
 							
-							<a href="{{asset('/pdfs/2018/2.pdf')}}" target="_blank">
+							<a href="{{url('/events/electrolution')}}">
 							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
 								<div class="service-item">
 									<div class="service-icon">
@@ -227,18 +227,18 @@
 							</div>
 									</a>
 							
-							<a href="{{asset('/pdfs/2018/4.pdf')}}" target="_blank">
+							<a href="{{url('/events/funda')}}">
 								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
 									<div class="service-item">
 										<div class="service-icon">
 											<i class="fa fa-fire fa-3x"></i>
 										</div>
-										<h3>Funda</h3>
+										<h3>Elemental</h3>
 									</div>
 								</div>
 							</a>
 							
-										<a href="{{asset('/pdfs/2018/8.pdf')}}" target="_blank">
+										<a href="{{url('/events/huntthecode')}}">
 							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
 								<div class="service-item">
 									<div class="service-icon">
@@ -254,29 +254,29 @@
 						<br><br>
 						<div class="row">
 							
-										<a href="{{asset('/pdfs/2018/1.pdf')}}" target="_blank">	
+										<a href="{{url('/events/picktoplace')}}">	
 							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn">
 								<div class="service-item">
 									<div class="service-icon">
 											<i class="fa fa-cogs fa-3x"></i>
 									</div>
-										<h3>Pick to Place</h3>
+										<h3>Captain Clawbot</h3>
 									</div>
 								</div>
 										</a>
 
-											<a href="{{asset('/pdfs/2018/5.pdf')}}" target="_blank">	
+											<a href="{{url('/events/speedcubing')}}">	
 								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
 									<div class="service-item">
 										<div class="service-icon">
 												<i class="fa fa-cube fa-3x"></i>
 										</div>
-											<h3>Speed Cubing</h3>
+											<h3>Cube One</h3>
 										</div>
 									</div>
 											</a>
 
-												<a href="{{asset('/pdfs/2018/7.pdf')}}" target="_blank">
+												<a href="{{url('/events/theultimatemanager')}}">
 									<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
 										<div class="service-item">
 											<div class="service-icon">
@@ -290,7 +290,8 @@
 												</a>
 									<div class="row" style="margin-top: 50px;">
 										<h2 style="padding-top: 20px; padding-bottom: 0px; text-align: center"> SCHEDULE</h2>
-										<div class="col-md-6">
+										<p style="text-align: center; padding: 20px 0;font-weight: bold;">Coming Soon...</p>
+										<!-- <div class="col-md-6">
 											<h4 style="padding: 10px; padding-bottom: 0px; text-align: center">Day 1</h4>
 											<h4 style="padding-bottom: 10px; text-align: center">(Date: 03-12-2016)</h4>
 											<div class="table-responsive">
@@ -363,7 +364,7 @@
 													</tbody>
 												</table>
 											</div>
-										</div>
+										</div> -->
 									</div>
 									<div class="row" style="margin-top:50px">
 										<h2 style="padding-top: 20px; padding-bottom: 0px; text-align: center">SCOREBOARD</h2>
@@ -520,7 +521,6 @@
 									<div class="footer-content">
 										<div class="wow animated fadeInDown">
 											<p>Let's Celebrate Technology!</p>
-											<p>Enjoy Pragyan' 18</p>
 										</div>
 										<!-- 	<form action="#" method="post" class="subscribe-form wow animated fadeInUp">
 												<div class="input-field">

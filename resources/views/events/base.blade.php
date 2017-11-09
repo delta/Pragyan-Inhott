@@ -44,7 +44,28 @@
     </head>
 	
     <body id="body">
-
+    	<style type="text/css">
+    		section#about
+    		{
+    			background-color: #51a3d0f2;
+    		}
+    		section#about .row
+			{
+				margin-bottom: 35px;
+			}
+			section#about .header
+			{
+				display: block;
+				font-size: 1.6em;
+				margin-bottom: 8px;
+				text-transform: uppercase;
+			}
+			section p
+			{
+				display: block;
+				margin-bottom: 5px;
+			}
+    	</style>
 		<!-- preloader -->
 		<div id="preloader">
             <div class="loder-box">
@@ -56,7 +77,7 @@
         <!--
         Fixed Navigation
         ==================================== -->
-        <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
+        <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header" style="background: #40a6d4">
             <div class="container">
                 <div class="navbar-header">
                     <!-- responsive nav button -->
@@ -70,16 +91,21 @@
 					
 					<!-- logo -->
 					<h1 class="navbar-brand">
-						<a href="{{url('/')}}">Pragyan 18</a>
-					</h1>
+				<a href="{{url('/')}}"><img src="{{asset('img/logo.svg')}}" style="height:120px;margin-top:-50px;margin-left:0px;"></a>
+				</h1>
 					<!-- /logo -->
                 </div>
 
 				<!-- main nav -->
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <ul id="nav" class="nav navbar-nav">
-                        <li><a href="#body"><?php echo Session::get('user_name') ?></a></li>
-                        <li><a href="{{ url('/logout')}}">Logout</a></li>
+                        @if (Session::has('user_name'))
+					<li>{{Session::get('user_name')}}</li>
+					<li><a href="{{ url('/register') }}">Register</a></li>
+					<li><a href="{{ url('/logout') }}">Logout</a></li>
+					@else
+					<li><a id="loginbtn" href="{{ url('login') }}">Register</a></li>
+					@endif
       <!--                   <li><a href="#portfolio">portfolio</a></li>
                         <li><a href="#testimonials">Testimonial</a></li>
                         <li><a href="#price">price</a></li>
@@ -105,8 +131,7 @@
 				<div class="row text-center">
 					<div class="footer-content">
 						<div class="wow animated fadeInDown">
-							<p>Let's Celebrate Technology</p>
-							<p>Enjoy Pragyan 18</p>
+							<p>Let's Celebrate Technology!</p>
 						</div>
 					<!-- 	<form action="#" method="post" class="subscribe-form wow animated fadeInUp">
 							<div class="input-field">
@@ -116,15 +141,15 @@
 								</button>
 							</div>
 						</form> -->
-						<div class="footer-social">
+						<!-- <div class="footer-social">
 							<ul>
-<!-- 								<li class="wow animated zoomIn"><a href="#"><i class="fa fa-thumbs-up fa-3x"></i></a></li>
+								<li class="wow animated zoomIn"><a href="#"><i class="fa fa-thumbs-up fa-3x"></i></a></li>
 								<li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#"><i class="fa fa-twitter fa-3x"></i></a></li>
 								<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="#"><i class="fa fa-skype fa-3x"></i></a></li>
 								<li class="wow animated zoomIn" data-wow-delay="0.9s"><a href="#"><i class="fa fa-dribbble fa-3x"></i></a></li>
 								<li class="wow animated zoomIn" data-wow-delay="1.2s"><a href="#"><i class="fa fa-youtube fa-3x"></i></a></li>
- -->							</ul>
-						</div>
+							</ul>
+						</div> -->
 						
 						<p>Made with &hearts; by <a href="http://delta.nitt.edu">Delta Force</a> </p>
 					</div>

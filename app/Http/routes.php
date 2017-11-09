@@ -22,3 +22,10 @@ Route::get('/register',"ViewController@register");
 Route::post('/registered',"RegController@insert_register");
 
 Route::get('/points',"ViewController@getPoints");
+
+Route::get('/events/electrolution',"ViewController@electrolution");
+Route::get('/events/funda',"ViewController@funda");
+Route::get('/events/huntthecode',"ViewController@huntthecode");
+Route::get('/events/picktoplace',"ViewController@picktoplace");
+Route::get('/events/speedcubing',"ViewController@speedcubing");
+Route::get('/events/theultimatemanager',"ViewController@theultimatemanager");

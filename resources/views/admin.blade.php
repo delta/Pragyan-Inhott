@@ -70,8 +70,8 @@
 					
 					<!-- logo -->
 					<h1 class="navbar-brand">
-						<a href="#body">Pragyan 18</a>
-					</h1>
+				<a href="{{url('/')}}"><img src="{{asset('img/logo.svg')}}" style="height:120px;margin-top:-50px;margin-left:0px;"></a>
+				</h1>
 					<!-- /logo -->
                 </div>
 
@@ -140,7 +140,7 @@
 					<div class="footer-content">
 						<div class="wow animated fadeInDown">
 							<p>Let's Celebrate Technology</p>
-							<p>Enjoy Pragyan 18</p>
+							
 						</div>
 					<!-- 	<form action="#" method="post" class="subscribe-form wow animated fadeInUp">
 							<div class="input-field">

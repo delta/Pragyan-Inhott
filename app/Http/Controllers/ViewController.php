@@ -110,8 +110,33 @@ class ViewController extends Controller
         return response()->json($t);
     }
 
-    public function events()
+    public function electrolution()
     {
-        
+        return view('events.electrolution');
+    }
+
+    public function funda()
+    {
+        return view('events.funda');
+    }
+
+    public function huntthecode()
+    {
+        return view('events.huntthecode');
+    }
+
+    public function picktoplace()
+    {
+        return view('events.picktoplace');
+    }
+
+    public function speedcubing()
+    {
+        return view('events.speedcubing');
+    }
+
+    public function theultimatemanager()
+    {
+        return view('events.theultimatemanager');
     }
 }

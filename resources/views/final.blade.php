@@ -128,7 +128,6 @@
 					<div class="footer-content">
 						<div class="wow animated fadeInDown">
 							<p>Let's Celebrate Technology</p>
-							<p>Enjoy Pragyan 18</p>
 						</div>
 					<!-- 	<form action="#" method="post" class="subscribe-form wow animated fadeInUp">
 							<div class="input-field">

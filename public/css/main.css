@@ -1019,7 +1019,7 @@ textarea.form-control {
 
 #footer {
     background-color: #2E2E2E;
-    padding: 70px 0;
+    padding: 30px 0;
     color: #fff;
 }
 
@@ -1439,4 +1439,7 @@ textarea.form-control {
     .footer-content {
         width: 380px;
     }
+}
+.container {
+    max-width: 90% !important;
 }

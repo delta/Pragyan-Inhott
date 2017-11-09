@@ -146,7 +146,7 @@
 										</div>
 
 										<div class="checkbox">
-										<label><input type="checkbox" name="funda" value="funda" >Funda</label>
+										<label><input type="checkbox" name="funda" value="funda" >Elemental</label>
 										</div>
 
 
@@ -158,13 +158,13 @@
 
 										<div class="checkbox">
 										<label>
-										<input type="checkbox" name="picktoplace" value="picktoplace">Pick To Place
+										<input type="checkbox" name="picktoplace" value="picktoplace">Captain Clawbot
 										</label>
 										</div>
 										
 										<div class="checkbox">
 										<label>
-										<input type="checkbox" name="speedcubing" value="speedcubing">Speed Cubing<br>
+										<input type="checkbox" name="speedcubing" value="speedcubing">Cube One<br>
 										</label>
 										</div>
 										
@@ -202,7 +202,6 @@
 					<div class="footer-content">
 						<div class="wow animated fadeInDown">
 							<p>Let's Celebrate Technology</p>
-							<p>Enjoy Pragyan 18</p>
 						</div>
 					<!-- 	<form action="#" method="post" class="subscribe-form wow animated fadeInUp">
 							<div class="input-field">
