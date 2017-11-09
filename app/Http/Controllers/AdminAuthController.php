@@ -12,28 +12,29 @@ class AdminAuthController extends Controller {
 	public function login()
 	{
 		
-			return view('admin_login');
-    }
+		return view('admin_login');
+	}
 
-    public function auth(Request $request)
+	public function auth(Request $request)
 	{
-			$username=$request->get('username'); 
-			$password=$request->get('password');
-			echo $username." ".$password;
-			if($username == "admin" && $password == "pragyan")
-			{
-				Session::put('admin_login','true');
-				return Redirect::to('admin/home');
-			}
-			else
-			{
-				return Redirect::to('admin/login')->with('message', 'Incorrect Username or Password');
-			}
+		$username=$request->get('username'); 
+		$password=$request->get('password');
+		echo $username." ".$password;
+
+		if($username == "admin" && $password == "S4n+0sh")
+		{
+			Session::put('admin_login','true');
+			return Redirect::to('admin/home');
+		}
+		else
+		{
+			return Redirect::to('admin/login')->with('message', 'Incorrect Username or Password');
+		}
 	}
 
 	
 
-    public function admin_home()
+	public function admin_home()
 	{
 		$details = DB::select('select * from registrations');
 
