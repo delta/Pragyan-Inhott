@@ -70,11 +70,23 @@
 					
 					<!-- logo -->
 					<h1 class="navbar-brand">
-				<a href="{{url('/')}}"><img src="{{asset('img/logo.svg')}}" style="height:120px;margin-top:-50px;margin-left:0px;"></a>
-				</h1>
+						<a href="{{url('/')}}">Pragyan 18</a>
+					</h1>
 					<!-- /logo -->
                 </div>
 
+				<!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                    <ul id="nav" class="nav navbar-nav">
+                        <li><a href="#body"><?php echo Session::get('user_name') ?></a></li>
+                        <li><a href="{{ url('/logout')}}">Logout</a></li>
+      <!--                   <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#testimonials">Testimonial</a></li>
+                        <li><a href="#price">price</a></li>
+                        <li><a href="#contact">Contact</a></li> -->
+                    </ul>
+                </nav>
+				<!-- /main nav -->
 				
             </div>
         </header>
@@ -84,47 +96,7 @@
 		
 		<main class="site-content" role="main">
 		
-			
-			<!-- Contact section -->
-			<section id="about" >
-				<br>
-				<div class="container">
-					<div class="row">
-						
-						<div class="sec-title text-center wow animated fadeInDown">
-							<br><br>
-							<h2>Admin Log in</h2>
-					
-						</div>
-						
-						<div class="col-md-6 col-md-offset-3 contact-form wow animated fadeInLeft">
-							<form action="{{ url('/admin/auth/') }}" method="get">
-								<input type="hidden" name="_token" id="csrf-token" value="{{ Session::token() }}" />
-
-								<div class="input-field">
-									<input type="text" name="username" class="form-control" placeholder="Your username...">
-								</div>
-								<div class="input-field">
-									<input type="password" name="password" class="form-control" placeholder="Password">
-								</div>
-						       	<center>
-						       	<button type="submit" id="submit" class="btn btn-blue btn-effect">Log in</button>
-						       	</center>
-							</form>
-							@if (Session::has('message'))
-							<div class="alert alert-info">
-								<ul>
-										<li>{{ Session::get('message') }}</li>
-								</ul>
-							</div>
-							@endif
-						</div>
-						
-					</div>
-				</div>
-			</section>
-			<!-- end Contact section -->
-			
+			@yield('content')
 		
 		</main>
 		
@@ -166,8 +138,9 @@
         <script src="{{ asset('/js/jquery-1.11.1.min.js') }}"></script>
 		<!-- Twitter Bootstrap -->
         <script src="{{ asset('/js/bootstrap.min.js') }}"></script>
-		<!-- Single Page Nav -->
+		<!-- Single Page Nav 
         <script src="{{ asset('/js/jquery.singlePageNav.min.js') }}"></script>
+		-->
 		<!-- jquery.fancybox.pack -->
         <script src="{{ asset('/js/jquery.fancybox.pack.js') }}"></script>
 		<!-- Owl Carousel -->

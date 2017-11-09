@@ -9,9 +9,9 @@
         <meta charset="utf-8">
 		<!-- Always force latest IE rendering engine or request Chrome Frame -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Pragyan 17</title>		
+        <title>Pragyan 18</title>		
 		<!-- Meta Description -->
-        <meta name="description" content="Pragyan 2017">
+        <meta name="description" content="Pragyan 2018">
         <meta name="keywords" content="Pragyan, Delta Delta Force">
         <meta name="author" content="Delta Force">
 		
@@ -70,8 +70,8 @@
 					
 					<!-- logo -->
 					<h1 class="navbar-brand">
-						<a href="{{url('/')}}">Pragyan 17</a>
-					</h1>
+				<a href="{{url('/')}}"><img src="{{asset('img/logo.svg')}}" style="height:120px;margin-top:-50px;margin-left:0px;"></a>
+				</h1>
 					<!-- /logo -->
                 </div>
 
@@ -127,7 +127,7 @@
 
 								<div class="form-group">
 								<label for="hostel">Select Hostel</label>
-									<select name="hostel" id="hostel" class="form-control">
+									<select name="hostel" id="hostel" class="form-control" required>
 										<option name="Agate">Agate</option>
 										<option name="Coral">Coral</option>
 										<option name="Diamond">Diamond</option>
@@ -140,53 +140,40 @@
 								</div>
 								<div id="event" name="event">
 										<div class="checkbox">
-										<label><input type="checkbox" name="lineFollower" value="lineFollower" >Line Follower</label>
-										</div>
-
-										<div class="checkbox">
-										<label>
-										<input type="checkbox" name="pragyanDesignChallenge" value="pragyanDesignChallenge" >Pragyan design challenge
-										</label>
-										</div>
-										
-										<div class="checkbox">
-										<label>
-										<input type="checkbox" name="greenTech" value="greenTech">greenTech<br>
-										</label>
-										</div>
-
-										
-										<div class="checkbox">
 										<label>
 										<input type="checkbox" name="electrolution" value="electrolution" >Electrolution<br>
 										</label>
 										</div>
 
-										
+										<div class="checkbox">
+										<label><input type="checkbox" name="funda" value="funda" >Funda</label>
+										</div>
+
+
 										<div class="checkbox">
 										<label>
-										<input type="checkbox" name="huntTheCode" value="huntTheCode">Hunt The Code<br>
+										<input type="checkbox" name="huntthecode" value="huntthecode">Hunt The Code<br>
 										</label>
 										</div>
 
-										
 										<div class="checkbox">
 										<label>
-										<input type="checkbox" name="theUltimateManager" value="theUltimateManager" >The ultimate manager<br>
+										<input type="checkbox" name="picktoplace" value="picktoplace">Pick To Place
 										</label>
 										</div>
 										
 										<div class="checkbox">
 										<label>
-										<input type="checkbox" name="waterRocket" value="waterRocket">Water rocket<br>
+										<input type="checkbox" name="speedcubing" value="speedcubing">Speed Cubing<br>
 										</label>
 										</div>
 										
 										<div class="checkbox">
 										<label>
-										<input type="checkbox" name="sanrachana" value="sanrachana">Sanrachana<br>
+										<input type="checkbox" name="theultimatemanager" value="theUltimateManager" >The Ultimate Manager<br>
 										</label>
 										</div>
+										
 									</div>
 						       	<center>
 						       	<button type="submit" id="submit" style="font-size:1.5em"class="btn btn-blue btn-effect">Register</button>
@@ -215,7 +202,7 @@
 					<div class="footer-content">
 						<div class="wow animated fadeInDown">
 							<p>Let's Celebrate Technology</p>
-							<p>Enjoy Pragyan 17</p>
+							<p>Enjoy Pragyan 18</p>
 						</div>
 					<!-- 	<form action="#" method="post" class="subscribe-form wow animated fadeInUp">
 							<div class="input-field">

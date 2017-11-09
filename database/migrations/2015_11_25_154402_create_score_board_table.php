@@ -20,7 +20,7 @@ class CreateScoreBoardTable extends Migration
             $table->timestamp('updated_at');
         });
 
-        for($i=0; $i<8; ++$i)
+        for($i=0; $i<6; ++$i)
         DB::table('score_board')->insert(array(
                 'first' => '0',
                 'second' => '0',

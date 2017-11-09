@@ -109,4 +109,9 @@ class ViewController extends Controller
         // echo json_encode($t);
         return response()->json($t);
     }
+
+    public function events()
+    {
+        
+    }
 }

@@ -17,16 +17,12 @@ class Registrations extends Migration
             $table->string('name');
             $table->string('mobile');
             $table->string('hostel');
-            $table->string('lineFollower');
-            $table->string('pragyanDesignChallenge');
-            $table->string('greenTech');
             $table->string('electrolution');
-            $table->string('huntTheCode');
-            $table->string('theUltimateManager');
-            $table->string('waterRocket');
-            $table->string('sanrachana');
-        
-            
+            $table->string('funda');
+            $table->string('huntthecode');
+            $table->string('picktoplace');
+            $table->string('speedcubing');
+            $table->string('theultimatemanager');
         });
     }
 
@@ -37,6 +33,6 @@ class Registrations extends Migration
      */
     public function down()
     {
-        //
+        Schema::drop('registrations');
     }
 }

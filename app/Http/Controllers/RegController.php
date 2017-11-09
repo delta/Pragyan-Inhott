@@ -15,20 +15,17 @@ class RegController extends Controller
 {
     public function insert_register(Request $request)
 	{
-		
 				
 		$rollno = Session::get('user_name');
 		$name = $request->get('name');
 		$hostel = $request->get('hostel');
 		$mobile = $request->get('mobile');
-		$lineFollower = Input::has('lineFollower');;
-		$pragyanDesignChallenge = Input::has('pragyanDesignChallenge');
-		$greenTech = Input::has('greenTech');
 		$electrolution = Input::has('electrolution');
-		$huntTheCode = Input::has('huntTheCode');
-		$theUltimateManager = Input::has('theUltimateManager');
-		$waterRocket = Input::has('waterRocket');
-		$sanrachana = Input::has('sanrachana');
+		$funda = Input::has('funda');;
+		$huntthecode = Input::has('huntthecode');
+		$picktoplace = Input::has('picktoplace');
+		$speedcubing = Input::has('speedcubing');
+		$theultimatemanager = Input::has('theultimatemanager');
 		
 		$exists = DB::table('registrations')->where('rollno', $rollno)->get();
 		if(count($exists)!=0)
@@ -40,45 +37,31 @@ class RegController extends Controller
 				'name'   => $name,
 				'mobile'     => $mobile,
 				'hostel'       => $hostel,
-				'lineFollower'     => $lineFollower,
-				'pragyanDesignChallenge'   => $pragyanDesignChallenge,
-				'greenTech'      => $greenTech,
 				'electrolution'    => $electrolution,
-				'huntTheCode'    => $huntTheCode,
-				'theUltimateManager'    => $theUltimateManager,
-				'waterRocket'    => $waterRocket,
-				'sanrachana'    => $sanrachana));
+				'funda'     => $funda,
+				'huntthecode'    => $huntthecode,
+				'picktoplace' => $picktoplace,
+				'theultimatemanager'    => $theultimatemanager,
+				'speedcubing'    => $speedcubing));
 		}
 		else
 		{
 			DB::table('registrations')->insert(array(
 
-												'rollno'     => $rollno,
-												'name'   => $name,
-												'mobile'     => $mobile,
-												'hostel'       => $hostel,
-												'lineFollower'     => $lineFollower,
-												'pragyanDesignChallenge'   => $pragyanDesignChallenge,
-												'greenTech'      => $greenTech,
-												'electrolution'    => $electrolution,
-												'huntTheCode'    => $huntTheCode,
-												'theUltimateManager'    => $theUltimateManager,
-												'waterRocket'    => $waterRocket,
-												'sanrachana'    => $sanrachana));
+				'rollno' => $rollno,
+				'name'   => $name,
+				'mobile' => $mobile,
+				'hostel' => $hostel,
+				'electrolution'    => $electrolution,
+				'funda'     => $funda,
+				'huntthecode'    => $huntthecode,
+				'picktoplace' => $picktoplace,
+				'theultimatemanager'    => $theultimatemanager,
+				'speedcubing'    => $speedcubing));
 			
 		}
 
-		return view('final');
-			
-		
-		
+		return view('final');		
 	}
-
-
-
-	
-
-	
-	
 
 }
