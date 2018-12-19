@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Pragyan Square One</title>
+		<title>Pragyan Inhott</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -21,9 +21,7 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header" class="alt">
-						<a href="#" class="logo"><strong style="background-color: rgba(0,0,0,0);"><img style="position:relative;top:10px;width: 100px;" src="{{asset('images/pragyan.png')}}"></strong> <span>Square One</span></a>
-					</header>
+					
 
 				<!-- Main -->
 					<div id="main" class="alt">
@@ -37,18 +35,36 @@
 
 
 				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="https://twitter.com/nitt_pragyan" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://www.facebook.com/pragyan.nitt" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-							</ul>
-							<ul class="copyright">
-								<li>Made with &hearts; by <a href="http://deltaforce.club" target="_blank">Delta Force</a> </li>
-							</ul>
-						</div>
-					</footer>
-
+				<footer id="footer">
+							<div class="container">
+								<div class="row text-center">
+									<div class="footer-content">
+										<div class="wow animated fadeInDown">
+											<p>Let's Celebrate Technology!</p>
+										</div>
+										<!-- 	<form action="#" method="post" class="subscribe-form wow animated fadeInUp">
+												<div class="input-field">
+														<input type="email" class="subscribe form-control" placeholder="Enter Your Email...">
+														<button type="submit" class="submit-icon">
+															<i class="fa fa-paper-plane fa-lg"></i>
+														</button>
+												</div>
+										</form> -->
+										<div class="footer-social">
+											<ul>
+												<!-- 								<li class="wow animated zoomIn"><a href="#"><i class="fa fa-thumbs-up fa-3x"></i></a></li>
+												<li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#"><i class="fa fa-twitter fa-3x"></i></a></li>
+												<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="#"><i class="fa fa-skype fa-3x"></i></a></li>
+												<li class="wow animated zoomIn" data-wow-delay="0.9s"><a href="#"><i class="fa fa-dribbble fa-3x"></i></a></li>
+												<li class="wow animated zoomIn" data-wow-delay="1.2s"><a href="#"><i class="fa fa-youtube fa-3x"></i></a></li>
+											-->							</ul>
+										</div>
+										
+										<p>Made with &hearts; by <a href="http://delta.nitt.edu">Delta Force</a> </p>
+									</div>
+								</div>
+							</div>
+						</footer>
 			</div>
 
 
@@ -60,6 +76,43 @@
 			<script src="{{asset('assets/js/util.js')}}"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="{{asset('assets/js/main.js')}}"></script>
+			<!-- jquery.fancybox.pack -->
+	<script src="{{ asset('/js/jquery.fancybox.pack.js') }}"></script>
+	<!-- Owl Carousel -->
+	<script src="{{ asset('/js/owl.carousel.min.js') }}"></script>
+	<!-- jquery easing -->
+	<script src="{{ asset('/js/jquery.easing.min.js') }}"></script>
+	<!-- Fullscreen slider -->
+	<script src="{{ asset('/js/jquery.slitslider.js') }}"></script>
+	<script src="{{ asset('/js/jquery.ba-cond.min.js') }}"></script>
+	<!-- onscroll animation -->
+	<script src="{{ asset('/js/wow.min.js') }}"></script>
+	<script src="{{ asset('/js/main.js') }}"></script>
+	<link rel="stylesheet" href="{{ asset('/css/font-awesome.min.css') }}">
+	<!-- bootstrap.min -->
+	<link rel="stylesheet" href="{{ asset('/css/jquery.fancybox.css') }}">
+	<!-- bootstrap.min -->
+	<link rel="stylesheet" href="{{ asset('/css/bootstrap.min.css') }}">
+	<!-- bootstrap.min -->
+	<link rel="stylesheet" href="{{ asset('/css/owl.carousel.css') }}">
+	<!-- bootstrap.min -->
+	<link rel="stylesheet" href="{{ asset('/css/slit-slider.css') }}">
+	<!-- bootstrap.min -->
+	<link rel="stylesheet" href="{{ asset('/css/animate.css') }}">
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" href="{{ asset('/css/main.css') }}">
+	<link rel="stylesheet" href="{{ asset('/css/schedule.css') }}">
+	
+	<!-- Modernizer Script for old Browsers -->
+	<script src="{{ asset('/js/modernizr-2.6.2.min.js') }}"></script>
+
+	<!-- Essential jQuery Plugins
+	================================================== -->
+	<!-- Main jQuery -->
+	<script src="{{ asset('/js/jquery-1.11.1.min.js') }}"></script>
+	<!-- Twitter Bootstrap -->
+	<script src="{{ asset('/js/bootstrap.min.js') }}"></script>
+	<script src="{{ asset('/js/t-gen.js') }}"></script>
 
 	</body>
 </html>

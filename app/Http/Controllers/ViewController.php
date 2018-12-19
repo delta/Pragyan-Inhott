@@ -115,24 +115,24 @@ class ViewController extends Controller
         return view('events.electrolution');
     }
 
-    public function funda()
+    public function elemental()
     {
-        return view('events.funda');
+        return view('events.elemental');
     }
 
-    public function huntthecode()
+    public function bytecode()
     {
-        return view('events.huntthecode');
+        return view('events.bytecode');
     }
 
-    public function picktoplace()
+    public function bridgebrigadier()
     {
-        return view('events.picktoplace');
+        return view('events.bridgebrigadier');
     }
 
-    public function speedcubing()
+    public function waterrocket()
     {
-        return view('events.speedcubing');
+        return view('events.waterrocket');
     }
 
     public function theultimatemanager()

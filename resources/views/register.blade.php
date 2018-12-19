@@ -9,7 +9,7 @@
         <meta charset="utf-8">
 		<!-- Always force latest IE rendering engine or request Chrome Frame -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Pragyan 18</title>		
+        <title>Pragyan '19</title>		
 		<!-- Meta Description -->
         <meta name="description" content="Pragyan 2018">
         <meta name="keywords" content="Pragyan, Delta Delta Force">
@@ -70,7 +70,7 @@
 					
 					<!-- logo -->
 					<h1 class="navbar-brand">
-				<a href="{{url('/')}}"><img src="{{asset('img/logo.svg')}}" style="height:120px;margin-top:-50px;margin-left:0px;"></a>
+				<a href="{{url('/')}}"><img src="{{asset('img/19logowhite.png')}}" style="height:120px;margin-top:-50px;margin-left:0px;"></a>
 				</h1>
 					<!-- /logo -->
                 </div>
@@ -146,25 +146,25 @@
 										</div>
 
 										<div class="checkbox">
-										<label><input type="checkbox" name="funda" value="funda" >Elemental</label>
+										<label><input type="checkbox" name="elemtal" value="elemental" >Elemental</label>
 										</div>
 
 
 										<div class="checkbox">
 										<label>
-										<input type="checkbox" name="huntthecode" value="huntthecode">Hunt The Code<br>
+										<input type="checkbox" name="bytecode" value="bytecode">ByteCode<br>
 										</label>
 										</div>
 
 										<div class="checkbox">
 										<label>
-										<input type="checkbox" name="picktoplace" value="picktoplace">Captain Clawbot
+										<input type="checkbox" name="bridgevrigadier" value="bridgebrigadier">Bridge Bridgadier
 										</label>
 										</div>
 										
 										<div class="checkbox">
 										<label>
-										<input type="checkbox" name="speedcubing" value="speedcubing">Cube One<br>
+										<input type="checkbox" name="waterrocket" value="waterrocket">Water Rocket<br>
 										</label>
 										</div>
 										

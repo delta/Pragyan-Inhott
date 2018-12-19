@@ -10,7 +10,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>Pragyan InHoTT</title>
 	<!-- Meta Description -->
-	<meta name="description" content="Pragyan 2018 InHoTT">
+	<meta name="description" content="Pragyan 2019 InHoTT">
 	<meta name="keywords" content="Pragyan, inhott, Delta, Delta Force,">
 	<meta name="author" content="Delta Force">
 	<meta name="_token" content="{{ csrf_token() }}"/>
@@ -111,7 +111,7 @@
 				
 				<!-- logo -->
 				<h1 class="navbar-brand">
-				<a href="{{url('/')}}"><img src="{{asset('img/logo.svg')}}" style="height:120px;margin-top:-50px;margin-left:0px;"></a>
+				<a href="{{url('/')}}"><img src="{{asset('img/19logowhite.png')}}" style="height:120px;margin-top:-50px;margin-left:0px;"></a>
 				</h1>
 				<!-- /logo -->
 			</div>
@@ -168,7 +168,7 @@
 							<div class="row">
 								
 								<div class="sec-title text-center white wow animated fadeInDown">
-									<h2>Pragyan 2018 Inter Hostel Technical Tournament</h2>
+									<h2>Pragyan 2019 Inter Hostel Technical Tournament</h2>
 								</div>
 								
 								<div id="testimonial" class=" wow animated fadeInUp">
@@ -178,7 +178,7 @@
 										<div class="clearfix">
 											<span></span>
 											<p style="font-size:1.2em;margin-left:10px;">Take your first steps into the world of Engineering and Technology. Put on your thinking caps and test your creativity, technical expertise and problem solving skills to compete against the many technocrats of your batch. Fire up your competitive spirit and bring glory to your hostel!
-												Furthermore, get a sneak peek of the coveted technical clubs of our college. Experience all this and more as Pragyan '18 brings to you the InHoTT - Inter Hostel Technical Tournament!
+												Furthermore, get a sneak peek of the coveted technical clubs of our college. Experience all this and more as Pragyan '19 brings to you the InHoTT - Inter Hostel Technical Tournament!
 											</p>
 											
 										</div>
@@ -227,7 +227,7 @@
 							</div>
 									</a>
 							
-							<a href="{{url('/events/funda')}}">
+							<a href="{{url('/events/elemental')}}">
 								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
 									<div class="service-item">
 										<div class="service-icon">
@@ -238,14 +238,14 @@
 								</div>
 							</a>
 							
-										<a href="{{url('/events/huntthecode')}}">
+										<a href="{{url('/events/bytecode')}}">
 							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
 								<div class="service-item">
 									<div class="service-icon">
 										<i class="fa fa-code fa-3x"></i>
 									</div>
 									
-									<h3>Hunt The Code</h3>
+									<h3>ByteCode</h3>
 								</div>
 							</div>
 						</div>
@@ -254,24 +254,24 @@
 						<br><br>
 						<div class="row">
 							
-										<a href="{{url('/events/picktoplace')}}">	
+										<a href="{{url('/events/bridgebrigadier')}}">	
 							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn">
 								<div class="service-item">
 									<div class="service-icon">
 											<i class="fa fa-cogs fa-3x"></i>
 									</div>
-										<h3>Captain Clawbot</h3>
+										<h3>Bridge Brigadier</h3>
 									</div>
 								</div>
 										</a>
 
-											<a href="{{url('/events/speedcubing')}}">	
+											<a href="{{url('/events/waterrocket')}}">	
 								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
 									<div class="service-item">
 										<div class="service-icon">
 												<i class="fa fa-cube fa-3x"></i>
 										</div>
-											<h3>Cube One</h3>
+											<h3>Water Rocket</h3>
 										</div>
 									</div>
 											</a>
