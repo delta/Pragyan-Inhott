@@ -21,10 +21,10 @@ class RegController extends Controller
 		$hostel = $request->get('hostel');
 		$mobile = $request->get('mobile');
 		$electrolution = Input::has('electrolution');
-		$funda = Input::has('funda');;
-		$huntthecode = Input::has('huntthecode');
-		$picktoplace = Input::has('picktoplace');
-		$speedcubing = Input::has('speedcubing');
+		$elemental = Input::has('elemental');;
+		$bytecode = Input::has('bytecode');
+		$bridgebrigadier = Input::has('bridgebrigadier');
+		$waterrocket = Input::has('waterrocket');
 		$theultimatemanager = Input::has('theultimatemanager');
 		
 		$exists = DB::table('registrations')->where('rollno', $rollno)->get();
@@ -38,11 +38,11 @@ class RegController extends Controller
 				'mobile'     => $mobile,
 				'hostel'       => $hostel,
 				'electrolution'    => $electrolution,
-				'funda'     => $funda,
-				'huntthecode'    => $huntthecode,
-				'picktoplace' => $picktoplace,
+				'elemental'     => $elemental,
+				'bytecode'    => $bytecode,
+				'bridgebrigadier' => $bridgebrigadier,
 				'theultimatemanager'    => $theultimatemanager,
-				'speedcubing'    => $speedcubing));
+				'waterrocket'    => $waterrocket));
 		}
 		else
 		{
@@ -53,11 +53,11 @@ class RegController extends Controller
 				'mobile' => $mobile,
 				'hostel' => $hostel,
 				'electrolution'    => $electrolution,
-				'funda'     => $funda,
-				'huntthecode'    => $huntthecode,
-				'picktoplace' => $picktoplace,
+				'elemental'     => $elemental,
+				'bytecode'    => $bytecode,
+				'bridgebrigadier' => $bridgebrigadier,
 				'theultimatemanager'    => $theultimatemanager,
-				'speedcubing'    => $speedcubing));
+				'waterrocket'    => $waterrocket));
 			
 		}
 
