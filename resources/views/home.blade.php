@@ -269,7 +269,7 @@
 								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
 									<div class="service-item">
 										<div class="service-icon">
-												<i class="fa fa-cube fa-3x"></i>
+												<i class="fa fa-rocket fa-3x"></i>
 										</div>
 											<h3>Water Rocket</h3>
 										</div>
@@ -280,7 +280,7 @@
 									<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
 										<div class="service-item">
 											<div class="service-icon">
-													<i class="fa fa-rocket fa-3x"></i>
+													<i class="fa fa-cube fa-3x"></i>
 											</div>
 												<h3>The Ultimate Manager</h3>
 											</div>
@@ -437,7 +437,7 @@
 														</td>
 													</tr>
 													<tr>
-														<td>Funda</td>
+														<td>Elemental</td>
 														<td id="first3">{{ $scores[1]->first }}</td>
 														<td id="second3">{{ $scores[1]->second }}</td>
 														<td id="third3">{{ $scores[1]->third }}</td>
@@ -449,7 +449,7 @@
 														</td>
 													</tr>
 													<tr>
-														<td>Hunt The Code</td>
+														<td>ByteCode</td>
 														<td id="first4">{{ $scores[2]->first }}</td>
 														<td id="second4">{{ $scores[2]->second }}</td>
 														<td id="third4">{{ $scores[2]->third }}</td>
@@ -461,7 +461,7 @@
 														</td>
 													</tr>
 													<tr>
-														<td>Pick To Place</td>
+														<td>Bridge Brigadier</td>
 														<td id="first5">{{ $scores[3]->first }}</td>
 														<td id="second5">{{ $scores[3]->second }}</td>
 														<td id="third5">{{ $scores[3]->third }}</td>
@@ -473,7 +473,7 @@
 														</td>
 													</tr>
 													<tr>
-														<td>Speed Cubing</td>
+														<td>Water Rocket</td>
 														<td id="first6">{{ $scores[4]->first }}</td>
 														<td id="second6">{{ $scores[4]->second }}</td>
 														<td id="third6">{{ $scores[4]->third }}</td>
