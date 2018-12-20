@@ -152,7 +152,7 @@
 
 										<div class="checkbox">
 										<label>
-										<input type="checkbox" name="bytecode" value="bytecode">ByteCode<br>
+										<input type="checkbox" name="bytecode" value="bytecode">ByteCode Junior<br>
 										</label>
 										</div>
 

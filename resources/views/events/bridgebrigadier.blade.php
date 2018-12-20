@@ -20,7 +20,7 @@
 		<div class="row" style="color: black">
 			<b class="header">Event Description:</b>
 			<div>
-				<p>The event requires the participant to build a wheeled robot with a gripper capable of moving cubic blocks over an arena. Use the cubes to fill the gaps in the bridge and build your way to victory!</p>
+				<p>The event requires the participant to build a remote controlled (wired/wireless) wheeled robot with a gripper capable of moving cubic blocks over an arena. Use the cubes to fill the gaps in the bridge and build your way to victory!</p>
 			</div>
 		</div>
 

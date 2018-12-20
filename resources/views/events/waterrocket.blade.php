@@ -13,7 +13,7 @@
 			<b class="header">Event Description:</b>
 			<div>
 				<p>Take your first big step to propel yourself into the world of aerodynamics!</p>
-				<p>Water Rocket is a mechanical event that involves the fabrication of a rocket whose fuel/thrust for flight is obtained by the use of water that is expelled at a large air pressure. It is an example of Newton's third law of motion. The prerequisites for this event would include basic knowledge in fabrication and materials, and physical calculations involving thrust, air pressure, etc. The event tests several aspects of the Rocket&rsquo;s flight. These include range, time of flight and accuracy of the launching mechanism.</p>
+				<p>Water Rocket is a mechanical event that involves the fabrication of a rocket whose fuel/thrust for flight is obtained by the use of water that is expelled at a large air pressure. It is an example of Newton's third law of motion. The prerequisites for this event would include basic knowledge in fabrication and materials, and physical calculations involving thrust, air pressure, etc. The event tests the range of the Rocket’s flight</p>
 			</div>
 		</div>
 		
@@ -58,7 +58,7 @@
 					<li>Will I get an additional trial if the rocket fails to launch i.e. if the rocket doesn&rsquo;t leave the Launchpad itself?<br /> You will not get any additional trial unless you have one trial left out of the two allowed trials.</li>
 					<li>Are we allowed to repair our models if it gets damaged on the spot?<br />Yeah, if you can manage to do it within the prescribed time limit permitted by the organisers.</li>
 					<li>Can we make changes to our model before launching?<br /> Yeah, but if you exceed 15 minutes you will lose one trial.</li>
-					<li>Are more than three members allowed?<br /> No, the maximum number of participants should not exceed three at any cost.</li>
+					<li>Are more than three members allowed?<br /> No, the maximum number of members per team should not exceed three at any cost.</li>
 				</ul>
 		</div>
 		<div class="row">

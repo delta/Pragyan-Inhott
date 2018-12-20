@@ -52,6 +52,7 @@
 		<div class="row">
 			<b class="header">Contacts:</b>
 			<p>Himanshi: +91 95720 15411</p>
+			<p>Soma Karthik: +91 87788 13014</p>
 			<p>Aqeel: +91 96778 61758</p>
 		</div>
 	</div>

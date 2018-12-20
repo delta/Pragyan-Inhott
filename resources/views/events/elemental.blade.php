@@ -59,7 +59,7 @@
 
 				<div class="row">
 					<b class="header">Contacts:</b>
-					<p>Himaja: +91 73828 45720</p>
+					<p>Himaja: +91 91820 85390</p>
 					<p>Joy: +91 96298 33113</p>
 				</div>
 				<div class="row">

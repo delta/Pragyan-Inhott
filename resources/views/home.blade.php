@@ -245,7 +245,7 @@
 										<i class="fa fa-code fa-3x"></i>
 									</div>
 									
-									<h3>ByteCode</h3>
+									<h3>ByteCode Junior</h3>
 								</div>
 							</div>
 						</div>
@@ -449,7 +449,7 @@
 														</td>
 													</tr>
 													<tr>
-														<td>ByteCode</td>
+														<td>ByteCode Junior</td>
 														<td id="first4">{{ $scores[2]->first }}</td>
 														<td id="second4">{{ $scores[2]->second }}</td>
 														<td id="third4">{{ $scores[2]->third }}</td>

@@ -6,7 +6,7 @@
 		<div class="row">
 			<div class="text-center wow animated fadeInDown">
 				<!-- <br> -->
-				<h2 style="font-weight: bold;font-size: 2.5em">ByteCode</h2>
+				<h2 style="font-weight: bold;font-size: 2.5em">ByteCode Junior</h2>
 			</div>
 		</div>
 		<div class="row" style="color: black">
@@ -42,7 +42,7 @@
 				<div>
 					<ul>
 						<li>Each question has an assigned score, the player with a higher score has a better rank.</li>
-						<li>In case of ties, i.e. when two players have the same score, the player who finished earlier are given a better rank.</li>
+						<li>In case of ties, i.e. when two players have the same score, the player who finished earlier is given a better rank.</li>
 						
 					</div>
 					<!-- <ul>
