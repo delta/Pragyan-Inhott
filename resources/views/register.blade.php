@@ -121,7 +121,7 @@
 								<label for="name">Mobile Number</label>
 								<div class="input-field" id="mobile">
 
-									<input type="text" name="mobile" class="form-control" pattern="[789][0-9]{9}" placeholder="Your Phone Number..." required>
+									<input type="text" name="mobile" class="form-control" pattern="[56789][0-9]{9}" placeholder="Your Phone Number..." required>
 								</div>
 
 

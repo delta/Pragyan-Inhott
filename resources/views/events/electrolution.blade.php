@@ -33,6 +33,7 @@
 		<div class="row">
 			<b class="header">Rules:</b>
 			<ul>
+				<li>A maximum of 3 members are allowed per team.</li>
 				<li>Participants should bring their own Laptop, Microcontroller and other electronic components. (LEDs, Resistors, Connecting wires, Breadboard)</li>
 				<li>Coding in Embedded C is only allowed.</li>
 				<li>The decision of the judges is final and binding.</li>
