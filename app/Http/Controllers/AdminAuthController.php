@@ -21,15 +21,18 @@ class AdminAuthController extends Controller {
 		$password=$request->get('password');
 		echo $username." ".$password;
 
-		if($username == "admin" && $password == "S4n+0sh")
-		{
-			Session::put('admin_login','true');
-			return Redirect::to('admin/home');
-		}
-		else
-		{
-			return Redirect::to('admin/login')->with('message', 'Incorrect Username or Password');
-		}
+		$admin = DB::table('admin_auth')->where('admin_email', $username)
+                            ->first();
+		if ($admin) {
+      if (md5($password) === $admin->admin_pass) {
+				Session::put('admin_login','true');
+        return redirect('admin/home');
+      } else {
+				return redirect('admin/login')->with('message', 'Incorrect Username or Password');
+      }
+    } else {
+        return redirect('/admin/login')->with('message', 'Not a registered admin');
+    }
 	}
 
 	
