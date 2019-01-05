@@ -82,6 +82,7 @@
 				</h1>
 					<!-- /logo -->
 				</div>
+				<a style="float:right; color:#FFFFFF"href="{{ url('/logout') }}">Logout</a>
 				<br><br><br>
 			</div>
 		</header>
