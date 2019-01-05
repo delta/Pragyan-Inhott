@@ -11,7 +11,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>Pragyan '19</title>   
 		<!-- Meta Description -->
-		<meta name="description" content="Pragyan 2018">
+		<meta name="description" content="Pragyan 2019">
 		<meta name="keywords" content="Pragyan, Delta Delta Force">
 		<meta name="author" content="Delta Force">
 		
@@ -89,9 +89,9 @@
 		
 		<main class="site-content" role="main">
 			
-			<label for="GrabToSmash">Line Follower</label>
-			<a href="#" class="export">Download line Follower</a>
-			<div id="dvData"><table class="table table-hover table-striped" id="GrabToSmash" >
+			<label for="electrolution">Electrolution</label>
+			<a href="#" class="export">Download Electrolusion</a>
+			<div id="dvData"><table class="table table-hover table-striped" id="electrolution" >
 				<thead>
 					<tr>
 						<th>roll no</th>
@@ -104,91 +104,6 @@
 					
 					@foreach ($details as $detail)
 						
-						@if( $detail->lineFollower =='1' )
-							<tr id="{{ $detail->rollno }}">
-								<td> {{ $detail->rollno }} </td>
-								<td> {{ $detail->name }} </td>
-								<td> {{ $detail->hostel }} </td>
-								<td> {{ $detail->mobile }} </td>
-							</tr>
-						@endif
-					@endforeach 
-					
-				</tbody>
-			</table></div>
-
-			<label for="PragyanDesignChallenge">PRAGYAN DESIGN CHALLENGE</label>
-			<a href="#" class="export2">Download pdc</a>
-			<div id="dvData2">
-			<table class="table table-bordered table-hover table-striped" id="PragyanDesignChallenge">
-				<thead>
-					<tr>
-						<th>roll no</th>
-						<th>name</th>
-						<th>hostel</th>
-						<th>mobile</th>
-					</tr>
-				</thead>
-				<tbody>
-					
-					@foreach ($details as $detail)
-						@if( $detail->pragyanDesignChallenge =='1' )
-							<tr id="{{ $detail->rollno }}">
-								<td> {{ $detail->rollno }} </td>
-								<td> {{ $detail->name }} </td>
-								<td> {{ $detail->hostel }} </td>
-								<td> {{ $detail->mobile }} </td>
-							</tr>
-						@endif
-					@endforeach 
-
-					
-				</tbody>
-			</table></div>
-
-			<label for="Yaconai"> Green Tech </label>
-			<a href="#" class="export3">Download green Tech</a>
-			<div id="dvData3">
-			<table class="table table-bordered table-hover table-striped" id="Yaconai">
-				<thead>
-					<tr>
-						<th>roll no</th>
-						<th>name</th>
-						<th>hostel</th>
-						<th>mobile</th>
-					</tr>
-				</thead>
-				<tbody>
-					
-					@foreach ($details as $detail)
-						@if( $detail->greenTech =='1' )
-							<tr id="{{ $detail->rollno }}">
-								<td> {{ $detail->rollno }} </td>
-								<td> {{ $detail->name }} </td>
-								<td> {{ $detail->hostel }} </td>
-								<td> {{ $detail->mobile }} </td>
-							</tr>
-						@endif
-					@endforeach 
-					
-				</tbody>
-			</table></div>
-
-			<label for="Electrolution"></label>
-			<a href="#" class="export4">Download elect</a>
-			<div id="dvData4">
-			<table class="table table-hover table-striped" id="Electrolution">
-				<thead>
-					<tr>
-						<th>roll no</th>
-						<th>name</th>
-						<th>hostel</th>
-						<th>mobile</th>
-					</tr>
-				</thead>
-				<tbody>
-					
-					@foreach ($details as $detail)
 						@if( $detail->electrolution =='1' )
 							<tr id="{{ $detail->rollno }}">
 								<td> {{ $detail->rollno }} </td>
@@ -202,10 +117,95 @@
 				</tbody>
 			</table></div>
 
-			<label for="BytecodeJunior">Hunt the Code</label>
-			<a href="#" class="export5">Download Hunt the Code</a>
+			<label for="elemental">Elemental</label>
+			<a href="#" class="export2">Download Elemental</a>
+			<div id="dvData2">
+			<table class="table table-bordered table-hover table-striped" id="elemental">
+				<thead>
+					<tr>
+						<th>roll no</th>
+						<th>name</th>
+						<th>hostel</th>
+						<th>mobile</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+					@foreach ($details as $detail)
+						@if( $detail->elemental =='1' )
+							<tr id="{{ $detail->rollno }}">
+								<td> {{ $detail->rollno }} </td>
+								<td> {{ $detail->name }} </td>
+								<td> {{ $detail->hostel }} </td>
+								<td> {{ $detail->mobile }} </td>
+							</tr>
+						@endif
+					@endforeach 
+
+					
+				</tbody>
+			</table></div>
+
+			<label for="bytecode">Bytecode Junior</label>
+			<a href="#" class="export3">Download Bytecode Junior</a>
+			<div id="dvData3">
+			<table class="table table-bordered table-hover table-striped" id="bytecode">
+				<thead>
+					<tr>
+						<th>roll no</th>
+						<th>name</th>
+						<th>hostel</th>
+						<th>mobile</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+					@foreach ($details as $detail)
+						@if( $detail->bytecode =='1' )
+							<tr id="{{ $detail->rollno }}">
+								<td> {{ $detail->rollno }} </td>
+								<td> {{ $detail->name }} </td>
+								<td> {{ $detail->hostel }} </td>
+								<td> {{ $detail->mobile }} </td>
+							</tr>
+						@endif
+					@endforeach 
+					
+				</tbody>
+			</table></div>
+
+			<label for="bridgebrigadier">Bridge Brigadier</label>
+			<a href="#" class="export4">Download Bridge Brigadier</a>
+			<div id="dvData4">
+			<table class="table table-hover table-striped" id="bridgebrigadier">
+				<thead>
+					<tr>
+						<th>roll no</th>
+						<th>name</th>
+						<th>hostel</th>
+						<th>mobile</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+					@foreach ($details as $detail)
+						@if( $detail->bridgebrigadier =='1' )
+							<tr id="{{ $detail->rollno }}">
+								<td> {{ $detail->rollno }} </td>
+								<td> {{ $detail->name }} </td>
+								<td> {{ $detail->hostel }} </td>
+								<td> {{ $detail->mobile }} </td>
+							</tr>
+						@endif
+					@endforeach 
+					
+				</tbody>
+			</table></div>
+
+			<label for="waterrocket">Water Rocket</label>
+			<a href="#" class="export5">Download Water Rocket</a>
 			<div id="dvData5">
-			<table class="table table-bordered table-hover table-striped" id="BytecodeJunior">
+			<table class="table table-bordered table-hover table-striped" id="waterrocket">
 				<thead>
 					<tr>
 						<th>roll no</th>
@@ -217,7 +217,7 @@
 				<tbody>
 					
 					@foreach ($details as $detail)
-						@if( $detail->huntTheCode =='1' )
+						@if( $detail->waterrocket =='1' )
 							<tr id="{{ $detail->rollno }}">
 								<td> {{ $detail->rollno }} </td>
 								<td> {{ $detail->name }} </td>
@@ -230,10 +230,10 @@
 				</tbody>
 			</table></div>
 
-			<label for="TheUltimateManager">THE ULTIMATE MANAGER</label>
-			<a href="#" class="export6">Download TUM</a>
+			<label for="theultimatemanager">THE ULTIMATE MANAGER</label>
+			<a href="#" class="export6">Download The Ultimate Manager</a>
 			<div id="dvData6">
-			<table class="table table-bordered table-hover table-striped" id="TheUltimateManager">
+			<table class="table table-bordered table-hover table-striped" id="theultimatemanager">
 				<thead>
 					<tr>
 						<th>roll no</th>
@@ -245,7 +245,7 @@
 				<tbody>
 					
 					@foreach ($details as $detail)
-						@if( $detail->theUltimateManager =='1' )
+						@if( $detail->theultimatemanager =='1' )
 							<tr id="{{ $detail->rollno }}">
 								<td> {{ $detail->rollno }} </td>
 								<td> {{ $detail->name }} </td>
@@ -258,86 +258,8 @@
 				</tbody>
 			</table></div>
 
-			<label for="WaterRocket"> WATER ROCKET</label>
-			<a href="#" class="export7">Download waterrocket</a>
-			<div id="dvData7">
-			<table class="table table-bordered table-hover table-striped" id="WaterRocket">
-				<thead>
-					<tr>
-						<th>roll no</th>
-						<th>name</th>
-						<th>hostel</th>
-						<th>mobile</th>
-					</tr>
-				</thead>
-				<tbody>
-					
-					@foreach ($details as $detail)
-						@if( $detail->waterRocket =='1' )
-							<tr id="{{ $detail->rollno }}">
-								<td> {{ $detail->rollno }} </td>
-								<td> {{ $detail->name }} </td>
-								<td> {{ $detail->hostel }} </td>
-								<td> {{ $detail->mobile }} </td>
-							</tr>
-						@endif
-					@endforeach 
-					
-				</tbody>
-			</table></div>
+	
 
-			<label for="Trollphy"> Sanrachana </label>
-			<a href="#" class="export8">Download Sanrachana</a>
-			<div id="dvData8">
-			<table class="table table-bordered table-hover table-striped" id="Trollphy">
-				<thead>
-					<tr>
-						<th>roll no</th>
-						<th>name</th>
-						<th>hostel</th>
-						<th>mobile</th>
-					</tr>
-				</thead>
-				<tbody>
-					
-					@foreach ($details as $detail)
-						@if( $detail->sanrachana =='1' )
-							<tr id="{{ $detail->rollno }}">
-								<td> {{ $detail->rollno }} </td>
-								<td> {{ $detail->name }} </td>
-								<td> {{ $detail->hostel }} </td>
-								<td> {{ $detail->mobile }} </td>
-							</tr>
-						@endif
-					@endforeach 
-					
-				</tbody>
-			</table></div>
-
-			<!--   <th>amount</th>
-			     </tr>
-			     </thead>
-			     <tbody>
-			     
-			     @foreach ($details as $detail)
-			     <tr id="{{ $detail->rollno }}">
-			     <td> {{ $detail->rollno }} </td>
-			     <td> {{ $detail->name }} </td>
-			     <td> {{ $detail->hostel }} </td>
-			     <td> {{ $detail->lineFollower }} </td>
-			     <td> {{ $detail->pragyanDesignChallenge }} </td>
-			     <td> {{ $detail->greenTech }} </td>
-			     <td> {{ $detail->electrolution }} </td>
-			     <td> {{ $detail->huntTheCode }} </td>
-			     <td> {{ $detail->theUltimateManager }} </td>
-			     <td> {{ $detail->waterRocket }} </td>
-			     <td> {{ $detail->sanrachana }} </td>
-			     </tr>
-			     @endforeach 
-			     
-			     </tbody>
-			     </table>
-			   -->
 			
 		</main>
 		
