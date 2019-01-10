@@ -46,6 +46,16 @@
 				<li>The judging for the second set of tasks will be based on the Algorithm implemented and the time taken to complete each task. The participants will have to show these during the day of the event.</li>
 			</ul>
 		</div>
+		<div class="row">
+			<b class="header">Problem Statement for Set - 1:</b>
+			<ul>
+				<li>Use timers to make a one digit counter and display the result using seven segment display. (20 points) </li>
+				<li><strong>Bonus:</strong></li>
+				<ul>
+					<li>Display one's place of first 10 numbers of the Fibonacci series using seven segment display. </li>
+				</ul>	
+			</ul>
+		</div>
 			<!-- <ul>
 					<li>The Courses will be put up soon…</li>
 			</ul> -->
