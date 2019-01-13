@@ -146,7 +146,7 @@
 										</div>
 
 										<div class="checkbox">
-										<label><input type="checkbox" name="elemtal" value="elemental" >Elemental</label>
+										<label><input type="checkbox" name="elemental" value="elemental" >Elemental</label>
 										</div>
 
 
@@ -158,7 +158,7 @@
 
 										<div class="checkbox">
 										<label>
-										<input type="checkbox" name="bridgevrigadier" value="bridgebrigadier">Bridge Bridgadier
+										<input type="checkbox" name="bridgebrigadier" value="bridgebrigadier">Bridge Bridgadier
 										</label>
 										</div>
 										
