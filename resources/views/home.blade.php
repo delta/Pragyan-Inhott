@@ -290,10 +290,9 @@
 												</a>
 									<div class="row" style="margin-top: 50px;">
 										<h2 style="padding-top: 20px; padding-bottom: 0px; text-align: center"> SCHEDULE</h2>
-										<p style="text-align: center; padding: 20px 0;font-weight: bold;">Coming Soon...</p>
-										<!-- <div class="col-md-6">
+										<div class="col-md-6">
 											<h4 style="padding: 10px; padding-bottom: 0px; text-align: center">Day 1</h4>
-											<h4 style="padding-bottom: 10px; text-align: center">(Date: 03-12-2016)</h4>
+											<h4 style="padding-bottom: 10px; text-align: center">(Date: 19-01-2019)</h4>
 											<div class="table-responsive">
 												<table  id="my-table" class="table table-striped" >
 													<thead>
@@ -306,22 +305,22 @@
 													<tbody>
 														<tr>
 															<td>Water Rocket</td>
-															<td>9 am to 12:30 pm</td>
+															<td>9 am to 12:00 pm</td>
 															<td>CEESAT Ground</td>
 														</tr>
 														<tr>
-															<td>Green Tech</td>
-															<td>10:30 am to 12:30 pm</td>
-															<td>A12</td>
-														</tr>
-														<tr>
 															<td>Electrolution</td>
-															<td>1:30 pm to 5 pm</td>
-															<td>LHC/Orion</td>
+															<td>12:30 pm to 04:30 pm</td>
+															<td>Orion</td>
 														</tr>
 														<tr>
-															<td>Sanrachana</td>
-															<td>5 pm</td>
+															<td>The Ultimate Manager</td>
+															<td>04:00 pm to 09:00 pm</td>
+															<td>A13</td>
+														</tr>
+														<tr>
+															<td>ByteCode - Hackerrank </td>
+															<td>10:00 pm to 11:30pm</td>
 															<td>-</td>
 														</tr>
 													</tbody>
@@ -330,7 +329,7 @@
 										</div>
 										<div class="col-md-6">
 											<h4 style="padding: 10px; padding-bottom: 0px; text-align: center">Day 2</h4>
-											<h4 style="padding-bottom: 10px; text-align: center">(Date: 04-12-2016)</h4>
+											<h4 style="padding-bottom: 10px; text-align: center">(Date: 20-01-2019)</h4>
 											<div class="table-responsive">
 												<table  id="my-table" class="table table-striped" >
 													<thead>
@@ -342,29 +341,19 @@
 													</thead>
 													<tbody>
 														<tr>
-															<td>Line Follower</td>
-															<td>9 am to 12 noon</td>
-															<td>Barn Hall</td>
-														</tr>
-														<tr>
-															<td>PDC</td>
-															<td>10:30 am to 12:30 pm</td>
-															<td>A12</td>
-														</tr>
-														<tr>
-															<td>Hunt the Code</td>
-															<td>10:30 am to 12:30 pm</td>
-															<td>LHC/Orion</td>
-														</tr>
-														<tr>
-															<td>The Ultimate Manager</td>
-															<td>1:30 pm to 5 pm</td>
+															<td>Bridge Brigadier</td>
+															<td>9 am to 1 pm </td>
 															<td>A13</td>
+														</tr>
+														<tr>
+															<td>Elemental</td>
+															<td>2 pm to 5 pm</td>
+															<td>A12</td>
 														</tr>
 													</tbody>
 												</table>
 											</div>
-										</div> -->
+										</div>
 									</div>
 									<div class="row" style="margin-top:50px">
 										<h2 style="padding-top: 20px; padding-bottom: 0px; text-align: center">SCOREBOARD</h2>
