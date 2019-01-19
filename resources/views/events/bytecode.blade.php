@@ -48,7 +48,10 @@
 					<!-- <ul>
 										<li>The Courses will be put up soon…</li>
 					</ul> -->
-				</div>
+			</div>
+			<div class="row text-center" >
+				Contest link: <strong><a href="https://www.hackerrank.com/bytecode-junior">https://www.hackerrank.com/bytecode-junior</a></strong>
+			</div>
 				<div class="row">
 					<b class="header">Contacts:</b>
 					<p>Sanjeeda: +91 94877 24286</p>
