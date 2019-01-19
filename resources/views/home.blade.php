@@ -311,7 +311,7 @@
 														<tr>
 															<td>Electrolution</td>
 															<td>12:30 pm to 04:30 pm</td>
-															<td>Orion</td>
+															<td>Orion S1</td>
 														</tr>
 														<tr>
 															<td>The Ultimate Manager</td>
