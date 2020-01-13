@@ -9,10 +9,13 @@ use Illuminate\Support\Facades\DB;
 
 class AdminAuthController extends Controller {
 
-	public function login()
+	public function login(Request $request)
 	{
-		
-		return view('admin_login');
+       if($request->session()->has('admin_login')) {
+        return redirect('admin/home');
+       }
+
+	   return view('admin_login');
 	}
 
 	public function auth(Request $request)
@@ -37,14 +40,18 @@ class AdminAuthController extends Controller {
 
 	
 
-	public function admin_home()
+	public function admin_home(Request $request)
 	{
 		$details = DB::select('select * from registrations');
 
 		//var_dump($details);
 		//die();
-
-		return view('admin_home',compact('details'));//return view page to be displayed
+        
+        if($request->session()->has('admin_login')) {
+		    return view('admin_home',compact('details'));//return view page to be displayed
+        }
+        
+        return redirect('/admin/login');
 	}
 
 }

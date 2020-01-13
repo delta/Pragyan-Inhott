@@ -10,7 +10,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>Pragyan InHoTT</title>
 	<!-- Meta Description -->
-	<meta name="description" content="Pragyan 2019 InHoTT">
+	<meta name="description" content="Pragyan 2020 InHoTT">
 	<meta name="keywords" content="Pragyan, inhott, Delta, Delta Force,">
 	<meta name="author" content="Delta Force">
 	<meta name="_token" content="{{ csrf_token() }}"/>
@@ -110,8 +110,8 @@
 				<!-- /responsive nav button -->
 				
 				<!-- logo -->
-				<h1 class="navbar-brand">
-				<a href="{{url('/')}}"><img src="{{asset('img/19logowhite.png')}}" style="height:120px;margin-top:-50px;margin-left:0px;"></a>
+				<h1 class="navbar-brand" style="padding:0;">
+				<a href="{{url('/')}}"><img src="{{asset('img/pragyan20_white.png')}}" style="width:150px;"></a>
 				</h1>
 				<!-- /logo -->
 			</div>
@@ -168,7 +168,7 @@
 							<div class="row">
 								
 								<div class="sec-title text-center white wow animated fadeInDown">
-									<h2>Pragyan 2019 Inter Hostel Technical Tournament</h2>
+									<h2>Pragyan 2020 Inter Hostel Technical Tournament</h2>
 								</div>
 								
 								<div id="testimonial" class=" wow animated fadeInUp">
@@ -371,27 +371,27 @@
 															<select name="first" id="first" class="form-control">
 																<option value="" selected></option>
 																<option value="Agate">Agate</option>
-																<option value="Coral">Coral</option>
-																<option value="Diamond">Diamond</option>
-																<option value="Jade">Jade</option>
+																<option value="GarnetA">Garnet A</option>
+																<option value="GarnetB">Garnet B</option>
+																<option value="GarnetC">Garnet C</option>
 																<option value="Opal">Opal</option>
 															</select><br/>
 															<label>Second</label>:
 															<select name="second" id="second" class="form-control">
 																<option value="" selected></option>
 																<option value="Agate">Agate</option>
-																<option value="Coral">Coral</option>
-																<option value="Diamond">Diamond</option>
-																<option value="Jade">Jade</option>
+																<option value="GarnetA">Garnet A</option>
+																<option value="GarnetB">Garnet B</option>
+																<option value="GarnetC">Garnet C</option>
 																<option value="Opal">Opal</option>
 															</select><br/>
 															<label>Third</label> :
 															<select name="third" id="third" class="form-control">
 																<option value="" selected></option>
 																<option value="Agate">Agate</option>
-																<option value="Coral">Coral</option>
-																<option value="Diamond">Diamond</option>
-																<option value="Jade">Jade</option>
+																<option value="GarnetA">Garnet A</option>
+																<option value="GarnetB">Garnet B</option>
+																<option value="GarnetC">Garnet C</option>
 																<option value="Opal">Opal</option>
 															</select><br/>
 															<input type="hidden" id="score_id" name="id" value="" />

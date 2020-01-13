@@ -13,9 +13,9 @@ class SeedPointsTable extends Seeder
     {
         //
          DB::table('points')->insert(["hostel"=>'Agate',"points"=>0]); 
-         DB::table('points')->insert(["hostel"=>'Diamond',"points"=>0]);
-         DB::table('points')->insert(["hostel"=>'Coral',"points"=>0]);
-         DB::table('points')->insert(["hostel"=>'Jade',"points"=>0]);
+         DB::table('points')->insert(["hostel"=>'Garnet A',"points"=>0]);
+         DB::table('points')->insert(["hostel"=>'Garnet B',"points"=>0]);
+         DB::table('points')->insert(["hostel"=>'Garnet C',"points"=>0]);
          DB::table('points')->insert(["hostel"=>'Opal',"points"=>0]);
     }
 }
