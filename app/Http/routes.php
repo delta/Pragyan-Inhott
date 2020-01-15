@@ -24,8 +24,8 @@ Route::post('/registered',"RegController@insert_register");
 Route::get('/points',"ViewController@getPoints");
 
 Route::get('/events/electrolution',"ViewController@electrolution");
-Route::get('/events/elemental',"ViewController@elemental");
-Route::get('/events/bytecode',"ViewController@bytecode");
-Route::get('/events/bridgebrigadier',"ViewController@bridgebrigadier");
-Route::get('/events/waterrocket',"ViewController@waterrocket");
-Route::get('/events/theultimatemanager',"ViewController@theultimatemanager");
+Route::get('/events/incaseyoudidntknow',"ViewController@incaseyoudidntknow");
+Route::get('/events/backstabber',"ViewController@backstabber");
+Route::get('/events/reversecoding',"ViewController@reversecoding");
+Route::get('/events/fundamental',"ViewController@fundamental");
+Route::get('/events/dribbletrouble',"ViewController@dribbletrouble");
