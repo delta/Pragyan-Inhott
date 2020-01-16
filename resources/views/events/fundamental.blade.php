@@ -12,27 +12,30 @@
 		<div class="row" style="color: black">
 			<b class="header">Event Description:</b>
 			<p>
-            The aim of the event is to present witty theories that may or may not be scientifically correct by utilizing laws, numeric data, pictures, and analytical diagrams in order to validate an occurrence.
-            <br>
-            With absolutely no restrictions on the theory that can be used, be prepared to expect wild trajectories of thoughts from why dosas are round to why cats sprint out of the room for no apparent reason.
-            <br>
-            The final round is a chalk and talk round where each team will be given a myth and the teams will have to either prove or disprove it with the support of scientific laws.
-            <br> 
-            The event is structured in a way that will baffle the participants with unbelievably crazy ideas that demand a scientific explanation.
-            </p>
+				The aim of the event is to present witty theories that may or may not be scientifically correct by utilizing laws, numeric data, pictures, and analytical diagrams in order to validate an occurrence.
+			</p>
+			<p>
+				With absolutely no restrictions on the theory that can be used, be prepared to expect wild trajectories of thoughts from why dosas are round to why cats sprint out of the room for no apparent reason.
+			</p>
+			<p>
+				The final round is a chalk and talk round where each team will be given a myth and the teams will have to either prove or disprove it with the support of scientific laws.
+			</p>
+			<p>
+				The event is structured in a way that will baffle the participants with unbelievably crazy ideas that demand a scientific explanation.
+			</p>
 		</div>
 		<div class="row">
 			<b class="header">Event Format:</b>
 			<div>
-				<p><b>Round 1 (Abstract Submission)</b></p>
+				<p>Round 1 (Abstract Submission)</p>
 				<ul>
 					<li>Teams will need to submit an abstract of their theory in a minimum of 500 words. </li>
                     <li>Graphs and diagrams along with the abstract will be appreciated.</li>
                     <li>Ten teams will be shortlisted based on the judging criteria.</li>
                     <li>The shortlisted candidates must submit their final presentation a week before the event.</li>
-                    <li>The deadline to submit the abstract is a month before Pragyan and it should be uploaded as a PDF.</li>
+                    <li>The deadline to submit your abstract is 24/01/2020. It should be uploaded as a PDF.</li>
 				</ul>
-                <p><b>Round 2 (Presentation round)</b></p>
+                <p>Round 2 (Presentation round)</p>
 				<ul>
 					<li>Every team must explain its theory with a presentation.</li>
                     <li> The presentation can be in any format - PPT, Prezi, video, audio, etc.</li>
@@ -42,7 +45,7 @@
                     <li>The Q&A session will go on for 1-3 minutes.</li>
                     <li>The teams will be judged, and 5 teams will be shortlisted based on judging criteria.</li>
 				</ul>
-                <p><b>Round 3 (Final round- Chalk and Talk)</b></p>
+                <p>Round 3 (Final round- Chalk and Talk)</p>
                 <ul>
                     <li>Each team will be provided with an option to choose one of the chits provided by the  Organisers.</li>
                     <li>Each team will have to either prove or disprove the myth with the help of scientific laws, mathematics, etc.</li>
@@ -78,7 +81,7 @@
 				<li>
                     Do I need three people in my team to participate?
 					<br>
-					A maximum of three participants, thus, less than that is permitted.
+					You can have a maximum of three participants. Teams having less than that are permitted. 
 				</li>
 				<li>
                     Is there a restriction on the eccentricity of my theory?

@@ -12,9 +12,7 @@
 		<div class="row" style="color: black">
 			<b class="header">Event Description:</b>
 			<p>
-            The event requires the participant to build a remote controlled (wired/wireless)
-            wheeled robot capable of moving spheres over an arena. Then you can either
-            shoot the ball into the goal post or push it into it.
+                The event requires the participant to build a remote controlled (wired/wireless) wheeled robot capable of moving spheres over an arena. Then you can either shoot or push the ball into the goal post.
             </p>
 		</div>
 		<div class="row">
@@ -28,7 +26,7 @@
                     <li>The bot must be capable of moving lightweight spheres of diameter 10 cm.</li>
 				</ul>
                 <p>Problem Statement:</p>
-                <img src="https://lh5.googleusercontent.com/febG1u9wBZ7sAwY0k4Qu6tjVBViKDaqHLXNvVbr9g730lkuQU42SSMeKGvDGYV1rfioeudmJq-oiAifDdHtVKs0l8Ihonh3i-38dwmhWVP6YWLMbemdbVSb572p3tmiKcQ49Tzog" alt="">
+                <img src="{{ asset('/img/events/dribble-trouble/problem.png') }}" alt="Problem">
                 <ul>
                     <li>
                         <p>Arena:</p>

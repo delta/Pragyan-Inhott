@@ -11,21 +11,19 @@
 		</div>
 		<div class="row" style="color: black">
 			<b class="header">Event Description:</b>
-			<p>Ever wondered what it takes to put the Intel in intellect? Pragyan in association with Spider lets you have your very first crack at the big leagues where logic meets practical circuits. Dive headfirst into this event which may be small in length but is big on gains.</p>
+			<p>
+				Pragyan, in association with Spider, lets you put Intel in intellect. Have your very first crack at the big leagues, where logic meets practical circuits. Dive headfirst into this event which may be small in length but is big on gains!
+			</p>
 		</div>
 		<div class="row">
 			<b class="header">Event Format:</b>
 			<div>
-				<p>There will be two sets of problem statements.</p>
+				<p>The event will consist of 4 problem statements which will be given on the spot.</p>
 				<ul>
-					<li>The event will consist of 4 problem statements which will be given on the spot.</li>
-					<ol>
-						<li>Very Easy - 10 points + 5 bonus points</li>
-						<li>Easy - 20 points + 10 bonus points</li>
-						<li>Medium - 30 points + 15 bonus points</li>
-						<li>Difficult - 40 points + 20 bonus points</li>
-					</ol>
-				</ul>
+					<li>Very Easy - 10 points + 5 bonus points</li>
+					<li>Easy - 20 points + 10 bonus points</li>
+					<li>Medium - 30 points + 15 bonus points</li>
+					<li>Difficult - 40 points + 20 bonus points</li>
 				</ul>
 			</div>
 		</div>
@@ -42,16 +40,6 @@
 			<b class="header">Judging Criteria:</b>
 			<ul>
 				<li>Judging will be based on the algorithm, accuracy and the time taken to complete each task.</li>
-			</ul>
-		</div>
-		<div class="row">
-			<b class="header">Problem Statement for Set - 1:</b>
-			<ul>
-				<li>Increase the brightness of an LED from NIL to maximum possible and again back to NIL in a time period of 2 seconds.</li>
-				<li><strong>Bonus:</strong></li>
-				<ul>
-					<li>Use two push buttons to increase and decrease the fading rate.</li>
-				</ul>	
 			</ul>
 		</div>
 		<div class="row">
@@ -79,7 +67,7 @@
 				</li>
 			</ul>
 		</div>
-		<div class="row">
+		<div class="row references">
 			<b class="header">Resources:</b>
 			<ul>
 				<li><a href="http://dbc-projects.net/arduino-embedded-c/">Coding in embedded C</a></li>

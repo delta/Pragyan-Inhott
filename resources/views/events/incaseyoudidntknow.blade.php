@@ -11,15 +11,12 @@
 		</div>
 		<div class="row" style="color: black">
 			<b class="header">Event Description:</b>
-            <ul>
-                <li>Participants come in groups of 4.</li>
-                <li>One common problem statement, relating to our college which they themselves would have experienced is given to all the groups at the venue just before the start of the event.</li>
-                <li>One mentor from 180DC will join each team.</li>
-                <li>The mentor will lay put the structure, solve doubts, and guide the discussion in a streamlined manner. The participants can use external resources(Internet and books had they brought any).</li>
-                <li>After one and a half hours, the teams stop their discussion. Each team presents their solution (in the form of a ppt) to the whole room and also to the team members of 180DC.</li>
-                <li>These 180DC Judges judge the presentations, ask questions, and announce the results.</li>
-            </ul>
-			<!-- <p>Ever wondered what it takes to put the Intel in intellect? Pragyan in association with Spider lets you have your very first crack at the big leagues where logic meets practical circuits. Dive headfirst into this event which may be small in length but is big on gains.</p> -->
+			<p>
+				A common problem statement, relating to our college which you yourselves would have experienced, will be given to all the groups just before the start of the event. Then, one mentor from 180DC will join each team.
+			</p>
+			<p>
+				The mentor will lay out the structure, solve doubts, and guide the discussion in a streamlined manner. The participants can use external resources (internet and books, provided they bring their own). After one and a half hours, the teams stop their discussion. Each team presents their solution (in the form of a ppt) to the whole room and also to the team members of 180DC.
+			</p>
 		</div>
 		<div class="row">
 			<b class="header">Event Format:</b>
@@ -32,9 +29,9 @@
 		<div class="row">
 			<b class="header">Rules:</b>
 			<ul>
-				<li>A team must consist of exactly 4 participants - not more and not fewer.</li>
+				<li>A team must consist of exactly 4 participants - no more and no less.</li>
                 <li>The teams can use the internet during the discussion.</li>
-                <li>The mentors will just guide the discussion and solve the doubts you have pertaining to the discussion.</li>
+                <li>The mentors will only facilitate the discussion and solve the doubts you have, pertaining to the discussion.</li>
                 <li>The problem statement will not be changed once given.</li>
 			</ul>
 		</div>
@@ -49,7 +46,7 @@
 		</div>
 		<div class="row">
 			<b class="header">Resources:</b>
-			<p>None (There will be mentors during the event, who will help the participants if they have any doubts</p>
+			<p>There will be mentors during the event, who will help the participants if they have any doubts</p>
 		</div>
 	</div>
 </section>

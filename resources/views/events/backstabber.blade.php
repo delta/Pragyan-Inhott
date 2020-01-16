@@ -11,7 +11,9 @@
 		</div>
 		<div class="row" style="color: black">
 			<b class="header">Event Description:</b>
-			<p>Fabricate a self-propelling mechanism which pushes itself forward. It should also house a Catapult which is to be facing forward initially. The objective of the catapult is for it  to rotate backwards and fire, once the straight line motion halts. The design of the catapult is upto your imagination.</p>
+			<p>
+				Fabricate a self-propelling mechanism which pushes itself forward. It should also house a catapult which has to be facing forward, initially. Additionally, the catapult has to rotate backwards and fire, once the straight line motion halts. The design of the catapult is left to your imagination.
+			</p>
 		</div>
 		<div class="row">
 			<b class="header">Rules:</b>

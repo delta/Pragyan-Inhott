@@ -12,10 +12,11 @@
 		<div class="row" style="color: black">
 			<b class="header">Event Description:</b>
 			<p>
-			Reverse Coding is an event which tests logical thinking and basic programming skills. Participants will be given an executable program and are expected to write the source code which generates this executable.
-			<br>
-			The contest will be on the Hackerrank platform. The contest link will be given on the day of the event. Make sure that you create a Hackerrank account before the contest.
-            </p>
+				Reverse Coding is an event which tests logical thinking and basic programming skills. Participants will be given an executable program and are expected to write the source code which generates this executable.
+			</p>
+			<p>
+				The contest will be on the Hackerrank platform. The contest link will be given on the day of the event. Make sure that you create a Hackerrank account before the contest.
+			</p>
 		</div>
 		<div class="row">
 			<b class="header">Event Format:</b>
@@ -37,7 +38,7 @@
 		<div class="row">
 			<b class="header">Judging Criteria:</b>
 			<ul>
-				<li>Each question has an assigned score, the player with a higher score has a better rank.</li>
+				<li>Each question has an assigned score. The player with a higher score has a better rank.</li>
 				<li>In case of ties, i.e. when two players have the same score, the player who finished earlier is given a better rank.</li>
 			</ul>
 		</div>
