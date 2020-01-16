@@ -227,25 +227,25 @@
 							</div>
 									</a>
 							
-							<a href="{{url('/events/elemental')}}">
+							<a href="{{url('/events/incaseyoudidntknow')}}">
 								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
 									<div class="service-item">
 										<div class="service-icon">
 											<i class="fa fa-fire fa-3x"></i>
 										</div>
-										<h3>Elemental</h3>
+										<h3>In Case You Didn't Know!</h3>
 									</div>
 								</div>
 							</a>
 							
-										<a href="{{url('/events/bytecode')}}">
+							<a href="{{url('/events/backstabber')}}">
 							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
 								<div class="service-item">
 									<div class="service-icon">
 										<i class="fa fa-code fa-3x"></i>
 									</div>
 									
-									<h3>ByteCode Junior</h3>
+									<h3>BACKSTABBER</h3>
 								</div>
 							</div>
 						</div>
@@ -254,35 +254,35 @@
 						<br><br>
 						<div class="row">
 							
-										<a href="{{url('/events/bridgebrigadier')}}">	
+							<a href="{{url('/events/reversecoding')}}">	
 							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn">
 								<div class="service-item">
 									<div class="service-icon">
 											<i class="fa fa-cogs fa-3x"></i>
 									</div>
-										<h3>Bridge Brigadier</h3>
+										<h3>REVERSE CODING</h3>
 									</div>
 								</div>
 										</a>
 
-											<a href="{{url('/events/waterrocket')}}">	
+								<a href="{{url('/events/fundamental')}}">	
 								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
 									<div class="service-item">
 										<div class="service-icon">
 												<i class="fa fa-rocket fa-3x"></i>
 										</div>
-											<h3>Water Rocket</h3>
+											<h3>FUNDAMENTAL</h3>
 										</div>
 									</div>
 											</a>
 
-												<a href="{{url('/events/theultimatemanager')}}">
+												<a href="{{url('/events/dribbletrouble')}}">
 									<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
 										<div class="service-item">
 											<div class="service-icon">
 													<i class="fa fa-cube fa-3x"></i>
 											</div>
-												<h3>The Ultimate Manager</h3>
+												<h3>Dribble trouble</h3>
 											</div>
 										</div>
 										
@@ -426,7 +426,7 @@
 														</td>
 													</tr>
 													<tr>
-														<td>Elemental</td>
+														<td>In Case you didn't know!</td>
 														<td id="first3">{{ $scores[1]->first }}</td>
 														<td id="second3">{{ $scores[1]->second }}</td>
 														<td id="third3">{{ $scores[1]->third }}</td>
@@ -438,7 +438,7 @@
 														</td>
 													</tr>
 													<tr>
-														<td>ByteCode Junior</td>
+														<td>BackStabber</td>
 														<td id="first4">{{ $scores[2]->first }}</td>
 														<td id="second4">{{ $scores[2]->second }}</td>
 														<td id="third4">{{ $scores[2]->third }}</td>
@@ -450,7 +450,7 @@
 														</td>
 													</tr>
 													<tr>
-														<td>Bridge Brigadier</td>
+														<td>Reverse Coding</td>
 														<td id="first5">{{ $scores[3]->first }}</td>
 														<td id="second5">{{ $scores[3]->second }}</td>
 														<td id="third5">{{ $scores[3]->third }}</td>
@@ -462,7 +462,7 @@
 														</td>
 													</tr>
 													<tr>
-														<td>Water Rocket</td>
+														<td>Fundamental</td>
 														<td id="first6">{{ $scores[4]->first }}</td>
 														<td id="second6">{{ $scores[4]->second }}</td>
 														<td id="third6">{{ $scores[4]->third }}</td>
@@ -474,7 +474,7 @@
 														</td>
 													</tr>
 													<tr>
-														<td>The Ultimate Manager</td>
+														<td>Dribble Trouble</td>
 														<td id="first7">{{ $scores[5]->first }}</td>
 														<td id="second7">{{ $scores[5]->second }}</td>
 														<td id="third7">{{ $scores[5]->third }}</td>

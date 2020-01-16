@@ -155,7 +155,14 @@
 }
 
 .bg-img-1 {
-	background-image: url(../img/slider/inhott.png);
+	background-image: url(../img/slider/InhottWebsite.jpg);
+	background-size: 100% 100%;
+}
+
+@media (max-width: 1300px) {
+	.bg-img-1 {
+		background-image: url(../img/slider/InhottWebsiteMobile.jpg);
+	}
 }
 
 /* Animations for content elements */

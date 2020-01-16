@@ -14,12 +14,17 @@
 /*	Basic Style 
 /* =================================== */
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
     line-height: 24px;
     font-size: 16px;
     color: #818181;
+    overflow-x: hidden;
 }
 
 figure, p, address {
@@ -565,6 +570,15 @@ h1.navbar-brand {
 .welcome-message p {
     font-size: 13px;
     margin-left: 135px;
+}
+
+#about .references a {
+    color: black;
+    text-decoration: underline;
+}
+
+#about .references a:hover {
+    text-decoration: none;
 }
 
 /*=================================================================

@@ -11,22 +11,19 @@
 		</div>
 		<div class="row" style="color: black">
 			<b class="header">Event Description:</b>
-			<p>Ever wondered what it takes to put the Intel in intellect? Pragyan in association with Spider lets you have your very first crack at the big leagues where logic meets practical circuits. Dive headfirst into this event which may be small in length but is big on gains.</p>
+			<p>
+				Pragyan, in association with Spider, lets you put Intel in intellect. Have your very first crack at the big leagues, where logic meets practical circuits. Dive headfirst into this event which may be small in length but is big on gains!
+			</p>
 		</div>
 		<div class="row">
 			<b class="header">Event Format:</b>
 			<div>
-				<p>There will be two sets of problem statements.</p>
+				<p>The event will consist of 4 problem statements which will be given on the spot.</p>
 				<ul>
-					<li>The First set will consist of only one question and it'll be released 2 weeks before the event. The participants will have to work on the statement and show the output on the day of the event.</li>
-					<li>The Second set will consist of 4 questions and it'll be given during the event.</li>
-					<ol>
-						<li>Very Easy - 10 points</li>
-						<li>Easy - 20 points</li>
-						<li>Medium - 30 points</li>
-						<li>Difficult - 40 points</li>
-					</ol>
-				</ul>
+					<li>Very Easy - 10 points + 5 bonus points</li>
+					<li>Easy - 20 points + 10 bonus points</li>
+					<li>Medium - 30 points + 15 bonus points</li>
+					<li>Difficult - 40 points + 20 bonus points</li>
 				</ul>
 			</div>
 		</div>
@@ -35,36 +32,48 @@
 			<ul>
 				<li>A maximum of 3 members are allowed per team.</li>
 				<li>Participants should bring their own Laptop, Microcontroller and other electronic components. (LEDs, Resistors, Connecting wires, Breadboard)</li>
-				<li>Coding in Embedded C is only allowed.</li>
+				<li>Coding must be done only in Embedded C.</li>
 				<li>The decision of the judges is final and binding.</li>
 			</ul>
 		</div>
 		<div class="row">
 			<b class="header">Judging Criteria:</b>
 			<ul>
-				<li>For the first set,points will be awarded based on the accuracy of the output obtained. (Maximum 25 points)</li>
-				<li>The judging for the second set of tasks will be based on the Algorithm implemented and the time taken to complete each task. The participants will have to show these during the day of the event.</li>
+				<li>Judging will be based on the algorithm, accuracy and the time taken to complete each task.</li>
 			</ul>
 		</div>
 		<div class="row">
-			<b class="header">Problem Statement for Set - 1:</b>
+			<b class="header">FAQs:</b>
 			<ul>
-				<li>Use timers to make a one digit counter and display the result using seven segment display. (20 points) </li>
-				<li><strong>Bonus:</strong></li>
-				<ul>
-					<li>Display one's place of first 10 numbers of the Fibonacci series using seven segment display. </li>
-				</ul>	
+				<li>
+					Can I attempt the tasks any order?
+					<br>
+					Yes. You can even start with the most difficult task and then proceed to easier tasks. However completing all the tasks partially will fetch you lesser marks than finishing any single task completely
+				</li>
+				<li>
+					Can I use electronic circuits like 555 timers and flip flop ICs?
+					<br>
+					This event is to test your skills in using a microcontroller and coding in embedded C. Hence no ICs are allowed.
+				</li>
+				<li>
+					Can I attempt bonus tasks without completing the main tasks?
+					<br>
+					The tasks are designed in such a way that you need to finish the main task before you can attempt the corresponding bonus task.
+				</li>
+				<li>
+					What is the time given for each task?
+					<br>
+					There is no time limit separately for each task. You’ll be given a time limit of 2-3 hrs in total for completing all the tasks.
+				</li>
 			</ul>
 		</div>
-			<!-- <ul>
-					<li>The Courses will be put up soon…</li>
-			</ul> -->
-		
-		<div class="row">
-			<b class="header">Contacts:</b>
-			<p>Himanshi: +91 95720 15411</p>
-			<p>Soma Karthik: +91 87788 13014</p>
-			<p>Aqeel: +91 96778 61758</p>
+		<div class="row references">
+			<b class="header">Resources:</b>
+			<ul>
+				<li><a href="http://dbc-projects.net/arduino-embedded-c/">Coding in embedded C</a></li>
+				<li><a href="https://circuitdigest.com/microcontroller-projects/arduino-rgb-led-interfacing">Working principle of RGB LEDs</a></li>
+				<li><a href="https://www.electronics-tutorials.ws/blog/7-segment-display-tutorial.html">Working principle of a seven segment display:</a></li>
+			</ul>
 		</div>
 	</div>
 </section>

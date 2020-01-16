@@ -146,31 +146,31 @@
 										</div>
 
 										<div class="checkbox">
-										<label><input type="checkbox" name="elemental" value="elemental" >Elemental</label>
+										<label><input type="checkbox" name="incaseyoudidntknow" value="incaseyoudidntknow" >In Case you didn't know!</label>
 										</div>
 
 
 										<div class="checkbox">
 										<label>
-										<input type="checkbox" name="bytecode" value="bytecode">ByteCode Junior<br>
+										<input type="checkbox" name="backstabber" value="backstabber">BackStabber<br>
 										</label>
 										</div>
 
 										<div class="checkbox">
 										<label>
-										<input type="checkbox" name="bridgebrigadier" value="bridgebrigadier">Bridge Bridgadier
-										</label>
-										</div>
-										
-										<div class="checkbox">
-										<label>
-										<input type="checkbox" name="waterrocket" value="waterrocket">Water Rocket<br>
+										<input type="checkbox" name="reversecoding" value="reversecoding">Reverse Coding
 										</label>
 										</div>
 										
 										<div class="checkbox">
 										<label>
-										<input type="checkbox" name="theultimatemanager" value="theUltimateManager" >The Ultimate Manager<br>
+										<input type="checkbox" name="fundamental" value="fundamental">Fundamental<br>
+										</label>
+										</div>
+										
+										<div class="checkbox">
+										<label>
+										<input type="checkbox" name="dribbletrouble" value="dribbletrouble" >Dribble Trouble<br>
 										</label>
 										</div>
 										
