@@ -213,6 +213,22 @@
 						<div class="row">
 							
 							<div class="sec-title text-center">
+								<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Prizes</h2>
+							</div>
+							<div class="text-center prizes wow animated bounceInRight">
+								<p>Cash Prize : 15K</p>
+								<p>Exciting goodies</p>
+								<p>Certificates</p>
+								<p>Resources worth 15k</p>
+							</div>
+							
+						</div>
+								
+						<br><br>
+
+						<div class="row">
+							
+							<div class="sec-title text-center">
 								<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Events</h2>
 								<p style="font-size:2.5em" class="wow animated bounceInRight">6 Exciting events!</p>
 							</div>
@@ -497,7 +513,7 @@
 														</td>
 													</tr>
 													<tr>
-														<td>BackStabber</td>
+														<td>BACKSTABBERS</td>
 														<td id="first4">{{ $scores[2]->first }}</td>
 														<td id="second4">{{ $scores[2]->second }}</td>
 														<td id="third4">{{ $scores[2]->third }}</td>

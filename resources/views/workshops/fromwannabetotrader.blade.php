@@ -28,7 +28,7 @@
             <p>Students will be selected based on their responses to the questionnaire, and certificates will be provided to those who attend. Secure a place for this interesting session, as there are only 50 seats.
             </p>
 		</div>
-		<div class="row">
+		<div class="row references">
             <b class="header">Registration Link:</b>
             <a href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSeMUyFJ7pM63Y440stjcgvmNSLs0Jy3c4I_uVfQaLoZlV62Vw/alreadyresponded?usp=send_form
 ">Click here to register</a>
