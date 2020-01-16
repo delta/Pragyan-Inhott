@@ -322,12 +322,21 @@
 								</div>
 							</a>	
 						</div>
+                        <br><br><br><br>
+
+						<div class="row">
+							
+							<div class="sec-title text-center">
+								<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Stargazing Session</h2>
+                                <p style="font-size:1.5em" class="wow animated bounceInRight">The vastness of the skies has astounded humankind since time immemorial, the speckled emptiness intimidating, yet breathtaking. Join Nakshatra, the Science and Astronomy Club, for a Stargazing Session on the Ojas Terrace from 8-9 p.m. on the 26th of January. This is your chance to peek at the unseen colossi harbouring the grandeur of space.
+</p>
+							</div>
 
                                     <div class="row" style="margin-top: 50px;">
 										<h2 style="padding-top: 20px; padding-bottom: 0px; text-align: center"> SCHEDULE</h2>
 										<div class="col-md-6">
 											<h4 style="padding: 10px; padding-bottom: 0px; text-align: center">Day 1</h4>
-											<h4 style="padding-bottom: 10px; text-align: center">(Date: 19-01-2019)</h4>
+											<h4 style="padding-bottom: 10px; text-align: center">(Date: 25-01-2020)</h4>
 											<div class="table-responsive">
 												<table  id="my-table" class="table table-striped" >
 													<thead>
@@ -339,24 +348,19 @@
 													</thead>
 													<tbody>
 														<tr>
-															<td>Water Rocket</td>
-															<td>9 am to 12:00 pm</td>
-															<td>CEESAT Ground</td>
+                                                            <td>Dribble Trouble</td>
+															<td>12:30-5 p.m</td>
+															<td>Orion</td>
 														</tr>
 														<tr>
-															<td>Electrolution</td>
-															<td>12:30 pm to 04:30 pm</td>
-															<td>Orion S1</td>
+															<td>Reverse Coding</td>
+															<td>1-4 p.m</td>
+															<td>Orion</td>
 														</tr>
 														<tr>
-															<td>The Ultimate Manager</td>
-															<td>04:00 pm to 09:00 pm</td>
-															<td>A13</td>
-														</tr>
-														<tr>
-															<td>ByteCode - Hackerrank </td>
-															<td>10:00 pm to 11:30pm</td>
-															<td>-</td>
+															<td>In CASE you didn’t know!</td>
+															<td>5:15-8:30 p.m.</td>
+															<td>Orion</td>
 														</tr>
 													</tbody>
 												</table>
@@ -364,7 +368,7 @@
 										</div>
 										<div class="col-md-6">
 											<h4 style="padding: 10px; padding-bottom: 0px; text-align: center">Day 2</h4>
-											<h4 style="padding-bottom: 10px; text-align: center">(Date: 20-01-2019)</h4>
+											<h4 style="padding-bottom: 10px; text-align: center">(Date: 26-01-2020)</h4>
 											<div class="table-responsive">
 												<table  id="my-table" class="table table-striped" >
 													<thead>
@@ -376,14 +380,34 @@
 													</thead>
 													<tbody>
 														<tr>
-															<td>Bridge Brigadier</td>
-															<td>9 am to 1 pm </td>
-															<td>A13</td>
+															<td>BACKSTABBERS</td>
+															<td>9 a.m.-12 p.m </td>
+															<td>Orion</td>
 														</tr>
 														<tr>
-															<td>Elemental</td>
-															<td>2 pm to 5 pm</td>
-															<td>A12</td>
+															<td>Electrolution</td>
+															<td>9 a.m.-12 p.m</td>
+															<td>Orion</td>
+														</tr>
+														<tr>
+															<td>Fundamental</td>
+															<td>1-4 p.m.</td>
+															<td>Orion</td>
+														</tr>
+														<tr>
+															<td>Club Interaction</td>
+															<td>4:30 p.m.- 6 p.m</td>
+															<td>Barn Hall</td>
+														</tr>
+														<tr>
+															<td>Project Display</td>
+															<td>6 p.m.- 7 p.m</td>
+															<td>Barn Hall</td>
+														</tr>
+														<tr>
+															<td>Star Gazing Session</td>
+															<td>8-9 p.m</td>
+															<td>Ojas Terrace</td>
 														</tr>
 													</tbody>
 												</table>

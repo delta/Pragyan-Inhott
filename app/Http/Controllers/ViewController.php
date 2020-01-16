@@ -139,4 +139,14 @@ class ViewController extends Controller
     {
         return view('events.dribbletrouble');
     }
+    
+    public function fromwannabetotrader()
+    {
+        return view('workshops.fromwannabetotrader');
+    }
+
+    public function aiml()
+    {
+        return view('workshops.aiml');
+    }
 }

@@ -29,3 +29,6 @@ Route::get('/events/backstabber',"ViewController@backstabber");
 Route::get('/events/reversecoding',"ViewController@reversecoding");
 Route::get('/events/fundamental',"ViewController@fundamental");
 Route::get('/events/dribbletrouble',"ViewController@dribbletrouble");
+
+Route::get('/workshops/fromwannabetotrader',"ViewController@fromwannabetotrader");
+Route::get('/workshops/aiml',"ViewController@aiml");

@@ -100,7 +100,7 @@
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <ul id="nav" class="nav navbar-nav">
                         @if (Session::has('user_name'))
-					<li>{{Session::get('user_name')}}</li>
+					<li><a>{{Session::get('user_name')}}</a></li>
 					<li><a href="{{ url('/register') }}">Register</a></li>
 					<li><a href="{{ url('/logout') }}">Logout</a></li>
 					@else

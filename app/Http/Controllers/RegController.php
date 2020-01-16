@@ -21,11 +21,11 @@ class RegController extends Controller
 		$hostel = $request->get('hostel');
 		$mobile = $request->get('mobile');
 		$electrolution = Input::has('electrolution');
-		$elemental = Input::has('elemental');;
-		$bytecode = Input::has('bytecode');
-		$bridgebrigadier = Input::has('bridgebrigadier');
-		$waterrocket = Input::has('waterrocket');
-		$theultimatemanager = Input::has('theultimatemanager');
+		$icudk = Input::has('icudk');;
+		$backstabber = Input::has('backstabber');
+		$reversecoding = Input::has('reversecoding');
+		$fundamental = Input::has('fundamental');
+		$dribbletrouble = Input::has('dribbletrouble');
 		
 		$exists = DB::table('registrations')->where('rollno', $rollno)->get();
 		if(count($exists)!=0)
@@ -33,16 +33,16 @@ class RegController extends Controller
 			DB::table('registrations')
             ->where('rollno', $rollno)
             ->update(array(
-				'rollno'     => $rollno,
-				'name'   => $name,
-				'mobile'     => $mobile,
-				'hostel'       => $hostel,
-				'electrolution'    => $electrolution,
-				'elemental'     => $elemental,
-				'bytecode'    => $bytecode,
-				'bridgebrigadier' => $bridgebrigadier,
-				'theultimatemanager'    => $theultimatemanager,
-				'waterrocket'    => $waterrocket));
+				'rollno'         => $rollno,
+				'name'           => $name,
+				'mobile'         => $mobile,
+				'hostel'         => $hostel,
+				'electrolution'  => $electrolution,
+				'icudk'          => $icudk,
+				'backstabber'    => $backstabber,
+				'reversecoding'  => $reversecoding,
+				'fundamental'    => $fundamental,
+				'dribbletrouble' => $dribbletrouble));
 		}
 		else
 		{
@@ -53,12 +53,11 @@ class RegController extends Controller
 				'mobile' => $mobile,
 				'hostel' => $hostel,
 				'electrolution'    => $electrolution,
-				'elemental'     => $elemental,
-				'bytecode'    => $bytecode,
-				'bridgebrigadier' => $bridgebrigadier,
-				'theultimatemanager'    => $theultimatemanager,
-				'waterrocket'    => $waterrocket));
-			
+				'icudk'          => $icudk,
+				'backstabber'    => $backstabber,
+				'reversecoding'  => $reversecoding,
+				'fundamental'    => $fundamental,
+				'dribbletrouble' => $dribbletrouble));	
 		}
 
 		return view('final');		

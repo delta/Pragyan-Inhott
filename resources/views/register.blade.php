@@ -146,7 +146,7 @@
 										</div>
 
 										<div class="checkbox">
-										<label><input type="checkbox" name="incaseyoudidntknow" value="incaseyoudidntknow" >In Case you didn't know!</label>
+										<label><input type="checkbox" name="icudk" value="icudk" >In Case you didn't know!</label>
 										</div>
 
 
