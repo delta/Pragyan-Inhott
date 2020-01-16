@@ -9,7 +9,7 @@
         <meta charset="utf-8">
 		<!-- Always force latest IE rendering engine or request Chrome Frame -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Pragyan '19</title>		
+        <title>Pragyan InHoTT</title>		
 		<!-- Meta Description -->
         <meta name="description" content="Pragyan 2019">
         <meta name="keywords" content="Pragyan, Delta, Delta Force">
@@ -91,7 +91,7 @@
 					
 					<!-- logo -->
 					<h1 class="navbar-brand">
-				<a href="{{url('/')}}"><img src="{{asset('img/19logowhite.png')}}" style="height:120px;margin-top:-50px;margin-left:0px;"></a>
+				<a href="{{url('/')}}"><img src="{{asset('img/pragyan20_white.png')}}" style="width:150px;"></a>
 				</h1>
 					<!-- /logo -->
                 </div>
