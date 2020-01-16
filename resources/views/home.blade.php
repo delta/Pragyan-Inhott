@@ -21,7 +21,9 @@
 	================================================== -->
 	
 	<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'> -->
-	<!-- Fontawesome Icon font -->
+    <!-- Fontawesome Icon font -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/fontawesome.css"
+            integrity="sha384-+pqJl+lfXqeZZHwVRNTbv2+eicpo+1TR/AEzHYYDKfAits/WRK21xLOwzOxZzJEZ" crossorigin="anonymous">
 	<link rel="stylesheet" href="{{ asset('/css/font-awesome.min.css') }}">
 	<!-- bootstrap.min -->
 	<link rel="stylesheet" href="{{ asset('/css/jquery.fancybox.css') }}">
@@ -231,7 +233,7 @@
 								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
 									<div class="service-item">
 										<div class="service-icon">
-											<i class="fa fa-fire fa-3x"></i>
+											<i class="fa fa-folder-open fa-3x"></i>
 										</div>
 										<h3>In Case You Didn't Know!</h3>
 									</div>
@@ -242,23 +244,24 @@
 							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
 								<div class="service-item">
 									<div class="service-icon">
-										<i class="fa fa-code fa-3x"></i>
+										<i class="fa fa-taxi fa-3x"></i>
 									</div>
 									
 									<h3>BACKSTABBER</h3>
 								</div>
-							</div>
+                            </div>
+                            </a>
 						</div>
-									</a>
+								
 						<br><br>
-						<br><br>
+
 						<div class="row">
 							
 							<a href="{{url('/events/reversecoding')}}">	
 							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn">
 								<div class="service-item">
 									<div class="service-icon">
-											<i class="fa fa-cogs fa-3x"></i>
+											<i class="fa fa-code fa-3x"></i>
 									</div>
 										<h3>REVERSE CODING</h3>
 									</div>
@@ -269,7 +272,7 @@
 								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
 									<div class="service-item">
 										<div class="service-icon">
-												<i class="fa fa-rocket fa-3x"></i>
+												<i class="fa fa-comment fa-3x"></i>
 										</div>
 											<h3>FUNDAMENTAL</h3>
 										</div>
@@ -280,15 +283,47 @@
 									<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
 										<div class="service-item">
 											<div class="service-icon">
-													<i class="fa fa-cube fa-3x"></i>
+													<i class="fa fa-cogs fa-3x"></i>
 											</div>
 												<h3>Dribble trouble</h3>
 											</div>
 										</div>
-										
+									</a>	
+                                    </div>
+                        <br><br><br><br>
+
+						<div class="row">
+							
+							<div class="sec-title text-center">
+								<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Workshops</h2>
+								<p style="font-size:2.5em" class="wow animated bounceInRight">2 exciting workshops!</p>
+							</div>
+							
+							
+							<a href="{{url('/workshops/fromwannabetotrader')}}">
+							<div class="col-md-6 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+								<div class="service-item">
+									<div class="service-icon">
+										<i class="fa fa-chart-line fa-3x" onclick="$.fancybox({});"></i>
 									</div>
-												</a>
-									<div class="row" style="margin-top: 50px;">
+									<h3>From Wannabe to Trader</h3>
+								</div>
+							</div>
+									</a>
+							
+							<a href="{{url('/workshops/aiml')}}">
+								<div class="col-md-6 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-codepen fa-3x"></i>
+										</div>
+										<h3>Unraveling AI and ML in Industry</h3>
+									</div>
+								</div>
+							</a>	
+						</div>
+
+                                    <div class="row" style="margin-top: 50px;">
 										<h2 style="padding-top: 20px; padding-bottom: 0px; text-align: center"> SCHEDULE</h2>
 										<div class="col-md-6">
 											<h4 style="padding: 10px; padding-bottom: 0px; text-align: center">Day 1</h4>
