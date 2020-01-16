@@ -25,7 +25,7 @@ Join us in this hands-on session, where we not only learn the concepts behind th
             <p>Students will be selected based on their responses to the questionnaire, and certificates will be provided to those who attend. Secure a place for this interesting session, as there are only 50 seats.
             </p>
 		</div>
-		<div class="row">
+		<div class="row references">
             <b class="header">Registration Link:</b>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSeHbTdZa17IrlIUm7TMOJ7f-Xe2zJAJ4cyLKen8mIwUnab4Yg/viewform">Click here to register</a>
 		</div>
