@@ -11,7 +11,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Pragyan InHoTT</title>		
 		<!-- Meta Description -->
-        <meta name="description" content="Pragyan 2020">
+        <meta name="description" content="Pragyan 2021">
         <meta name="keywords" content="Pragyan, Delta Delta Force">
         <meta name="author" content="Delta Force">
 		
@@ -70,7 +70,7 @@
 					
 					<!-- logo -->
 					<h1 class="navbar-brand" style="padding: 0;">
-				<a href="{{url('/')}}"><img src="{{asset('img/pragyan20_white.png')}}" style="width:150px;"></a>
+				<a href="{{url('/')}}"><img src="{{asset('img/pragyan-logo-21-white.png')}}" style="width:150px;"></a>
 				</h1>
 					<!-- /logo -->
                 </div>

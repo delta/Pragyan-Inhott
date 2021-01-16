@@ -33,7 +33,7 @@
                     <li>Graphs and diagrams along with the abstract will be appreciated.</li>
                     <li>Ten teams will be shortlisted based on the judging criteria.</li>
                     <li>The shortlisted candidates must submit their final presentation a week before the event.</li>
-                    <li>The deadline to submit your abstract is 24/01/2020. It should be uploaded as a PDF.</li>
+                    <li>The deadline to submit your abstract is 24/01/2021. It should be uploaded as a PDF.</li>
 				</ul>
                 <p>Round 2 (Presentation round)</p>
 				<ul>

@@ -10,7 +10,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>Pragyan InHoTT</title>
 	<!-- Meta Description -->
-	<meta name="description" content="Pragyan 2020 InHoTT">
+	<meta name="description" content="Pragyan 2021 InHoTT">
 	<meta name="keywords" content="Pragyan, inhott, Delta, Delta Force,">
 	<meta name="author" content="Delta Force">
 	<meta name="_token" content="{{ csrf_token() }}"/>
@@ -113,7 +113,7 @@
 				
 				<!-- logo -->
 				<h1 class="navbar-brand" style="padding:0;">
-				<a href="{{url('/')}}"><img src="{{asset('img/pragyan20_white.png')}}" style="width:150px;"></a>
+				<a href="{{url('/')}}"><img src="{{asset('img/pragyan-logo-21-white.png')}}" style="width:150px;"></a>
 				</h1>
 				<!-- /logo -->
 			</div>
@@ -170,7 +170,7 @@
 							<div class="row">
 								
 								<div class="sec-title text-center white wow animated fadeInDown">
-									<h2>Pragyan 2020 Inter Hostel Technical Tournament</h2>
+									<h2>Pragyan 2021 Inter Hostel Technical Tournament</h2>
 								</div>
 								
 								<div id="testimonial" class=" wow animated fadeInUp">
@@ -219,7 +219,7 @@
 								<p>Cash Prize : 15K</p>
 								<p>Exciting goodies</p>
 								<p>Certificates</p>
-								<p>Resources worth 15k</p>
+								<p>Prizes worth 25K</p>
 							</div>
 							
 						</div>
@@ -340,7 +340,7 @@
 						</div>
                         <br><br><br><br>
 
-						<div class="row">
+						<!-- <div class="row">
 							
 							<div class="sec-title text-center">
 								<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Stargazing Session</h2>
@@ -352,7 +352,7 @@
 										<h2 style="padding-top: 20px; padding-bottom: 0px; text-align: center"> SCHEDULE</h2>
 										<div class="col-md-6">
 											<h4 style="padding: 10px; padding-bottom: 0px; text-align: center">Day 1</h4>
-											<h4 style="padding-bottom: 10px; text-align: center">(Date: 25-01-2020)</h4>
+											<h4 style="padding-bottom: 10px; text-align: center">(Date: 25-01-2021)</h4>
 											<div class="table-responsive">
 												<table  id="my-table" class="table table-striped" >
 													<thead>
@@ -384,7 +384,7 @@
 										</div>
 										<div class="col-md-6">
 											<h4 style="padding: 10px; padding-bottom: 0px; text-align: center">Day 2</h4>
-											<h4 style="padding-bottom: 10px; text-align: center">(Date: 26-01-2020)</h4>
+											<h4 style="padding-bottom: 10px; text-align: center">(Date: 26-01-2021)</h4>
 											<div class="table-responsive">
 												<table  id="my-table" class="table table-striped" >
 													<thead>
@@ -571,7 +571,7 @@
 										<div class="table-responsive" id="points">
 										</div>
 									</div>
-								</div>
+								</div> -->
 							</section>
 							<!-- end Service section -->
 							

@@ -70,7 +70,7 @@
 					
 					<!-- logo -->
 					<h1 class="navbar-brand">
-				<a href="{{url('/')}}"><img src="{{asset('img/19logowhite.png')}}" style="height:120px;margin-top:-50px;margin-left:0px;"></a>
+				<a href="{{url('/')}}"><img src="{{asset('img/pragyan-logo-21-white.png')}}" style="height:120px;margin-top:-50px;margin-left:0px;"></a>
 				</h1>
 					<!-- /logo -->
                 </div>
