@@ -358,40 +358,74 @@
 </p>
 							</div>
 
-                                    <!-- <div class="row" style="margin-top: 50px;">
+							<div class="row" style="margin-top: 50px;">
 										<h2 style="padding-top: 20px; padding-bottom: 0px; text-align: center"> SCHEDULE</h2>
-										<div class="col-md-6">
-											<h4 style="padding: 10px; padding-bottom: 0px; text-align: center">Day 1</h4>
-											<h4 style="padding-bottom: 10px; text-align: center">(Date: 25-01-2021)</h4>
+										<div class="col-md-12">
 											<div class="table-responsive">
 												<table  id="my-table" class="table table-striped" >
 													<thead>
 														<tr>
 															<th>EVENT</th>
-															<th>TIME</th>
-															<th>VENUE</th>
+															<th>Date</th>
 														</tr>
 													</thead>
+													<!-- 22- Tech Club briefing session
+													23- Case Closed - An Introduction to Management Consulting by Sigma
+													24- X-Ray Astronomy 101 by Nakshatra
+													25- Code Golf by Delta
+													26- Fundamental by Tech Council
+													27-Spider Circuit Simulation Contest
+													28-RMI HYBRID HACKATHON
+													29-180 DC's In CASE You Didn't Know
+													30-Techathlon Workshop by DC and PSI
+													31-Techathlon Workshop by DC and PSI (contd.)
+													Feb 1-Techathlon Workshop by DC and PSI (contd.) -->
 													<tbody>
 														<tr>
-                                                            <td>Dribble Trouble</td>
-															<td>12:30-5 p.m</td>
-															<td>Orion</td>
+															<td>Community session by cryptoNITT, DSC and Women in Tech</td>
+															<td>22nd January</td>
 														</tr>
 														<tr>
-															<td>Reverse Coding</td>
-															<td>1-4 p.m</td>
-															<td>Orion</td>
+															<td>Tech Club briefing session</td>
+															<td>22nd January</td>
 														</tr>
 														<tr>
-															<td>In CASE you didn’t know!</td>
-															<td>5:15-8:30 p.m.</td>
-															<td>Orion</td>
+															<td>Case Closed - An Introduction to Management Consulting by Sigma</td>
+															<td>23rd January</td>
+														</tr>
+														<tr>
+															<td>X-Ray Astronomy 101 by Nakshatra</td>
+															<td>24th January</td>
+														</tr>
+														<tr>
+															<td>Code Golf by Delta</td>
+															<td>25th January</td>
+														</tr>
+														<tr>
+															<td>Fundamental by Tech Council</td>
+															<td>26th January</td>
+														</tr>
+														<tr>
+															<td>Spider Circuit Simulation Contest</td>
+															<td>27th January</td>
+														</tr>
+														<tr>
+															<td>RMI HYBRID HACKATHON</td>
+															<td>28th January</td>
+														</tr>
+														<tr>
+															<td>180 DC's In CASE You Didn't Know</td>
+															<td>29th January</td>
+														</tr>
+														<tr>
+															<td>Techathlon Workshop by DC and PSI</td>
+															<td>30th January - 1st February</td>
 														</tr>
 													</tbody>
 												</table>
 											</div>
 										</div>
+										  <!-- 
 										<div class="col-md-6">
 											<h4 style="padding: 10px; padding-bottom: 0px; text-align: center">Day 2</h4>
 											<h4 style="padding-bottom: 10px; text-align: center">(Date: 26-01-2021)</h4>
@@ -604,6 +638,17 @@
 														</button>
 												</div>
 										</form> -->
+										<div class="row">
+											<div class="col-md-4 col-xs-12 text-center">
+												Karthik<br/>9962017896
+											</div>
+											<div class="col-md-4 col-xs-12 text-center">
+											Goutham<br/>8056167057
+											</div>
+											<div class="col-md-4 col-xs-12 text-center">
+											Kishore<br/>9003202764
+											</div>
+										</div>
 										<div class="footer-social">
 											<ul>
 												<!-- 								<li class="wow animated zoomIn"><a href="#"><i class="fa fa-thumbs-up fa-3x"></i></a></li>

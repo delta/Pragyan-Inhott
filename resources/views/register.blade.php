@@ -174,6 +174,9 @@
 										</div>
 
 										<hr/>
+										<div class="form-group">
+											<label for="event">Choose events</label>
+										</div>
 
 										<div class="checkbox">
 										<label>
