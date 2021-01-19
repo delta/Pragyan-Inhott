@@ -78,7 +78,7 @@
 					
 					<!-- logo -->
 					<h1 class="navbar-brand" style="padding:0;">
-				<a href="{{url('/')}}"><img src="{{asset('img/pragyan20_white.png')}}" style="width:150px;"></a>
+				<a href="{{url('/')}}"><img src="{{asset('img/pragyan-logo-21-white.png')}}" style="width:150px;"></a>
 				</h1>
 					<!-- /logo -->
 				</div>

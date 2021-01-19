@@ -23,12 +23,12 @@ Route::post('/registered',"RegController@insert_register");
 
 Route::get('/points',"ViewController@getPoints");
 
-Route::get('/events/electrolution',"ViewController@electrolution");
 Route::get('/events/incaseyoudidntknow',"ViewController@incaseyoudidntknow");
-Route::get('/events/backstabber',"ViewController@backstabber");
-Route::get('/events/reversecoding',"ViewController@reversecoding");
 Route::get('/events/fundamental',"ViewController@fundamental");
-Route::get('/events/dribbletrouble',"ViewController@dribbletrouble");
+Route::get('/events/codegolf',"ViewController@codegolf");
+Route::get('/events/scsc',"ViewController@scsc");
+Route::get('/events/hybridhackathon',"ViewController@hybridhackathon");
 
-Route::get('/workshops/fromwannabetotrader',"ViewController@fromwannabetotrader");
-Route::get('/workshops/aiml',"ViewController@aiml");
+Route::get('/workshops/caseclosed',"ViewController@caseclosed");
+Route::get('/workshops/xrayastronomy101',"ViewController@xrayastronomy101");
+Route::get('/workshops/techathlon',"ViewController@techathlon");

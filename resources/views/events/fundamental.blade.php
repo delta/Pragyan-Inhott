@@ -12,9 +12,9 @@
 		<div class="row" style="color: black">
 			<b class="header">Event Description:</b>
 			<p>
-				The aim of the event is to present witty theories that may or may not be scientifically correct by utilizing laws, numeric data, pictures, and analytical diagrams in order to validate an occurrence.
+			Tickle your brain on how well you can dive into the multiverse and present theories/scenarios for an alternate world. Use scientific theories and reasoning to plot out what you think would have happened if the Nazis won World War 2 or if Steve Jobs never introduced the very 1st iPhone.
 			</p>
-			<p>
+			<!-- <p>
 				With absolutely no restrictions on the theory that can be used, be prepared to expect wild trajectories of thoughts from why dosas are round to why cats sprint out of the room for no apparent reason.
 			</p>
 			<p>
@@ -22,18 +22,22 @@
 			</p>
 			<p>
 				The event is structured in a way that will baffle the participants with unbelievably crazy ideas that demand a scientific explanation.
-			</p>
+			</p> -->
 		</div>
 		<div class="row">
 			<b class="header">Event Format:</b>
 			<div>
-				<p>Round 1 (Abstract Submission)</p>
+				<ul>
+					<li>Initial round to pick best 16 teams.</li>
+					<li>Knockout rounds for the 16 teams thereafter.</li>
+				</ul>
+				<!-- <p>Round 1 (Abstract Submission)</p>
 				<ul>
 					<li>Teams will need to submit an abstract of their theory in a minimum of 500 words. </li>
                     <li>Graphs and diagrams along with the abstract will be appreciated.</li>
                     <li>Ten teams will be shortlisted based on the judging criteria.</li>
                     <li>The shortlisted candidates must submit their final presentation a week before the event.</li>
-                    <li>The deadline to submit your abstract is 24/01/2020. It should be uploaded as a PDF.</li>
+                    <li>The deadline to submit your abstract is 24/01/2021. It should be uploaded as a PDF.</li>
 				</ul>
                 <p>Round 2 (Presentation round)</p>
 				<ul>
@@ -53,29 +57,29 @@
                     <li>The time limit for this session will be 6 minutes.</li>
                     <li>When questions are asked by judges or audience, teams will be needed to defend their theories.</li>
                     <li>Evaluation will be based on the judging criteria.</li>
-                </ul>
+                </ul> -->
 			</div>
 		</div>
 		<div class="row">
 			<b class="header">Rules:</b>
 			<ul>
-				<li>Team can have a maximum of 3 members.</li>
-                <li>No reproduction of previous theories is allowed.</li>
-                <li>Profanity is strictly prohibited.</li>
-                <li>Major changes from the abstract will not be tolerated.</li>
-                <li>The decision of judges will be final.</li>
+				<li>Topics/problem statements to be given 20 minutes prior to the presentation.</li>
+                <li>The presentation to be done by one person. PPT presentation is optional.</li>
+                <li>The time limit for the presentation is 5 mins. After that, the call will be disconnected.</li>
+                <li>Participants in the semi-finals and the finals will have a Q&A session based on the topic assigned to them.</li>
+                <!-- <li>The decision of judges will be final.</li> -->
 			</ul>
 		</div>
 		<div class="row">
 			<b class="header">Judging Criteria:</b>
 			<ul>
-				<li>Force of Science - the amount “scientific” information which was displayed by the participant (graphs, real citations, “research” etc.)</li>
-                <li>Artistry -the unpredictability and shrewdness of the idea and good command over presentation delivery.</li>
-                <li>Parsimony - the simplest theory that explains the most data.</li>
-                <li>Strength of Defence - how well the theory is defended in front of the judges.</li>
+				<li>Overall Presentation.</li>
+                <li>Factual Correctness.</li>
+                <li>General Creativity.</li>
+                <li>Interaction with the judges (for participants in the semi-finals and finals).</li>
 			</ul>
 		</div>
-		<div class="row">
+		<!-- <div class="row">
 			<b class="header">FAQs:</b>
 			<ul>
 				<li>
@@ -117,6 +121,16 @@
 					Yes, please.
 				</li>
 			</ul>
+		</div> -->
+		<div class="row">
+			<b class="header">Contact:</b>
+			<p>
+				Anirudh : +91 88708 8215
+				<br>
+ 				Ayush Singh : +91 79048 71731
+				<br>
+ 				Karthika G : +91 76390 10998
+			</p>
 		</div>
 	</div>
 </section>
