@@ -125,7 +125,7 @@
 								</div>
 
 
-								<div class="form-group">
+								<!-- <div class="form-group">
 								<label for="hostel">Select Hostel</label>
 									<select name="hostel" id="hostel" class="form-control" required>
 										<option name="Agate">Agate</option>
@@ -134,14 +134,14 @@
 										<option name="GarnetC">Garnet C</option>
 										<option name="Opal">Opal</option>
 									</select>
-								</div>
+								</div> -->
 								<div class="form-group">
 									<label for="event">Choose events</label>
 								</div>
 								<div id="event" name="event">
 										<div class="checkbox">
 										<label>
-										<input type="checkbox" name="electrolution" value="electrolution" >Electrolution<br>
+										<input type="checkbox" name="scsc" value="scsc" >SCSC<br>
 										</label>
 										</div>
 
@@ -152,13 +152,7 @@
 
 										<div class="checkbox">
 										<label>
-										<input type="checkbox" name="backstabber" value="backstabber">BackStabber<br>
-										</label>
-										</div>
-
-										<div class="checkbox">
-										<label>
-										<input type="checkbox" name="reversecoding" value="reversecoding">Reverse Coding
+										<input type="checkbox" name="codeglof" value="codeglof">Code Golf<br>
 										</label>
 										</div>
 										
@@ -170,7 +164,7 @@
 										
 										<div class="checkbox">
 										<label>
-										<input type="checkbox" name="dribbletrouble" value="dribbletrouble" >Dribble Trouble<br>
+										<input type="checkbox" name="hybridhackathon" value="hybridhackathon" >Hybrid Hackathon<br>
 										</label>
 										</div>
 										

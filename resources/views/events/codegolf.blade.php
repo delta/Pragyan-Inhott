@@ -6,7 +6,7 @@
 		<div class="row">
 			<div class="text-center wow animated fadeInDown">
 				<!-- <br> -->
-				<h2 style="font-weight: bold;font-size: 2.5em;">CODE GOLF</h2>
+				<h2 style="font-weight: bold;font-size: 2.5em;"> Code Golf by Delta</h2>
 			</div>
 		</div>
 		<div class="row" style="color: black">

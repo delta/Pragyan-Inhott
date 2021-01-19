@@ -575,13 +575,13 @@
 										</div>
 									</div>
 								</div> -->
-								<center><h1>POINTS TABLE</h1></center>
+								<!-- <center><h1>POINTS TABLE</h1></center>
 								<div class="row">
 									<div class="col-md-6 col-md-offset-3">
 										<div class="table-responsive" id="points">
 										</div>
 									</div>
-								</div>
+								</div> -->
 							</section>
 							<!-- end Service section -->
 							

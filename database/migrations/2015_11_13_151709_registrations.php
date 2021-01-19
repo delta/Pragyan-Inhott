@@ -17,12 +17,12 @@ class Registrations extends Migration
             $table->string('name');
             $table->string('mobile');
             $table->string('hostel');
-            $table->string('electrolution');
-            $table->string('funda');
-            $table->string('huntthecode');
-            $table->string('picktoplace');
-            $table->string('speedcubing');
-            $table->string('theultimatemanager');
+            $table->string('scsc');
+            $table->string('fundamental');
+            $table->string('icudk');
+            $table->string('codegolf');
+            $table->string('hybridhackathon');
+            // $table->string('theultimatemanager');
         });
     }
 

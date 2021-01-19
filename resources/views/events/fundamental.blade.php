@@ -6,7 +6,7 @@
 		<div class="row">
 			<div class="text-center wow animated fadeInDown">
 				<!-- <br> -->
-				<h2 style="font-weight: bold;font-size: 2.5em;">FUNDAMENTAL</h2>
+				<h2 style="font-weight: bold;font-size: 2.5em;">Fundamental by Technical Council</h2>
 			</div>
 		</div>
 		<div class="row" style="color: black">

@@ -18,14 +18,15 @@ class RegController extends Controller
 				
 		$rollno = Session::get('user_name');
 		$name = $request->get('name');
-		$hostel = $request->get('hostel');
+		// $hostel = $request->get('hostel');
+		$hostel ="NA";
 		$mobile = $request->get('mobile');
-		$electrolution = Input::has('electrolution');
+		$scsc = Input::has('scsc');
 		$icudk = Input::has('icudk');;
-		$backstabber = Input::has('backstabber');
-		$reversecoding = Input::has('reversecoding');
+		$codegolf = Input::has('codegolf');
+		$hybridhackathon = Input::has('hybridhackathon');
 		$fundamental = Input::has('fundamental');
-		$dribbletrouble = Input::has('dribbletrouble');
+		// // $dribbletrouble = Input::has('dribbletrouble');
 		
 		$exists = DB::table('registrations')->where('rollno', $rollno)->get();
 		if(count($exists)!=0)
@@ -37,12 +38,13 @@ class RegController extends Controller
 				'name'           => $name,
 				'mobile'         => $mobile,
 				'hostel'         => $hostel,
-				'electrolution'  => $electrolution,
+				'scsc'  => $scsc,
 				'icudk'          => $icudk,
-				'backstabber'    => $backstabber,
-				'reversecoding'  => $reversecoding,
+				'codegolf'    => $codegolf,
+				'hybridhackathon'  => $hybridhackathon,
 				'fundamental'    => $fundamental,
-				'dribbletrouble' => $dribbletrouble));
+				// // 'dribbletrouble' => $dribbletrouble
+			));
 		}
 		else
 		{
@@ -52,12 +54,13 @@ class RegController extends Controller
 				'name'   => $name,
 				'mobile' => $mobile,
 				'hostel' => $hostel,
-				'electrolution'    => $electrolution,
+				'scsc'    => $scsc,
 				'icudk'          => $icudk,
-				'backstabber'    => $backstabber,
-				'reversecoding'  => $reversecoding,
+				'codegolf'    => $codegolf,
+				'hybridhackathon'  => $hybridhackathon,
 				'fundamental'    => $fundamental,
-				'dribbletrouble' => $dribbletrouble));	
+				// // 'dribbletrouble' => $dribbletrouble
+			));	
 		}
 
 		return view('final');		
