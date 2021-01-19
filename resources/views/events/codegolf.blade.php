@@ -56,7 +56,7 @@
 			</ol>
 		</div>
 		<div class="row">
-			<b class="header">Time:</b>
+			<b class="header">Duration:</b>
 			<p>2 Hours</p>
 		</div>
         <div class="row" style="color: black">
