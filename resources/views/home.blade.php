@@ -170,7 +170,7 @@
 							<div class="row">
 								
 								<div class="sec-title text-center white wow animated fadeInDown">
-									<h2>Pragyan 2021 Inter Hostel Technical Tournament</h2>
+									<h2>Pragyan 2021- InHoTT In-House edition</h2>
 								</div>
 								
 								<div id="testimonial" class=" wow animated fadeInUp">
@@ -179,8 +179,12 @@
 										<br>
 										<div class="clearfix">
 											<span></span>
-											<p style="font-size:1.2em;margin-left:10px;">Take your first steps into the world of Engineering and Technology. Put on your thinking caps and test your creativity, technical expertise and problem solving skills to compete against the many technocrats of your batch. Fire up your competitive spirit and bring glory to your hostel!
-												Furthermore, get a sneak peek of the coveted technical clubs of our college. Experience all this and more as Pragyan '19 brings to you the InHoTT - Inter Hostel Technical Tournament!
+											<p style="font-size:1.2em;margin-left:10px;">Put on your thinking caps and revel in experimenting with your creativity, technical expertise, and problem-solving skills while competing against the technocrats of your batch as Pragyan brings to you the InHoTT 2021- In-House edition.
+
+												Register now to get a sneak peek of the coveted technical clubs of our college from the comfort of your home. Take your first step into the innovative realm of engineering and technology now!
+
+												*Exclusively for the first-year students of NIT Trichy.
+
 											</p>
 											
 										</div>
@@ -216,10 +220,9 @@
 								<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Prizes</h2>
 							</div>
 							<div class="text-center prizes wow animated bounceInRight">
-								<p>Cash Prize : 15K</p>
-								<p>Exciting goodies</p>
+								<p>Prizes worth INR 25K</p>
 								<p>Certificates</p>
-								<p>Prizes worth 25K</p>
+								<p>Resources</p>
 							</div>
 							
 						</div>
@@ -230,17 +233,17 @@
 							
 							<div class="sec-title text-center">
 								<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Events</h2>
-								<p style="font-size:2.5em" class="wow animated bounceInRight">6 Exciting events!</p>
+								<p style="font-size:2.5em" class="wow animated bounceInRight">5 Exciting events!</p>
 							</div>
 							
 							
-							<a href="{{url('/events/electrolution')}}">
+							<a href="{{url('/events/scsc')}}">
 							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
 								<div class="service-item">
 									<div class="service-icon">
 										<i class="fa fa-bolt fa-3x" onclick="$.fancybox({});"></i>
 									</div>
-									<h3>Electrolution</h3>
+									<h3>SCSC</h3>
 								</div>
 							</div>
 									</a>
@@ -256,14 +259,14 @@
 								</div>
 							</a>
 							
-							<a href="{{url('/events/backstabber')}}">
+							<a href="{{url('/events/codegolf')}}">
 							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
 								<div class="service-item">
 									<div class="service-icon">
-										<i class="fa fa-taxi fa-3x"></i>
+										<i class="fa fa-code fa-3x"></i>
 									</div>
 									
-									<h3>BACKSTABBER</h3>
+									<h3>Code Golf</h3>
 								</div>
                             </div>
                             </a>
@@ -273,82 +276,89 @@
 
 						<div class="row">
 							
-							<a href="{{url('/events/reversecoding')}}">	
-							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn">
-								<div class="service-item">
-									<div class="service-icon">
-											<i class="fa fa-code fa-3x"></i>
-									</div>
-										<h3>REVERSE CODING</h3>
-									</div>
-								</div>
-										</a>
-
-								<a href="{{url('/events/fundamental')}}">	
-								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+							<a href="{{url('/events/fundamental')}}">	
+								<div class="col-md-6 col-sm-6 col-xs-12 text-center wow animated zoomIn">
 									<div class="service-item">
 										<div class="service-icon">
 												<i class="fa fa-comment fa-3x"></i>
 										</div>
-											<h3>FUNDAMENTAL</h3>
-										</div>
+										<h3>FUNDAMENTAL</h3>
 									</div>
-											</a>
+								</div>
+							</a>
 
-												<a href="{{url('/events/dribbletrouble')}}">
-									<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
-										<div class="service-item">
-											<div class="service-icon">
-													<i class="fa fa-cogs fa-3x"></i>
-											</div>
-												<h3>Dribble trouble</h3>
-											</div>
+							<a href="{{url('/events/hybridhackathon')}}">	
+								<div class="col-md-6 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-cogs fa-3x"></i>
 										</div>
-									</a>	
-                                    </div>
+										<h3>HYBRID HACKATHON</h3>
+									</div>
+								</div>
+							</a>	
+                        </div>
                         <br><br><br><br>
 
 						<div class="row">
 							
 							<div class="sec-title text-center">
 								<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Workshops</h2>
-								<p style="font-size:2.5em" class="wow animated bounceInRight">2 exciting workshops!</p>
+								<p style="font-size:2.5em" class="wow animated bounceInRight">3 exciting workshops!</p>
 							</div>
 							
 							
-							<a href="{{url('/workshops/fromwannabetotrader')}}">
-							<div class="col-md-6 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
-								<div class="service-item">
-									<div class="service-icon">
-										<i class="fa fa-chart-line fa-3x" onclick="$.fancybox({});"></i>
-									</div>
-									<h3>From Wannabe to Trader</h3>
-								</div>
-							</div>
-									</a>
-							
-							<a href="{{url('/workshops/aiml')}}">
-								<div class="col-md-6 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
+							<a href="{{url('/workshops/caseclosed')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
 									<div class="service-item">
 										<div class="service-icon">
-											<i class="fa fa-codepen fa-3x"></i>
+											<i class="fa fa-chart-line fa-3x" onclick="$.fancybox({});"></i>
 										</div>
-										<h3>Unraveling AI and ML in Industry</h3>
+										<h3>Case Closed</h3>
 									</div>
 								</div>
-							</a>	
+							</a>
+							<a href="{{url('/workshops/xrayastronomy101')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-codepen fa-3x" onclick="$.fancybox({});"></i>
+										</div>
+										<h3>X-Ray Astronomy 101</h3>
+									</div>
+								</div>
+							</a>
+							<a href="{{url('/workshops/techathlon')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-taxi fa-3x" onclick="$.fancybox({});"></i>
+										</div>
+										<h3>Techathlon</h3>
+									</div>
+								</div>
+							</a>
 						</div>
                         <br><br><br><br>
 
-						<!-- <div class="row">
+						<div class="row">
 							
 							<div class="sec-title text-center">
-								<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Stargazing Session</h2>
-                                <p style="font-size:1.5em" class="wow animated bounceInRight">The vastness of the skies has astounded humankind since time immemorial, the speckled emptiness intimidating, yet breathtaking. Join Nakshatra, the Science and Astronomy Club, for a Stargazing Session on the Ojas Terrace from 8-9 p.m. on the 26th of January. This is your chance to peek at the unseen colossi harbouring the grandeur of space.
+								<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Community session</h2>
+                                <p style="font-size:1.5em" class="wow animated bounceInRight">Seize the opportunity to understand the domains and operations of the diverse tech communities that are part of our institute.
+</p>
+							</div>
+							<br>
+							<br>
+							<br>
+							<br>
+							<div class="sec-title text-center">
+								<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Tech club briefing session</h2>
+                                <p style="font-size:1.5em" class="wow animated bounceInRight">Enlighten yourself about the diverse opportunities that await you. Don't miss out on a rare  opportunity to interact with representatives of the tech clubs in our college!
 </p>
 							</div>
 
-                                    <div class="row" style="margin-top: 50px;">
+                                    <!-- <div class="row" style="margin-top: 50px;">
 										<h2 style="padding-top: 20px; padding-bottom: 0px; text-align: center"> SCHEDULE</h2>
 										<div class="col-md-6">
 											<h4 style="padding: 10px; padding-bottom: 0px; text-align: center">Day 1</h4>
@@ -429,8 +439,8 @@
 												</table>
 											</div>
 										</div>
-									</div>
-									<div class="row" style="margin-top:50px">
+									</div> -->
+									<!-- <div class="row" style="margin-top:50px">
 										<h2 style="padding-top: 20px; padding-bottom: 0px; text-align: center">SCOREBOARD</h2>
 										<div id="myModal" class="modal fade" role="dialog">
 											<div class="modal-dialog">
@@ -564,14 +574,14 @@
 											</table>
 										</div>
 									</div>
-								</div>
+								</div> -->
 								<center><h1>POINTS TABLE</h1></center>
 								<div class="row">
 									<div class="col-md-6 col-md-offset-3">
 										<div class="table-responsive" id="points">
 										</div>
 									</div>
-								</div> -->
+								</div>
 							</section>
 							<!-- end Service section -->
 							

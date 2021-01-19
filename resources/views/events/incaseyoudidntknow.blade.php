@@ -6,47 +6,47 @@
 		<div class="row">
 			<div class="text-center wow animated fadeInDown">
 				<!-- <br> -->
-				<h2 style="font-weight: bold;font-size: 2.5em;">In CASE you didn’t know!</h2>
+				<h2 style="font-weight: bold;font-size: 2.5em;">180 DC's In CASE You Didn't Know</h2>
 			</div>
 		</div>
 		<div class="row" style="color: black">
 			<b class="header">Event Description:</b>
 			<p>
-				A common problem statement, relating to our college which you yourselves would have experienced, will be given to all the groups just before the start of the event. Then, one mentor from 180DC will join each team.
+			Candidates will be given a relevant, fun, and intriguing case study with problems/questions to be solved (in the given 3 hour time frame).
 			</p>
-			<p>
+			<!-- <p>
 				The mentor will lay out the structure, solve doubts, and guide the discussion in a streamlined manner. The participants can use external resources (internet and books, provided they bring their own). After one and a half hours, the teams stop their discussion. Each team presents their solution (in the form of a ppt) to the whole room and also to the team members of 180DC.
-			</p>
+			</p> -->
 		</div>
 		<div class="row">
 			<b class="header">Event Format:</b>
+			<p>Candidates would be required to provide a solution to the given case study through a PowerPoint presentation covering all the aspects of the solution.</p>
+		</div>
+		<div class="row">
+			<b class="header">PPT Structure:</b>
 			<ul>
-                <li>The event consists of only one round - Solving the case study, and then presenting the solution.</li>
-                <li>The mentors will just guide the discussion. They won’t judge your group based on the discussion.</li>
-                <li>Only the final presentation will be judged.</li>
-            </ul>
+				<li>Address the problem</li>
+                <li>Find out the key questions and issues</li>
+                <li>Breakdown of the issues</li>
+                <li>Identify key causes</li>
+				<li>Recommendation</li>
+			</ul>
 		</div>
 		<div class="row">
 			<b class="header">Rules:</b>
-			<ul>
-				<li>A team must consist of exactly 4 participants - no more and no less.</li>
-                <li>The teams can use the internet during the discussion.</li>
-                <li>The mentors will only facilitate the discussion and solve the doubts you have, pertaining to the discussion.</li>
-                <li>The problem statement will not be changed once given.</li>
-			</ul>
+			<p>Candidates should stick to the 3-hour time frame, and submit their solution PPTs in the format provided.</p>
 		</div>
 		<div class="row">
 			<b class="header">Judging Criteria:</b>
-			<ul>
-				<li>Depth of Analysis of the problem statement.</li>
-                <li>Clarity of thought.</li>
-                <li>Feasibility of the solution.</li>
-                <li>Teamwork.</li>
-			</ul>
+			<p>Creativity of the candidates, and feasibility of the solution provided by them.</p>
 		</div>
 		<div class="row">
 			<b class="header">Resources:</b>
 			<p>There will be mentors during the event, who will help the participants if they have any doubts</p>
+		</div>
+		<div class="row">
+			<b class="header">Contact:</b>
+			<p>Pranav : +919000579650</p>
 		</div>
 	</div>
 </section>

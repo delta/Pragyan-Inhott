@@ -110,24 +110,9 @@ class ViewController extends Controller
         return response()->json($t);
     }
 
-    public function electrolution()
-    {
-        return view('events.electrolution');
-    }
-
     public function incaseyoudidntknow()
     {
         return view('events.incaseyoudidntknow');
-    }
-
-    public function backstabber()
-    {
-        return view('events.backstabber');
-    }
-
-    public function reversecoding()
-    {
-        return view('events.reversecoding');
     }
 
     public function fundamental()
@@ -135,18 +120,33 @@ class ViewController extends Controller
         return view('events.fundamental');
     }
 
-    public function dribbletrouble()
+    public function codegolf()
     {
-        return view('events.dribbletrouble');
-    }
-    
-    public function fromwannabetotrader()
-    {
-        return view('workshops.fromwannabetotrader');
+        return view('events.codegolf');
     }
 
-    public function aiml()
+    public function scsc()
     {
-        return view('workshops.aiml');
+        return view('events.scsc');
+    }
+
+    public function hybridhackathon()
+    {
+        return view('events.hybridhackathon');
+    }
+
+    public function caseclosed()
+    {
+        return view('workshops.caseclosed');
+    }
+
+    public function xrayastronomy101()
+    {
+        return view('workshops.xrayastronomy101');
+    }
+
+    public function techathlon()
+    {
+        return view('workshops.techathlon');
     }
 }
