@@ -18,20 +18,29 @@
 		<div class="row" style="color: black">
 			<b class="header">Workshop Description:</b>
             <p>
-            The following topics will be covered:
+            Theory session will cover the following topics:
             </p>
             <div>
                 <ul>
-                    <li>Mechanisms - mechanics behind machines (kinematics and detailed explanations about popular mechanics and machines used daily and their applications - mechanics behind everyday products)</li>
-                    <li>Product design basics (comes under mechanism)</li>
-                    <li>Product development strategies (different ways to approach the design of a product given from a problem statement and the possible ways to make a working prototype)</li>
-                    <li>Design thinking (making a product based on the given problem statement - explain how to go about each process, on how to ideate the procedure, and to provide an optimized solution. Participants get a chance to know how they work within DC)</li>
+                    <li>Mechanics of machines (Kinematics of machinery and detailed explanations about popular mechanisms and their applications)</li>
+                    <li>Product Design Basics (Different stages of Product Design)</li>
+                    <li>Product Development Strategies (Different approaches to product development)</li>
+                    <li>Design thinking (A Case Study on some projects from DC - from problem statement to product)</li>
+                </ul>
+            </div>
+            <p>
+            Design Session:
+            </p>
+            <div>
+                <ul>
+                    <li>CAD Modelling using Onshape</li>
                 </ul>
             </div>
 		</div>
 		<div class="row">
             <b class="header">Contact:</b>
-            <p>Premkumar S : +91 9842930002</p>
+            <p>Pranjal : 7588997505</p>
+            <p>Nandha Kizor : 9597996277</p>
         </div>
         <div class="row">
 			<div class="text-center wow animated fadeInDown">

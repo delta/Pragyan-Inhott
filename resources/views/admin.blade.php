@@ -11,7 +11,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Pragyan '19</title>		
 		<!-- Meta Description -->
-        <meta name="description" content="Pragyan 2019">
+        <meta name="description" content="Pragyan 2021">
         <meta name="keywords" content="Pragyan, Delta Delta Force">
         <meta name="author" content="Delta Force">
 		
