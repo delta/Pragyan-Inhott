@@ -345,7 +345,7 @@
 							
 							<div class="sec-title text-center">
 								<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Community session</h2>
-                                <p style="font-size:1.5em" class="wow animated bounceInRight">Seize the opportunity to understand the domains and operations of the diverse tech communities that are part of our institute.
+                                <p style="font-size:1.5em" class="wow animated bounceInRight">Seize the opportunity to understand the domains and operations of the diverse tech communities like Google Developer Student Clubs, Womxn in Tech and CryptoNITT that are part of our institute.
 </p>
 							</div>
 							<br>

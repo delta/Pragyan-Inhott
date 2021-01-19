@@ -15,6 +15,7 @@ class Registrations extends Migration
         Schema::create('registrations', function (Blueprint $table) {
             $table->string('rollno');
             $table->string('name');
+            $table->string('email');
             $table->string('mobile');
             $table->string('hostel');
             $table->string('scsc');
@@ -22,6 +23,9 @@ class Registrations extends Migration
             $table->string('icudk');
             $table->string('codegolf');
             $table->string('hybridhackathon');
+            $table->string('caseclosed');
+            $table->string('xrayastro');
+            $table->string('techathlon');
             // $table->string('theultimatemanager');
         });
     }

@@ -18,6 +18,7 @@ class RegController extends Controller
 				
 		$rollno = Session::get('user_name');
 		$name = $request->get('name');
+		$email = $request->get('email');
 		// $hostel = $request->get('hostel');
 		$hostel ="NA";
 		$mobile = $request->get('mobile');
@@ -26,6 +27,9 @@ class RegController extends Controller
 		$codegolf = Input::has('codegolf');
 		$hybridhackathon = Input::has('hybridhackathon');
 		$fundamental = Input::has('fundamental');
+		$caseclosed = Input::has('caseclosed');
+		$xrayastro = Input::has('xrayastro');
+		$techathlon = Input::has('techathlon');
 		// // $dribbletrouble = Input::has('dribbletrouble');
 		
 		$exists = DB::table('registrations')->where('rollno', $rollno)->get();
@@ -36,6 +40,7 @@ class RegController extends Controller
             ->update(array(
 				'rollno'         => $rollno,
 				'name'           => $name,
+				'email'           => $email,
 				'mobile'         => $mobile,
 				'hostel'         => $hostel,
 				'scsc'  => $scsc,
@@ -43,6 +48,9 @@ class RegController extends Controller
 				'codegolf'    => $codegolf,
 				'hybridhackathon'  => $hybridhackathon,
 				'fundamental'    => $fundamental,
+				'caseclosed'    => $caseclosed,
+				'xrayastro'    => $xrayastro,
+				'techathlon'    => $techathlon,
 				// // 'dribbletrouble' => $dribbletrouble
 			));
 		}
@@ -52,6 +60,7 @@ class RegController extends Controller
 
 				'rollno' => $rollno,
 				'name'   => $name,
+				'email'           => $email,
 				'mobile' => $mobile,
 				'hostel' => $hostel,
 				'scsc'    => $scsc,
@@ -59,6 +68,9 @@ class RegController extends Controller
 				'codegolf'    => $codegolf,
 				'hybridhackathon'  => $hybridhackathon,
 				'fundamental'    => $fundamental,
+				'caseclosed'    => $caseclosed,
+				'xrayastro'    => $xrayastro,
+				'techathlon'    => $techathlon,
 				// // 'dribbletrouble' => $dribbletrouble
 			));	
 		}

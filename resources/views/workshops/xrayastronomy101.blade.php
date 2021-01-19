@@ -6,7 +6,8 @@
 		<div class="row">
 			<div class="text-center wow animated fadeInDown">
 				<!-- <br> -->
-				<h2 style="font-weight: bold;font-size: 2.5em;">X-Ray Astronomy 101</h2>
+				<h2 style="font-weight: bold;font-size: 2.5em;">X-Ray Astronomy 101 by Nakshatra
+</h2>
 			</div>
 		</div>
 		<div class="row references" style="color: black">

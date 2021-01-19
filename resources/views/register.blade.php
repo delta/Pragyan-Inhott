@@ -124,6 +124,11 @@
 									<input type="text" name="mobile" class="form-control" pattern="[56789][0-9]{9}" placeholder="Your Phone Number..." required>
 								</div>
 
+								<label for="email">Email</label>
+								<div class="input-field" id="email">
+									<input type="email" name="email" class="form-control" placeholder="Email" required>
+								</div>
+
 
 								<!-- <div class="form-group">
 								<label for="hostel">Select Hostel</label>
@@ -165,6 +170,26 @@
 										<div class="checkbox">
 										<label>
 										<input type="checkbox" name="hybridhackathon" value="hybridhackathon" >Hybrid Hackathon<br>
+										</label>
+										</div>
+
+										<hr/>
+
+										<div class="checkbox">
+										<label>
+										<input type="checkbox" name="caseclosed" value="caseclosed" >Case Closed<br>
+										</label>
+										</div>
+
+										<div class="checkbox">
+										<label>
+										<input type="checkbox" name="xrayastro" value="xrayastro" >X-Ray Astronomy<br>
+										</label>
+										</div>
+
+										<div class="checkbox">
+										<label>
+										<input type="checkbox" name="techathlon" value="techathlon" >Techathlon<br>
 										</label>
 										</div>
 										
