@@ -152,7 +152,7 @@
 
 										<div class="checkbox">
 										<label>
-										<input type="checkbox" name="codeglof" value="codeglof">Code Golf<br>
+										<input type="checkbox" name="codegolf" value="codegolf">Code Golf<br>
 										</label>
 										</div>
 										
