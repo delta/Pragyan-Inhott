@@ -11,23 +11,23 @@
 		</div>
 		<div class="row" style="color: black">
 			<b class="header">Workshop Description:</b>
-            <p>How Google and Uber's autonomous vehicles are disrupting transportation, or how Alexa and Siri are taking over our lives, or how Netflix keeps us hooked to its platform with its amazing recommendations, are a few ways Deep Tech is impacting us.
-Join us in this hands-on session, where we not only learn the concepts behind these technologies, but also see the code in action with demos!
+			<p>How Google and Uber's autonomous vehicles are disrupting transportation, or how Alexa and Siri are taking over our lives, or how Netflix keeps us hooked to its platform with its amazing recommendations, are a few ways Deep Tech is impacting us.
+				Join us in this hands-on session, where we not only learn the concepts behind these technologies, but also see the code in action with demos!
 			</p>
 		</div>
 		<div class="row">
-            <b class="header">Contact:</b>
-            <p>Raj Vijay: +91 96771 35980</p>
+			<b class="header">Contact:</b>
+			<p>Raj Vijay: +91 96771 35980</p>
 		</div>
-        
-        <div class="row">
-            <b class="header">Selection Criteria:</b>
-            <p>Students will be selected based on their responses to the questionnaire, and certificates will be provided to those who attend. Secure a place for this interesting session, as there are only 50 seats.
-            </p>
+
+		<div class="row">
+			<b class="header">Selection Criteria:</b>
+			<p>Students will be selected based on their responses to the questionnaire, and certificates will be provided to those who attend. Secure a place for this interesting session, as there are only 50 seats.
+			</p>
 		</div>
 		<div class="row references">
-            <b class="header">Registration Link:</b>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeHbTdZa17IrlIUm7TMOJ7f-Xe2zJAJ4cyLKen8mIwUnab4Yg/viewform">Click here to register</a>
+			<b class="header">Registration Link:</b>
+			<a href="https://docs.google.com/forms/d/e/1FAIpQLSeHbTdZa17IrlIUm7TMOJ7f-Xe2zJAJ4cyLKen8mIwUnab4Yg/viewform">Click here to register</a>
 		</div>
 	</div>
 </section>

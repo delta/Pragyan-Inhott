@@ -12,10 +12,10 @@
 		<div class="row" style="color: black">
 			<b class="header">Event Description:</b>
 			<p>
-			Code Golf is a competitive coding challenge with a twist - the shorter your code, the more points in your arsenal. The term "Code Golf" is derived from the sport golf where the player’s goal is to hit their ball in the hole using the least number of shots possible.
+				Code Golf is a competitive coding challenge with a twist - the shorter your code, the more points in your arsenal. The term "Code Golf" is derived from the sport golf where the player’s goal is to hit their ball in the hole using the least number of shots possible.
 			</p>
 			<p>
-			The contest will be on the HackerRank platform. The contest link will be given on the day of the event. Make sure that you create a HackerRank account before the contest.
+				The contest will be on the HackerRank platform. The contest link will be given on the day of the event. Make sure that you create a HackerRank account before the contest.
 			</p>
 		</div>
 		<div class="row">
@@ -26,7 +26,7 @@
 				<li>The source code will be judged by our online judge (which is an automated checker).</li>
 				<li>The judge instantly checks if your program works fine by testing it with several inputs and gives you a response.</li>
 				<li>The scoring will be based on the number of characters in code including whitespace characters.</li>
-                <li>The objective is to solve problems with the least amount of code and score maximal total points.</li>
+				<li>The objective is to solve problems with the least amount of code and score maximal total points.</li>
 				<li>There will be 2 prizes for C/C++, 2 prizes for Python and 2 prizes for other languages combined which include Clojure, C#, Erlang, Go, Haskell, Java, Javascript, Perl, PHP, Ruby, Scala and Swift.</li>
 			</ul>
 		</div>
@@ -59,10 +59,10 @@
 			<b class="header">Duration:</b>
 			<p>2 Hours</p>
 		</div>
-        <div class="row" style="color: black">
+		<div class="row" style="color: black">
 			<b class="header">Contact:</b>
 			<p>
-                Deeraj Easwar : 96008 52718
+				Deeraj Easwar : 96008 52718
 			</p>
 		</div>
 	</div>
