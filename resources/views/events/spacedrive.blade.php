@@ -1,7 +1,7 @@
 @extends('events.base')
 @section('content')
 <!-- Contact section -->
-<section id="about" class="cell-logix" style="padding-top: 90px; color: black">
+<section id="about" class="space-drive" style="padding-top: 90px; color: black">
 	<div class="container">
 		<div class="row">
 			<div class="text-center wow animated fadeInDown">

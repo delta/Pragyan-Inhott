@@ -55,6 +55,7 @@ a:focus,
 .btn:focus {
   text-decoration: none;
   outline: none;
+  color: darkblue;
 }
 
 h1,

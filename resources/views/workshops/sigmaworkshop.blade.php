@@ -46,7 +46,7 @@
 			<ul>
 				<li>Ratiba - +919207385519</li>
 				<li>Riya Singh - +916393931838</li>
-			</ul>
+			</ul>,
 		</div>
 	</div>
 </section>

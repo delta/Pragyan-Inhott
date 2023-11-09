@@ -86,6 +86,10 @@
 			</ul>
 		</div>
 		<div class="row">
+			<b class="header">Registration Link:</b>
+			<a href="https://bit.ly/dcinhotts23">Link to Google Form</a>
+		</div>
+		<div class="row">
 			<b class="header">Contact:</b>
 			<ul>
 				<li>Raamanujan - +919600173698</li>

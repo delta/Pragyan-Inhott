@@ -118,7 +118,7 @@
 				<!-- /logo -->
 			</div>
 			<!-- main nav -->
-			<nav class="collapse navbar-collapse navbar-right" role="navigation">
+			<!-- <nav class="collapse navbar-collapse navbar-right" role="navigation">
 				<ul id="nav" class="nav navbar-nav">
 					@if (Session::has('user_name'))
 					<li><a href="#">{{Session::get('user_name')}}</a></li>
@@ -130,12 +130,8 @@
 					@else
 					<li><a id="loginbtn" href="{{ url('login') }}">Log In</a></li>
 					@endif
-					<!--                   <li><a href="#portfolio">portfolio</a></li>
-					<li><a href="#testimonials">Testimonial</a></li>
-					<li><a href="#price">price</a></li>
-					<li><a href="#contact">Contact</a></li> -->
 				</ul>
-			</nav>
+			</nav> -->
 			<!-- /main nav -->
 
 		</div>
@@ -170,7 +166,7 @@
 					<div class="row">
 
 						<div class="sec-title text-center white wow animated fadeInDown">
-							<h2>Pragyan 2024- InHoTT In-House edition</h2>
+							<h2>Pragyan'24 - InHoTTs</h2>
 						</div>
 
 						<div id="testimonial" class=" wow animated fadeInUp">
@@ -179,11 +175,11 @@
 								<br>
 								<div class="clearfix">
 									<span></span>
-									<p style="font-size:1.2em;margin-left:10px;">Put on your thinking caps and revel in experimenting with your creativity, technical expertise, and problem-solving skills while competing against the technocrats of your batch as Pragyan brings to you the InHoTT 2024- In-House edition.
+									<p style="font-size:1.2em;margin-left:10px;">Put on your thinking caps and revel in experimenting with your creativity, technical expertise, and problem-solving skills while competing against the technocrats of your batch as Pragyan'24 brings to you InHoTTs.
 
 										Register now to get a sneak peek of the coveted technical clubs of our college from the comfort of your home. Take your first step into the innovative realm of engineering and technology now!
 
-										*Exclusively for the first-year students of NIT Trichy.
+										<em>Exclusively for the first-year students of NIT Trichy.</em>
 
 									</p>
 
@@ -220,9 +216,7 @@
 						<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Prizes</h2>
 					</div>
 					<div class="text-center prizes wow animated bounceInRight">
-						<p>Prizes worth INR 25K</p>
-						<p>Certificates</p>
-						<p>Resources</p>
+						<h3>Cash Prizes <b>worth 25K</b></h3>
 					</div>
 
 				</div>
@@ -233,131 +227,237 @@
 
 					<div class="sec-title text-center">
 						<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Events</h2>
-						<p style="font-size:2.5em" class="wow animated bounceInRight">5 Exciting events!</p>
+						<p style="font-size:2.5em" class="wow animated bounceInRight">15 exciting events!</p>
 					</div>
 
-					<div class="row">
+					<div class="centered">
 
-						<a href="{{url('/events/aialmanac')}}">
-							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
-								<div class="service-item">
-									<div class="service-icon">
-										<i class="fa fa-lightbulb-o fa-3x"></i>
+						<div class="row">
+
+							<a href=" {{url('/events/aialmanac')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-lightbulb-o fa-3x"></i>
+										</div>
+										<h3>AI Almanac</h3>
 									</div>
-									<h3>AI Almanac</h3>
 								</div>
-							</div>
-						</a>
+							</a>
 
-						<a href="{{url('/events/consultquest')}}">
-							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
-								<div class="service-item">
-									<div class="service-icon">
-										<i class="fa fa-briefcase fa-3x"></i>
+							<a href="{{url('/events/codegolf')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-code fa-3x"></i>
+										</div>
+										<h3>Code Golf</h3>
 									</div>
-									<h3>Consult Quest</h3>
 								</div>
-							</div>
-						</a>
+							</a>
 
-						<a href="{{url('/events/decisionquest')}}">
-							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
-								<div class="service-item">
-									<div class="service-icon">
-										<i class="fa fa-question-circle fa-3x"></i>
+							<a href="{{url('/events/consultquest')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-briefcase fa-3x"></i>
+										</div>
+										<h3>Consult Quest</h3>
 									</div>
-									<h3>Decision Quest</h3>
 								</div>
-							</div>
-						</a>
+							</a>
 
+						</div>
+
+
+						<br><br>
+
+						<div class="row">
+
+							<a href="{{url('/events/decisionquest')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-question-circle fa-3x"></i>
+										</div>
+										<h3>Decision Quest</h3>
+									</div>
+								</div>
+							</a>
+
+
+							<a href="{{url('/events/deconstruct')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
+
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-legal fa-3x"></i>
+										</div>
+										<h3>Deconstruct</h3>
+									</div>
+								</div>
+							</a>
+
+							<a href="{{url('/events/egg')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
+
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-level-down fa-3x"></i>
+										</div>
+										<h3>Egg Drop Challenge</h3>
+									</div>
+								</div>
+							</a>
+
+
+
+
+
+						</div>
+
+						<br><br>
+						<div class="row">
+
+							<a href="{{url('/events/mergerscape')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-chart-line fa-3x"></i>
+										</div>
+										<h3>MergerScape</h3>
+									</div>
+								</div>
+							</a>
+
+
+							<a href="{{url('/events/pmx')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-legal fa-3x"></i>
+										</div>
+										<h3>PMX: Product Teardown</h3>
+									</div>
+								</div>
+							</a>
+
+
+
+
+							<a href="{{url('/events/readyplayerone')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-gamepad fa-3x"></i>
+										</div>
+										<h3>Ready Player One</h3>
+									</div>
+								</div>
+							</a>
+
+
+
+
+
+
+						</div>
+
+						<br><br>
+
+						<div class="row">
+
+							<a href="{{url('/events/scraphouse')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="1.2s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-eraser fa-3x"></i>
+										</div>
+										<h3>Scraphouse</h3>
+									</div>
+								</div>
+							</a>
+
+
+
+							<a href="{{url('/events/scsc')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="1.2s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-bolt fa-3x"></i>
+										</div>
+										<h3>SCSC</h3>
+									</div>
+								</div>
+							</a>
+
+
+
+
+							<a href="{{url('/events/spacedrive')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="1.2s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-rocket fa-3x"></i>
+										</div>
+										<h3>Space Drive</h3>
+									</div>
+								</div>
+							</a>
+
+
+
+
+
+
+						</div>
+
+						<br><br>
+
+						<div class="row">
+
+							<a href="{{url('/events/startupshipwreck')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="1.5s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-comments fa-3x" onclick="$.fancybox({});"></i>
+										</div>
+										<h3>Startup Shipwreck</h3>
+									</div>
+								</div>
+							</a>
+
+							<a href="{{url('/events/stackflow')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="1.5s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-users fa-3x"></i>
+										</div>
+										<h3>Stack Flow Closed Question Prediction</h3>
+									</div>
+								</div>
+							</a>
+
+							<a href="{{url('/events/trackmaster')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="1.5s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-cogs fa-3x"></i>
+										</div>
+										<h3>Trackmaster</h3>
+									</div>
+								</div>
+							</a>
+
+						</div>
 					</div>
 
-					<br><br>
-
-					<div class="row">
-
-						<a href="{{url('/events/deconstruct')}}">
-							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
-								<div class="service-item">
-									<div class="service-icon">
-										<i class="fa fa-legal fa-3x"></i>
-									</div>
-									<h3>Deconstruct</h3>
-								</div>
-							</div>
-						</a>
-
-						<a href="{{url('/events/scraphouse')}}">
-							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
-								<div class="service-item">
-									<div class="service-icon">
-										<i class="fa fa-eraser fa-3x"></i>
-									</div>
-									<h3>Scraphouse</h3>
-								</div>
-							</div>
-						</a>
-
-						<a href="{{url('/events/scsc')}}">
-							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
-								<div class="service-item">
-									<div class="service-icon">
-										<i class="fa fa-bolt fa-3x"></i>
-									</div>
-									<h3>SCSC</h3>
-								</div>
-							</div>
-						</a>
-
-
-					</div>
-
-					<br><br>
-
-					<div class="row">
-
-						<a href="{{url('/events/spacedrive')}}">
-							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
-								<div class="service-item">
-									<div class="service-icon">
-										<i class="fa fa-rocket fa-3x"></i>
-									</div>
-									<h3>Space Drive</h3>
-								</div>
-							</div>
-						</a>
-
-						<a href="{{url('/events/startupshipwreck')}}">
-							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
-								<div class="service-item">
-									<div class="service-icon">
-										<i class="fa fa-comments fa-3x" onclick="$.fancybox({});"></i>
-									</div>
-									<h3>Startup Shipwreck</h3>
-								</div>
-							</div>
-						</a>
-
-						<a href="{{url('/events/trackmaster')}}">
-							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
-								<div class="service-item">
-									<div class="service-icon">
-										<i class="fa fa-cogs fa-3x"></i>
-									</div>
-									<h3>Trackmaster</h3>
-								</div>
-							</div>
-						</a>
-
-
-					</div>
 
 					<br><br><br><br>
 
 					<div class="sec-title text-center">
 						<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Workshops</h2>
-						<p style="font-size:2.5em" class="wow animated bounceInRight">Multiple exciting workshops!</p>
+						<p style="font-size:2.5em" class="wow animated bounceInRight">10 exciting workshops!</p>
 					</div>
 
 					<div class="row">
@@ -419,22 +519,24 @@
 								</div>
 							</div>
 						</a>
-						<a href="{{url('/workshops/moneymoneybigmoney')}}">
+
+						<a href="{{url('/workshops/spideronion')}}">
 							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
 								<div class="service-item">
 									<div class="service-icon">
-										<i class="fa fa-rupee fa-3x" onclick="$.fancybox({});"></i>
+										<i class="fa fa-globe fa-3x" onclick="$.fancybox({});"></i>
 									</div>
-									<h3>Money + Money = Big Money</h3>
+									<h3>Demystifying the Dark Web</h3>
 								</div>
 							</div>
 						</a>
+
+
 					</div>
 
 					<br><br>
 
 					<div class="row">
-
 
 						<a href="{{url('/workshops/spideripfs')}}">
 							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
@@ -446,49 +548,66 @@
 								</div>
 							</div>
 						</a>
-						<a href="{{url('/workshops/spideronion')}}">
+
+
+						<a href="{{url('/workshops/introtomergers')}}">
 							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
 								<div class="service-item">
 									<div class="service-icon">
 										<i class="fa fa-globe fa-3x" onclick="$.fancybox({});"></i>
 									</div>
-									<h3>Demystifying the Dark Web</h3>
+									<h3>Intro to Mergers and Acquisitions</h3>
+								</div>
+							</div>
+						</a>
+
+						<a href="{{url('/workshops/moneymoneybigmoney')}}">
+							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
+								<div class="service-item">
+									<div class="service-icon">
+										<i class="fa fa-rupee fa-3x" onclick="$.fancybox({});"></i>
+									</div>
+									<h3>Money + Money = Big Money</h3>
+								</div>
+							</div>
+						</a>
+
+					</div>
+
+					<br><br>
+
+					<div class="row">
+						<a href="{{url('/workshops/textsummarization')}}">
+							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
+								<div class="service-item">
+									<div class="service-icon">
+										<i class="fa fa-file-text fa-3x" onclick="$.fancybox({});"></i>
+									</div>
+									<h3>Text Summarization</h3>
 								</div>
 							</div>
 						</a>
 					</div>
 
-					<div class="row">
-						<!--
-						<div class="sec-title text-center">
-							<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Community session</h2>
-							<p style="font-size:1.5em" class="wow animated bounceInRight">Seize the opportunity to understand the domains and operations of the diverse tech communities like Google Developer Student Clubs, Womxn in Tech and CryptoNITT that are part of our institute.
-							</p>
-						</div>
-						<br>
-						<br>
-						<br>
-						<br>
-						<div class="sec-title text-center">
-							<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Tech club briefing session</h2>
-							<p style="font-size:1.5em" class="wow animated bounceInRight">Enlighten yourself about the diverse opportunities that await you. Don't miss out on a rare opportunity to interact with representatives of the tech clubs in our college!
-							</p>
-						</div>
-!-->
+					<br> <br><br> <br>
 
 
-						<div class="row" style="margin-top: 50px;">
-							<h2 style="padding-top: 20px; padding-bottom: 0px; text-align: center"> SCHEDULE</h2>
-							<div class="col-md-12">
-								<div class="table-responsive">
-									<table id="my-table" class="table table-striped">
-										<thead>
-											<tr>
-												<th>EVENT</th>
-												<th>Date</th>
-											</tr>
-										</thead>
-										<!-- 22- Tech Club briefing session
+					<div class="row" style="margin-top: 50px;">
+						<h2 style="padding-top: 20px; padding-bottom: 0px; text-align: center"> SCHEDULE</h2>
+						<div class="col-md-12">
+							<div class="table-responsive">
+								<table id="my-table" class="table table-striped">
+									<thead>
+										<tr>
+											<th>Date</th>
+											<th>Day</th>
+											<th>Time</th>
+											<th>Workshop-1</th>
+											<th>Workshop-2</th>
+											<th>Event</th>
+										</tr>
+									</thead>
+									<!-- 22- Tech Club briefing session
 													23- Case Closed - An Introduction to Management Consulting by Sigma
 													24- X-Ray Astronomy 101 by Nakshatra
 													25- Code Golf by Delta
@@ -499,52 +618,124 @@
 													30-Techathlon Workshop by DC and PSI
 													31-Techathlon Workshop by DC and PSI (contd.)
 													Feb 1-Techathlon Workshop by DC and PSI (contd.) -->
-										<tbody>
-											<tr>
-												<td>Community session by cryptoNITT, DSC and Women in Tech</td>
-												<td>22nd January</td>
-											</tr>
-											<tr>
-												<td>Tech Club briefing session</td>
-												<td>22nd January</td>
-											</tr>
-											<tr>
-												<td>Case Closed - An Introduction to Management Consulting by Sigma</td>
-												<td>23rd January</td>
-											</tr>
-											<tr>
-												<td>X-Ray Astronomy 101 by Nakshatra</td>
-												<td>24th January</td>
-											</tr>
-											<tr>
-												<td>Code Golf by Delta</td>
-												<td>25th January</td>
-											</tr>
-											<tr>
-												<td>Fundamental by Tech Council</td>
-												<td>26th January</td>
-											</tr>
-											<tr>
-												<td>Spider Circuit Simulation Contest</td>
-												<td>27th January</td>
-											</tr>
-											<tr>
-												<td>RMI HYBRID HACKATHON</td>
-												<td>28th January</td>
-											</tr>
-											<tr>
-												<td>180 DC's In CASE You Didn't Know</td>
-												<td>29th January</td>
-											</tr>
-											<tr>
-												<td>Techathlon Workshop by DC and PSI</td>
-												<td>30th January - 1st February</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
+									<tbody>
+										<tr>
+											<td>15th November</td>
+											<td>Wednesday</td>
+											<td>5:30 P.M - 8:30 PM</td>
+											<td>Celestial Quest</td>
+											<td></td>
+											<td>AI Alamanc</td>
+										</tr>
+										<tr>
+											<td>16th November</td>
+											<td>Thursday</td>
+											<td>5:30 P.M - 8:30 PM</td>
+											<td>Money + Money = Big Money</td>
+											<td></td>
+											<td>Ready Player One</td>
+										</tr>
+										<tr>
+											<td>17th November</td>
+											<td>Friday</td>
+											<td>5:30 P.M - 8:30 PM</td>
+											<td>Text Summarization</td>
+											<td></td>
+											<td>PMX: Product Teardown</td>
+										</tr>
+										<tr>
+											<td rowspan="3" style="vertical-align: middle;">19th November</td>
+											<td rowspan="3" style="vertical-align: middle;">Sunday</td>
+											<td>10:00 AM - 2:00 PM</td>
+											<td></td>
+											<td></td>
+											<td>Deconstruct</td>
+										</tr>
+										<tr>
+											<td>2:00 PM - 6:00 PM</td>
+											<td>Intro to Mergers & Acquisition</td>
+											<td></td>
+											<td>Trackmaster</td>
+										</tr>
+										<tr>
+											<td>5:00 PM - 8:00 PM</td>
+											<td></td>
+											<td></td>
+											<td>CodeGolf</td>
+										</tr>
+										<tr>
+											<td>20th November</td>
+											<td>Monday</td>
+											<td>5:30 PM - 8:30 PM</td>
+											<td>Cell Logix</td>
+											<td>Case Interviews</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>21st November</td>
+											<td>Tuesday</td>
+											<td>5:30 PM - 8:30 PM</td>
+											<td>IPFS Workshop</td>
+											<td></td>
+											<td>Consult Quest</td>
+										</tr>
+										<tr>
+											<td>22nd November</td>
+											<td>Wednesday</td>
+											<td>5:30 PM - 8:30 PM</td>
+											<td>Onion Web Routing Workshop</td>
+											<td></td>
+											<td>MergerScape</td>
+										</tr>
+										<tr>
+											<td>23rd November</td>
+											<td>Thursday</td>
+											<td>5:30 PM - 8:30 PM</td>
+											<td>0 to 1 Startup Workshop Day-1</td>
+											<td></td>
+											<td>SCSC</td>
+										</tr>
+										<tr>
+											<td>24th November</td>
+											<td>Friday</td>
+											<td>5:30 PM - 8:30 PM</td>
+											<td>0 to 1 Startup Workshop Day-2</td>
+											<td></td>
+											<td>Scrap House</td>
+										</tr>
+										<tr>
+											<td rowspan="3" style="vertical-align: middle;">25th November</td>
+											<td rowspan="3" style="vertical-align: middle;">Saturday</td>
+											<td>10:00 AM - 11:30 AM</td>
+											<td></td>
+											<td></td>
+											<td>Decision Quest</td>
+										</tr>
+										<tr>
+											<td>1:00PM - 4:00PM</td>
+											<td>Design Xperience Workshop</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>4:00 PM - 8:00 PM</td>
+											<td></td>
+											<td></td>
+											<td>Startup Shipwreck</td>
+										</tr>
+										<tr>
+											<td>26th November</td>
+											<td>Sunday</td>
+											<td>3:00 PM - 8:00 PM</td>
+											<td></td>
+											<td></td>
+											<td>Design Xperience Event</td>
+										</tr>
+									</tbody>
+								</table>
 							</div>
-							<!-- 
+						</div>
+						<!-- 
 										<div class="col-md-6">
 											<h4 style="padding: 10px; padding-bottom: 0px; text-align: center">Day 2</h4>
 											<h4 style="padding-bottom: 10px; text-align: center">(Date: 26-01-2021)</h4>
@@ -593,7 +784,7 @@
 											</div>
 										</div>
 									</div> -->
-							<!-- <div class="row" style="margin-top:50px">
+						<!-- <div class="row" style="margin-top:50px">
 										<h2 style="padding-top: 20px; padding-bottom: 0px; text-align: center">SCOREBOARD</h2>
 										<div id="myModal" class="modal fade" role="dialog">
 											<div class="modal-dialog">
@@ -728,7 +919,7 @@
 										</div>
 									</div>
 								</div> -->
-							<!-- <center><h1>POINTS TABLE</h1></center>
+						<!-- <center><h1>POINTS TABLE</h1></center>
 								<div class="row">
 									<div class="col-md-6 col-md-offset-3">
 										<div class="table-responsive" id="points">
@@ -742,12 +933,12 @@
 
 	</main>
 
-	<footer id="footer">
+	<footer id="footer" style="background-color: #2e2e2e; color: #ffffff; padding: 3rem 0rem;">
 		<div class="container">
 			<div class="row text-center">
 				<div class="footer-content">
 					<div class="wow animated fadeInDown">
-						<p>Let's Celebrate Technology!</p>
+						<p>LET'S CELEBRATE TECHNOLOGY!</p>
 					</div>
 					<!-- 	<form action="#" method="post" class="subscribe-form wow animated fadeInUp">
 												<div class="input-field">
@@ -757,15 +948,12 @@
 														</button>
 												</div>
 										</form> -->
-					<div class="row">
-						<div class="col-md-4 col-xs-12 text-center">
-							Karthik<br />9962017896
+					<div class="row" style="padding: 1.5rem 0rem;">
+						<div class="col-md-6 col-xs-12 text-center">
+							Bandavya<br />+917760942275
 						</div>
-						<div class="col-md-4 col-xs-12 text-center">
-							Goutham<br />8056167057
-						</div>
-						<div class="col-md-4 col-xs-12 text-center">
-							Kishore<br />9003202764
+						<div class="col-md-6 col-xs-12 text-center">
+							Tushanth<br />+918220152648
 						</div>
 					</div>
 					<div class="footer-social">

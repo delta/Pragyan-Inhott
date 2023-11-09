@@ -21,20 +21,20 @@
 		<div class="row">
 			<b class="header">Event Format:</b>
 			<ul>
-				<li>The contest will be conducted for 2 hours and there will be 8 algorithmic problems.</li>
-				<li>The problem statements will define the constraints on the input, if necessary.</li>
+				<li>The contest will be conducted for 2 hours and will have 8 algorithmic problems.</li>
+				<li>The problem statements will define the constraints on the input, if necessary</li>
 				<li>The source code will be judged by our online judge (which is an automated checker).</li>
+				<li>The language allowed for this contest is Python only.</li>
 				<li>The judge instantly checks if your program works fine by testing it with several inputs and gives you a response.</li>
 				<li>The scoring will be based on the number of characters in code including whitespace characters.</li>
 				<li>The objective is to solve problems with the least amount of code and score maximal total points.</li>
-				<li>There will be 2 prizes for C/C++, 2 prizes for Python and 2 prizes for other languages combined which include Clojure, C#, Erlang, Go, Haskell, Java, Javascript, Perl, PHP, Ruby, Scala and Swift.</li>
+				<li>There will be prizes for the top 3 contestants in the contest.</li>
 			</ul>
 		</div>
 		<div class="row">
 			<b class="header">Rules:</b>
 			<ul>
 				<li>Plagiarism is strictly forbidden during the contest duration, and contestants who indulge in it will be disqualified.</li>
-				<li>Participants can participate only in one of the categories out of C/C++, Python or other Miscellaneous.</li>
 			</ul>
 		</div>
 		<div class="row">
@@ -50,9 +50,7 @@
 		<div class="row">
 			<b class="header">Programming Languages (per category):</b>
 			<ol>
-				<li>C, C++</li>
 				<li>Python (PyPy3, Python2, Python3)</li>
-				<li>Miscellaneous [Clojure, C#, Erlang, Go, Haskell, Java, Javascript, Perl, PHP, Ruby, Scala and Swift]</li>
 			</ol>
 		</div>
 		<div class="row">
@@ -62,7 +60,7 @@
 		<div class="row" style="color: black">
 			<b class="header">Contact:</b>
 			<p>
-				Deeraj Easwar : 96008 52718
+				Selva - +919003299917
 			</p>
 		</div>
 	</div>

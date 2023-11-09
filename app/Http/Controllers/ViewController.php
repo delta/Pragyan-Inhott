@@ -107,6 +107,11 @@ class ViewController extends Controller
         return view('events.aialmanac');
     }
 
+    public function code_golf()
+    {
+        return view('events.codegolf');
+    }
+
     public function consult_quest()
     {
         return view('events.consultquest');
@@ -122,6 +127,26 @@ class ViewController extends Controller
         return view('events.deconstruct');
     }
 
+    public function egg_drop()
+    {
+        return view('events.eggdrop');
+    }
+
+    public function merger_scape()
+    {
+        return view('events.sigmaevent');
+    }
+
+    public function pmx()
+    {
+        return view('events.pmxproductteardown');
+    }
+
+    public function rpone()
+    {
+        return view('events.readyplayerone');
+    }
+
     public function scraphouse()
     {
         return view('events.scraphouse');
@@ -132,14 +157,14 @@ class ViewController extends Controller
         return view('events.scsc');
     }
 
-    public function sigma_event()
-    {
-        return view('events.sigmaevent');
-    }
-
     public function space_drive()
     {
         return view('events.spacedrive');
+    }
+
+    public function stack_flow()
+    {
+        return view('events.databyteevent');
     }
 
     public function startup_shipwreck()
@@ -179,6 +204,11 @@ class ViewController extends Controller
         return view('workshops.designxperience');
     }
 
+    public function mergers()
+    {
+        return view('workshops.sigmaworkshop');
+    }
+
     public function money_money_big_money()
     {
         return view('workshops.moneymoneybigmoney');
@@ -192,5 +222,10 @@ class ViewController extends Controller
     public function spider_onion()
     {
         return view('workshops.spideronion');
+    }
+
+    public function text_summarization()
+    {
+        return view('workshops.textsummarisation');
     }
 }

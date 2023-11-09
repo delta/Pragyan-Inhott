@@ -79,12 +79,17 @@
 			</ul>
 		</div>
 		<div class="row">
+			<b class="header">Registration Link:</b>
+			<a href="https://docs.google.com/forms/d/e/1FAIpQLSfxuiH19VMCg5CsNzT3q-NGy943MhVQEW7W4pFIsnEOEjS8wA/viewform">Link to Google Form</a>
+		</div>
+		<div class="row">
 			<b class="header">Contact:</b>
 			<ul>
 				<li>Pranes - +917094032000</li>
 				<li>Aadithya - +917397755868</li>
 			</ul>
 		</div>
+
 	</div>
 </section>
 <!-- end Contact section -->
