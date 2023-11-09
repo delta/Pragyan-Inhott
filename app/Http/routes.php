@@ -14,7 +14,6 @@
 use App\Http\Controllers\ViewController;
 
 /*Route::post('/scores', 'ViewController@scores');
-Route::get('/', "ViewController@index");
 Route::get('/login', "ViewController@login");
 Route::get('/admin/login', "AdminAuthController@login");
 Route::get('/admin/auth', "AdminAuthController@auth");
@@ -26,6 +25,7 @@ Route::post('/registered', "RegController@insert_register");
 
 Route::get('/points', "ViewController@getPoints");*/
 
+Route::get('/', "ViewController@index");
 Route::get('/events/aialmanac', "ViewController@ai_almanac");
 Route::get('/events/codegolf', "ViewController@code_golf");
 Route::get('/events/consultquest', "ViewController@consult_quest");
