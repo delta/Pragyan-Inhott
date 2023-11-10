@@ -29,6 +29,7 @@
 				<li>The scoring will be based on the number of characters in code including whitespace characters.</li>
 				<li>The objective is to solve problems with the least amount of code and score maximal total points.</li>
 				<li>There will be prizes for the top 3 contestants in the contest.</li>
+				<li>There are multiple programming languages available to you in the competition; one language may not be the optimal solution for all the problem statements. Choosing the correct programming langauge according to the problem statement is a part of the competition.</li>
 			</ul>
 		</div>
 		<div class="row">
@@ -50,7 +51,9 @@
 		<div class="row">
 			<b class="header">Programming Languages (per category):</b>
 			<ol>
+				<li>C, C++</li>
 				<li>Python (PyPy3, Python2, Python3)</li>
+				<li>Miscellaneous [Clojure, C#, Erlang, Go, Haskell, Java, Javascript, Perl, PHP, Ruby, Scala and Swift]</li>
 			</ol>
 		</div>
 		<div class="row">
