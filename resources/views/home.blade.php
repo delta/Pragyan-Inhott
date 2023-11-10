@@ -2,7 +2,9 @@
 <!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js"> <!--<![endif]-->
+
 <head>
 	<!-- meta character set -->
 	<meta charset="utf-8">
@@ -10,20 +12,19 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>Pragyan InHoTT</title>
 	<!-- Meta Description -->
-	<meta name="description" content="Pragyan 2021 InHoTT">
+	<meta name="description" content="Pragyan 2024 InHoTT">
 	<meta name="keywords" content="Pragyan, inhott, Delta, Delta Force,">
 	<meta name="author" content="Delta Force">
-	<meta name="_token" content="{{ csrf_token() }}"/>
+	<meta name="_token" content="{{ csrf_token() }}" />
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 	<!-- CSS
 	================================================== -->
-	
+
 	<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'> -->
-    <!-- Fontawesome Icon font -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/fontawesome.css"
-            integrity="sha384-+pqJl+lfXqeZZHwVRNTbv2+eicpo+1TR/AEzHYYDKfAits/WRK21xLOwzOxZzJEZ" crossorigin="anonymous">
+	<!-- Fontawesome Icon font -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/fontawesome.css" integrity="sha384-+pqJl+lfXqeZZHwVRNTbv2+eicpo+1TR/AEzHYYDKfAits/WRK21xLOwzOxZzJEZ" crossorigin="anonymous">
 	<link rel="stylesheet" href="{{ asset('/css/font-awesome.min.css') }}">
 	<!-- bootstrap.min -->
 	<link rel="stylesheet" href="{{ asset('/css/jquery.fancybox.css') }}">
@@ -38,10 +39,12 @@
 	<!-- Main Stylesheet -->
 	<link rel="stylesheet" href="{{ asset('/css/main.css') }}">
 	<link rel="stylesheet" href="{{ asset('/css/schedule.css') }}">
-	
+
 	<!-- Modernizer Script for old Browsers -->
 	<script src="{{ asset('/js/modernizr-2.6.2.min.js') }}"></script>
-	<script>var base_url = "{{ url('/') }}";</script>
+	<script>
+		var base_url = "{{ url('/') }}";
+	</script>
 	<!-- Essential jQuery Plugins
 	================================================== -->
 	<!-- Main jQuery -->
@@ -50,19 +53,16 @@
 	<script src="{{ asset('/js/bootstrap.min.js') }}"></script>
 	<script src="{{ asset('/js/t-gen.js') }}"></script>
 	<script type="text/javascript">
-			$(document).ready(function()
-			{
-			$(".board").click(function()
-			{
-			var x = $(this).data('id');
-			$("#myModal").modal('show');
-			$("#score_id").val(x);
-			$("#save").click(function()
-			{
-				$("#score_form").submit();
+		$(document).ready(function() {
+			$(".board").click(function() {
+				var x = $(this).data('id');
+				$("#myModal").modal('show');
+				$("#score_id").val(x);
+				$("#save").click(function() {
+					$("#score_form").submit();
+				});
 			});
-			});
-			});
+		});
 	</script>
 	<!-- Single Page Nav
 	<script src="{{ asset('/js/jquery.singlePageNav.min.js') }}"></script>
@@ -80,11 +80,11 @@
 	<script src="{{ asset('/js/wow.min.js') }}"></script>
 	<!-- Custom Functions -->
 	<script type="text/javascript">
-			$(document).ready(function() {
+		$(document).ready(function() {
 			$(".fancybox").fancybox();
-			});
+		});
 	</script>
-	
+
 	<script src="{{ asset('/js/main.js') }}"></script>
 </head>
 
@@ -103,22 +103,22 @@
 		<div class="container">
 			<div class="navbar-header">
 				<!-- responsive nav button -->
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
+				<!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button> -->
 				<!-- /responsive nav button -->
-				
+
 				<!-- logo -->
 				<h1 class="navbar-brand" style="padding:0;">
-				<a href="{{url('/')}}"><img src="{{asset('img/pragyan-logo-21-white.png')}}" style="width:150px;"></a>
+					<a href="{{url('/')}}"><img src="{{asset('img/24logowhite.png')}}" style="width:150px;"></a>
 				</h1>
 				<!-- /logo -->
 			</div>
 			<!-- main nav -->
-			<nav class="collapse navbar-collapse navbar-right" role="navigation">
+			<!-- <nav class="collapse navbar-collapse navbar-right" role="navigation">
 				<ul id="nav" class="nav navbar-nav">
 					@if (Session::has('user_name'))
 					<li><a href="#">{{Session::get('user_name')}}</a></li>
@@ -130,66 +130,62 @@
 					@else
 					<li><a id="loginbtn" href="{{ url('login') }}">Log In</a></li>
 					@endif
-					<!--                   <li><a href="#portfolio">portfolio</a></li>
-					<li><a href="#testimonials">Testimonial</a></li>
-					<li><a href="#price">price</a></li>
-					<li><a href="#contact">Contact</a></li> -->
 				</ul>
-			</nav>
+			</nav> -->
 			<!-- /main nav -->
-			
+
 		</div>
 	</header>
 	<!--
 	End Fixed Navigation
 	==================================== -->
-	
+
 	<main class="site-content" role="main">
-		
+
 		<!--
 		Home Slider
 		==================================== -->
-		
+
 		<section id="home-slider">
 			<div id="slider" class="sl-slider-wrapper">
 				<div class="sl-slider">
-					
+
 					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
 						<div class="bg-img bg-img-1"></div>
 					</div>
-					</div><!-- /sl-slider -->
-					</div><!-- /slider-wrapper -->
-				</section>
-				
-				<!--
+				</div><!-- /sl-slider -->
+			</div><!-- /slider-wrapper -->
+		</section>
+
+		<!--
 				End Home SliderEnd
 				==================================== -->
-				<section id="testimonials" class="parallax">
-					<div class="overlay">
-						<div class="container">
-							<div class="row">
-								
-								<div class="sec-title text-center white wow animated fadeInDown">
-									<h2>Pragyan 2021- InHoTT In-House edition</h2>
+		<section id="testimonials" class="parallax">
+			<div class="overlay">
+				<div class="container">
+					<div class="row">
+
+						<div class="sec-title text-center white wow animated fadeInDown">
+							<h2>Pragyan'24 - InHoTTs</h2>
+						</div>
+
+						<div id="testimonial" class=" wow animated fadeInUp">
+							<div class="testimonial-item text-center">
+								<!-- <img src="img/member-1.jpg" alt="Our Clients"> -->
+								<br>
+								<div class="clearfix">
+									<span></span>
+									<p style="font-size:1.2em;margin-left:10px;">Put on your thinking caps and revel in experimenting with your creativity, technical expertise, and problem-solving skills while competing against the technocrats of your batch as Pragyan'24 brings to you InHoTTs.
+
+										Register now to get a sneak peek of the coveted technical clubs of our college from the comfort of your home. Take your first step into the innovative realm of engineering and technology now!
+
+										<em>Exclusively for the first-year students of NIT Trichy.</em>
+
+									</p>
+
 								</div>
-								
-								<div id="testimonial" class=" wow animated fadeInUp">
-									<div class="testimonial-item text-center">
-										<!-- <img src="img/member-1.jpg" alt="Our Clients"> -->
-										<br>
-										<div class="clearfix">
-											<span></span>
-											<p style="font-size:1.2em;margin-left:10px;">Put on your thinking caps and revel in experimenting with your creativity, technical expertise, and problem-solving skills while competing against the technocrats of your batch as Pragyan brings to you the InHoTT 2021- In-House edition.
-
-												Register now to get a sneak peek of the coveted technical clubs of our college from the comfort of your home. Take your first step into the innovative realm of engineering and technology now!
-
-												*Exclusively for the first-year students of NIT Trichy.
-
-											</p>
-											
-										</div>
-									</div>
-									<!-- <div class="testimonial-item text-center">
+							</div>
+							<!-- <div class="testimonial-item text-center">
 											<img src="img/member-1.jpg" alt="Our Clients">
 											<div class="clearfix">
 													<span>Katty Flower</span>
@@ -203,173 +199,415 @@
 													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 											</div>
 									</div> -->
-								</div>
-								
-							</div>
 						</div>
+
 					</div>
-				</section>
-				
-				<!-- Service section -->
-				<section id="service">
-					<!-- <section id="about"> -->
-					<div class="container">
+				</div>
+			</div>
+		</section>
+
+		<!-- Service section -->
+		<section id="service">
+			<!-- <section id="about"> -->
+			<div class="container">
+				<div class="row">
+
+					<div class="sec-title text-center">
+						<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Prizes</h2>
+					</div>
+					<div class="text-center prizes wow animated bounceInRight">
+						<h3>Cash Prizes <b>worth 25K</b></h3>
+					</div>
+
+				</div>
+
+				<br><br>
+
+				<div class="row">
+
+					<div class="sec-title text-center">
+						<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Events</h2>
+						<p style="font-size:2.5em" class="wow animated bounceInRight">15 exciting events!</p>
+					</div>
+
+					<div class="centered">
+
 						<div class="row">
-							
-							<div class="sec-title text-center">
-								<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Prizes</h2>
-							</div>
-							<div class="text-center prizes wow animated bounceInRight">
-								<p>Prizes worth INR 25K</p>
-								<p>Certificates</p>
-								<p>Resources</p>
-							</div>
-							
+
+							<a href=" {{url('/events/aialmanac')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-lightbulb-o fa-3x"></i>
+										</div>
+										<h3>AI Almanac</h3>
+									</div>
+								</div>
+							</a>
+
+							<a href="{{url('/events/codegolf')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-code fa-3x"></i>
+										</div>
+										<h3>Code Golf</h3>
+									</div>
+								</div>
+							</a>
+
+							<a href="{{url('/events/consultquest')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-briefcase fa-3x"></i>
+										</div>
+										<h3>Consult Quest</h3>
+									</div>
+								</div>
+							</a>
+
 						</div>
-								
+
+
 						<br><br>
 
 						<div class="row">
-							
-							<div class="sec-title text-center">
-								<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Events</h2>
-								<p style="font-size:2.5em" class="wow animated bounceInRight">5 Exciting events!</p>
-							</div>
-							
-							
-							<a href="{{url('/events/scsc')}}">
-							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
-								<div class="service-item">
-									<div class="service-icon">
-										<i class="fa fa-bolt fa-3x" onclick="$.fancybox({});"></i>
-									</div>
-									<h3>SCSC</h3>
-								</div>
-							</div>
-									</a>
-							
-							<a href="{{url('/events/incaseyoudidntknow')}}">
+
+							<a href="{{url('/events/decisionquest')}}">
 								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
 									<div class="service-item">
 										<div class="service-icon">
-											<i class="fa fa-folder-open fa-3x"></i>
+											<i class="fa fa-question-circle fa-3x"></i>
 										</div>
-										<h3>In Case You Didn't Know!</h3>
+										<h3>Decision Quest: A Financial Journey</h3>
 									</div>
 								</div>
 							</a>
-							
-							<a href="{{url('/events/codegolf')}}">
-							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
-								<div class="service-item">
-									<div class="service-icon">
-										<i class="fa fa-code fa-3x"></i>
+
+
+							<a href="{{url('/events/deconstruct')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
+
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-legal fa-3x"></i>
+										</div>
+										<h3>Deconstruct</h3>
 									</div>
-									
-									<h3>Code Golf</h3>
 								</div>
-                            </div>
-                            </a>
+							</a>
+
+							<a href="{{url('/events/egg')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
+
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-level-down fa-3x"></i>
+										</div>
+										<h3>Egg Drop Challenge</h3>
+									</div>
+								</div>
+							</a>
+
+
+
+
+
 						</div>
-								
+
+						<br><br>
+						<div class="row">
+
+							<a href="{{url('/events/mergerscape')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-chart-line fa-3x"></i>
+										</div>
+										<h3>MergerScape</h3>
+									</div>
+								</div>
+							</a>
+
+
+							<a href="{{url('/events/pmx')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-legal fa-3x"></i>
+										</div>
+										<h3>PMX: Product Teardown</h3>
+									</div>
+								</div>
+							</a>
+
+
+
+
+							<a href="{{url('/events/readyplayerone')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-gamepad fa-3x"></i>
+										</div>
+										<h3>Ready Player One</h3>
+									</div>
+								</div>
+							</a>
+
+
+
+
+
+
+						</div>
+
 						<br><br>
 
 						<div class="row">
-							
-							<a href="{{url('/events/fundamental')}}">	
-								<div class="col-md-6 col-sm-6 col-xs-12 text-center wow animated zoomIn">
+
+							<a href="{{url('/events/scraphouse')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="1.2s">
 									<div class="service-item">
 										<div class="service-icon">
-												<i class="fa fa-comment fa-3x"></i>
+											<i class="fa fa-eraser fa-3x"></i>
 										</div>
-										<h3>FUNDAMENTAL</h3>
+										<h3>Scraphouse</h3>
 									</div>
 								</div>
 							</a>
 
-							<a href="{{url('/events/hybridhackathon')}}">	
-								<div class="col-md-6 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+
+
+							<a href="{{url('/events/scsc')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="1.2s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-bolt fa-3x"></i>
+										</div>
+										<h3>SCSC</h3>
+									</div>
+								</div>
+							</a>
+
+
+
+
+							<a href="{{url('/events/spacedrive')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="1.2s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-rocket fa-3x"></i>
+										</div>
+										<h3>Space Drive</h3>
+									</div>
+								</div>
+							</a>
+
+
+
+
+
+
+						</div>
+
+						<br><br>
+
+						<div class="row">
+
+							<a href="{{url('/events/startupshipwreck')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="1.5s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-comments fa-3x" onclick="$.fancybox({});"></i>
+										</div>
+										<h3>Startup Shipwreck</h3>
+									</div>
+								</div>
+							</a>
+
+							<a href="{{url('/events/stackflow')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="1.5s">
+									<div class="service-item">
+										<div class="service-icon">
+											<i class="fa fa-users fa-3x"></i>
+										</div>
+										<h3>Stack Flow Closed Question Prediction</h3>
+									</div>
+								</div>
+							</a>
+
+							<a href="{{url('/events/trackmaster')}}">
+								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="1.5s">
 									<div class="service-item">
 										<div class="service-icon">
 											<i class="fa fa-cogs fa-3x"></i>
 										</div>
-										<h3>HYBRID HACKATHON</h3>
+										<h3>Trackmaster</h3>
 									</div>
 								</div>
-							</a>	
-                        </div>
-                        <br><br><br><br>
+							</a>
 
-						<div class="row">
-							
-							<div class="sec-title text-center">
-								<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Workshops</h2>
-								<p style="font-size:2.5em" class="wow animated bounceInRight">3 exciting workshops!</p>
-							</div>
-							
-							
-							<a href="{{url('/workshops/caseclosed')}}">
-								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
-									<div class="service-item">
-										<div class="service-icon">
-											<i class="fa fa-chart-line fa-3x" onclick="$.fancybox({});"></i>
-										</div>
-										<h3>Case Closed</h3>
-									</div>
-								</div>
-							</a>
-							<a href="{{url('/workshops/xrayastronomy101')}}">
-								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
-									<div class="service-item">
-										<div class="service-icon">
-											<i class="fa fa-codepen fa-3x" onclick="$.fancybox({});"></i>
-										</div>
-										<h3>X-Ray Astronomy 101</h3>
-									</div>
-								</div>
-							</a>
-							<a href="{{url('/workshops/techathlon')}}">
-								<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
-									<div class="service-item">
-										<div class="service-icon">
-											<i class="fa fa-taxi fa-3x" onclick="$.fancybox({});"></i>
-										</div>
-										<h3>Techathlon</h3>
-									</div>
-								</div>
-							</a>
 						</div>
-                        <br><br><br><br>
+					</div>
 
-						<div class="row">
-							
-							<div class="sec-title text-center">
-								<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Community session</h2>
-                                <p style="font-size:1.5em" class="wow animated bounceInRight">Seize the opportunity to understand the domains and operations of the diverse tech communities like Google Developer Student Clubs, Womxn in Tech and CryptoNITT that are part of our institute.
-</p>
-							</div>
-							<br>
-							<br>
-							<br>
-							<br>
-							<div class="sec-title text-center">
-								<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Tech club briefing session</h2>
-                                <p style="font-size:1.5em" class="wow animated bounceInRight">Enlighten yourself about the diverse opportunities that await you. Don't miss out on a rare  opportunity to interact with representatives of the tech clubs in our college!
-</p>
-							</div>
 
-							<div class="row" style="margin-top: 50px;">
-										<h2 style="padding-top: 20px; padding-bottom: 0px; text-align: center"> SCHEDULE</h2>
-										<div class="col-md-12">
-											<div class="table-responsive">
-												<table  id="my-table" class="table table-striped" >
-													<thead>
-														<tr>
-															<th>EVENT</th>
-															<th>Date</th>
-														</tr>
-													</thead>
-													<!-- 22- Tech Club briefing session
+					<br><br><br><br>
+
+					<div class="sec-title text-center">
+						<h2 style="font-size:3em; color:dark-blue;  " class="wow animated bounceInLeft">Workshops</h2>
+						<p style="font-size:2.5em" class="wow animated bounceInRight">10 exciting workshops!</p>
+					</div>
+
+					<div class="row">
+
+						<a href="{{url('/workshops/0to1startup')}}">
+							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+								<div class="service-item">
+									<div class="service-icon">
+										<i class="fa fa-chart-line fa-3x" onclick="$.fancybox({});"></i>
+									</div>
+									<h3>0 to 1 Startup</h3>
+								</div>
+							</div>
+						</a>
+						<a href="{{url('/workshops/caseinterviews')}}">
+							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+								<div class="service-item">
+									<div class="service-icon">
+										<i class="fa fa-user fa-3x" onclick="$.fancybox({});"></i>
+									</div>
+									<h3>Case Interviews</h3>
+								</div>
+							</div>
+						</a>
+						<a href="{{url('/workshops/celestialquest')}}">
+							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+								<div class="service-item">
+									<div class="service-icon">
+										<i class="fa fa-star fa-3x" onclick="$.fancybox({});"></i>
+									</div>
+									<h3>Celestial Quest</h3>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<br><br>
+
+					<div class="row">
+
+
+						<a href="{{url('/workshops/celllogix')}}">
+							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
+								<div class="service-item">
+									<div class="service-icon">
+										<i class="fa fa-bolt fa-3x" onclick="$.fancybox({});"></i>
+									</div>
+									<h3>Cell Logix</h3>
+								</div>
+							</div>
+						</a>
+						<a href="{{url('/workshops/designxperience')}}">
+							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
+								<div class="service-item">
+									<div class="service-icon">
+										<i class="fa fa-paint-brush fa-3x" onclick="$.fancybox({});"></i>
+									</div>
+									<h3>Design Xperience</h3>
+								</div>
+							</div>
+						</a>
+
+						<a href="{{url('/workshops/spideronion')}}">
+							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
+								<div class="service-item">
+									<div class="service-icon">
+										<i class="fa fa-globe fa-3x" onclick="$.fancybox({});"></i>
+									</div>
+									<h3>Demystifying the Dark Web</h3>
+								</div>
+							</div>
+						</a>
+
+
+					</div>
+
+					<br><br>
+
+					<div class="row">
+
+						<a href="{{url('/workshops/spideripfs')}}">
+							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
+								<div class="service-item">
+									<div class="service-icon">
+										<i class="fa fa-folder-open fa-3x" onclick="$.fancybox({});"></i>
+									</div>
+									<h3>Exploring the Interplanetary Filesystem</h3>
+								</div>
+							</div>
+						</a>
+
+
+						<a href="{{url('/workshops/introtomergers')}}">
+							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
+								<div class="service-item">
+									<div class="service-icon">
+										<i class="fa fa-globe fa-3x" onclick="$.fancybox({});"></i>
+									</div>
+									<h3>Intro to Mergers and Acquisitions</h3>
+								</div>
+							</div>
+						</a>
+
+						<a href="{{url('/workshops/moneymoneybigmoney')}}">
+							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
+								<div class="service-item">
+									<div class="service-icon">
+										<i class="fa fa-rupee fa-3x" onclick="$.fancybox({});"></i>
+									</div>
+									<h3>Money + Money = Big Money</h3>
+								</div>
+							</div>
+						</a>
+
+					</div>
+
+					<br><br>
+
+					<div class="row">
+						<a href="{{url('/workshops/textsummarization')}}">
+							<div class="col-md-4 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
+								<div class="service-item">
+									<div class="service-icon">
+										<i class="fa fa-file-text fa-3x" onclick="$.fancybox({});"></i>
+									</div>
+									<h3>Text Summarization</h3>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<br> <br><br> <br>
+
+
+					<div class="row" style="margin-top: 50px;">
+						<h2 style="padding-top: 20px; padding-bottom: 0px; text-align: center"> SCHEDULE</h2>
+						<div class="col-md-12">
+							<div class="table-responsive">
+								<table id="my-table" class="table table-striped">
+									<thead>
+										<tr>
+											<th>Date</th>
+											<th>Day</th>
+											<th>Time</th>
+											<th>Workshop-1</th>
+											<th>Workshop-2</th>
+											<th>Event</th>
+										</tr>
+									</thead>
+									<!-- 22- Tech Club briefing session
 													23- Case Closed - An Introduction to Management Consulting by Sigma
 													24- X-Ray Astronomy 101 by Nakshatra
 													25- Code Golf by Delta
@@ -380,52 +618,130 @@
 													30-Techathlon Workshop by DC and PSI
 													31-Techathlon Workshop by DC and PSI (contd.)
 													Feb 1-Techathlon Workshop by DC and PSI (contd.) -->
-													<tbody>
-														<tr>
-															<td>Community session by cryptoNITT, DSC and Women in Tech</td>
-															<td>22nd January</td>
-														</tr>
-														<tr>
-															<td>Tech Club briefing session</td>
-															<td>22nd January</td>
-														</tr>
-														<tr>
-															<td>Case Closed - An Introduction to Management Consulting by Sigma</td>
-															<td>23rd January</td>
-														</tr>
-														<tr>
-															<td>X-Ray Astronomy 101 by Nakshatra</td>
-															<td>24th January</td>
-														</tr>
-														<tr>
-															<td>Code Golf by Delta</td>
-															<td>25th January</td>
-														</tr>
-														<tr>
-															<td>Fundamental by Tech Council</td>
-															<td>26th January</td>
-														</tr>
-														<tr>
-															<td>Spider Circuit Simulation Contest</td>
-															<td>27th January</td>
-														</tr>
-														<tr>
-															<td>RMI HYBRID HACKATHON</td>
-															<td>28th January</td>
-														</tr>
-														<tr>
-															<td>180 DC's In CASE You Didn't Know</td>
-															<td>29th January</td>
-														</tr>
-														<tr>
-															<td>Techathlon Workshop by DC and PSI</td>
-															<td>30th January - 1st February</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
-										</div>
-										  <!-- 
+									<tbody>
+										<tr>
+											<td>15th November</td>
+											<td>Wednesday</td>
+											<td>5:30 P.M - 8:30 PM</td>
+											<td>Celestial Quest</td>
+											<td></td>
+											<td>AI Alamanc</td>
+										</tr>
+										<tr>
+											<td>16th November</td>
+											<td>Thursday</td>
+											<td>5:30 P.M - 8:30 PM</td>
+											<td>Money + Money = Big Money</td>
+											<td></td>
+											<td>Ready Player One</td>
+										</tr>
+										<tr>
+											<td>17th November</td>
+											<td>Friday</td>
+											<td>5:30 P.M - 8:30 PM</td>
+											<td>Text Summarization</td>
+											<td></td>
+											<td>PMX: Product Teardown</td>
+										</tr>
+										<tr>
+											<td rowspan="3" style="vertical-align: middle;">19th November</td>
+											<td rowspan="3" style="vertical-align: middle;">Sunday</td>
+											<td>10:00 AM - 2:00 PM</td>
+											<td></td>
+											<td></td>
+											<td>Deconstruct</td>
+										</tr>
+										<tr>
+											<td>2:00 PM - 6:00 PM</td>
+											<td>Intro to Mergers & Acquisition</td>
+											<td></td>
+											<td>Track Master</td>
+										</tr>
+										<tr>
+											<td>5:00 PM - 8:00 PM</td>
+											<td></td>
+											<td></td>
+											<td>CodeGolf</td>
+										</tr>
+										<tr>
+											<td>20th November</td>
+											<td>Monday</td>
+											<td>5:30 PM - 8:30 PM</td>
+											<td>Cell Logix</td>
+											<td>Case Interviews</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>21st November</td>
+											<td>Tuesday</td>
+											<td>5:30 PM - 8:30 PM</td>
+											<td>IPFS Workshop</td>
+											<td></td>
+											<td>Consult Quest</td>
+										</tr>
+										<tr>
+											<td>22nd November</td>
+											<td>Wednesday</td>
+											<td>5:30 PM - 8:30 PM</td>
+											<td>Dark Web Workshop</td>
+											<td></td>
+											<td>MergerScape</td>
+										</tr>
+										<tr>
+											<td>23rd November</td>
+											<td>Thursday</td>
+											<td>5:30 PM - 8:30 PM</td>
+											<td>0 to 1 Startup Workshop Day-1</td>
+											<td></td>
+											<td>SCSC</td>
+										</tr>
+										<tr>
+											<td>24th November</td>
+											<td>Friday</td>
+											<td>5:30 PM - 8:30 PM</td>
+											<td>0 to 1 Startup Workshop Day-2</td>
+											<td></td>
+											<td>Scrap House</td>
+										</tr>
+										<tr>
+											<td rowspan="4" style="vertical-align: middle;">25th November</td>
+											<td rowspan="4" style="vertical-align: middle;">Saturday</td>
+											<td>10:00 AM - 11:30 AM</td>
+											<td></td>
+											<td></td>
+											<td>Decision Quest: A Financial Journey</td>
+										</tr>
+										<tr>
+											<td>1:00PM - 4:00PM</td>
+											<td>Design Xperience Workshop</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>4:00 PM - 8:00 PM</td>
+											<td></td>
+											<td></td>
+											<td>Startup Shipwreck</td>
+										</tr>
+										<tr>
+											<td>6:00PM</td>
+											<td></td>
+											<td></td>
+											<td>3D Problem Statements Release</td>
+										</tr>
+										<tr>
+											<td>26th November</td>
+											<td>Sunday</td>
+											<td>3:00 PM - 8:00 PM</td>
+											<td></td>
+											<td></td>
+											<td>Design Xperience Event</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<!-- 
 										<div class="col-md-6">
 											<h4 style="padding: 10px; padding-bottom: 0px; text-align: center">Day 2</h4>
 											<h4 style="padding-bottom: 10px; text-align: center">(Date: 26-01-2021)</h4>
@@ -474,7 +790,7 @@
 											</div>
 										</div>
 									</div> -->
-									<!-- <div class="row" style="margin-top:50px">
+						<!-- <div class="row" style="margin-top:50px">
 										<h2 style="padding-top: 20px; padding-bottom: 0px; text-align: center">SCOREBOARD</h2>
 										<div id="myModal" class="modal fade" role="dialog">
 											<div class="modal-dialog">
@@ -539,8 +855,8 @@
 														<td id="third2">{{ $scores[0]->third }}</td>
 														<td>
 															<?php
-															if(Session::has('admin_login'))
-															echo '<button data-id="2" class="board btn btn-xs btn-warning"><span class="glyphicon glyphicon-pencil"></span> Edit</button>';
+															if (Session::has('admin_login'))
+																echo '<button data-id="2" class="board btn btn-xs btn-warning"><span class="glyphicon glyphicon-pencil"></span> Edit</button>';
 															?>
 														</td>
 													</tr>
@@ -551,8 +867,8 @@
 														<td id="third3">{{ $scores[1]->third }}</td>
 														<td>
 															<?php
-															if(Session::has('admin_login'))
-															echo '<button data-id="3" class="board btn btn-xs btn-warning"><span class="glyphicon glyphicon-pencil"></span> Edit</button>';
+															if (Session::has('admin_login'))
+																echo '<button data-id="3" class="board btn btn-xs btn-warning"><span class="glyphicon glyphicon-pencil"></span> Edit</button>';
 															?>
 														</td>
 													</tr>
@@ -563,8 +879,8 @@
 														<td id="third4">{{ $scores[2]->third }}</td>
 														<td>
 															<?php
-															if(Session::has('admin_login'))
-															echo '<button data-id="4" class="board btn btn-xs btn-warning"><span class="glyphicon glyphicon-pencil"></span> Edit</button>';
+															if (Session::has('admin_login'))
+																echo '<button data-id="4" class="board btn btn-xs btn-warning"><span class="glyphicon glyphicon-pencil"></span> Edit</button>';
 															?>
 														</td>
 													</tr>
@@ -575,8 +891,8 @@
 														<td id="third5">{{ $scores[3]->third }}</td>
 														<td>
 															<?php
-															if(Session::has('admin_login'))
-															echo '<button data-id="5" class="board btn btn-xs btn-warning"><span class="glyphicon glyphicon-pencil"></span> Edit</button>';
+															if (Session::has('admin_login'))
+																echo '<button data-id="5" class="board btn btn-xs btn-warning"><span class="glyphicon glyphicon-pencil"></span> Edit</button>';
 															?>
 														</td>
 													</tr>
@@ -587,8 +903,8 @@
 														<td id="third6">{{ $scores[4]->third }}</td>
 														<td>
 															<?php
-															if(Session::has('admin_login'))
-															echo '<button data-id="6" class="board btn btn-xs btn-warning"><span class="glyphicon glyphicon-pencil"></span> Edit</button>';
+															if (Session::has('admin_login'))
+																echo '<button data-id="6" class="board btn btn-xs btn-warning"><span class="glyphicon glyphicon-pencil"></span> Edit</button>';
 															?>
 														</td>
 													</tr>
@@ -599,8 +915,8 @@
 														<td id="third7">{{ $scores[5]->third }}</td>
 														<td>
 															<?php
-															if(Session::has('admin_login'))
-															echo '<button data-id="7" class="board btn btn-xs btn-warning"><span class="glyphicon glyphicon-pencil"></span> Edit</button>';
+															if (Session::has('admin_login'))
+																echo '<button data-id="7" class="board btn btn-xs btn-warning"><span class="glyphicon glyphicon-pencil"></span> Edit</button>';
 															?>
 														</td>
 													</tr>
@@ -609,28 +925,28 @@
 										</div>
 									</div>
 								</div> -->
-								<!-- <center><h1>POINTS TABLE</h1></center>
+						<!-- <center><h1>POINTS TABLE</h1></center>
 								<div class="row">
 									<div class="col-md-6 col-md-offset-3">
 										<div class="table-responsive" id="points">
 										</div>
 									</div>
 								</div> -->
-							</section>
-							<!-- end Service section -->
-							
-							
-							
-						</main>
-						
-						<footer id="footer">
-							<div class="container">
-								<div class="row text-center">
-									<div class="footer-content">
-										<div class="wow animated fadeInDown">
-											<p>Let's Celebrate Technology!</p>
-										</div>
-										<!-- 	<form action="#" method="post" class="subscribe-form wow animated fadeInUp">
+		</section>
+		<!-- end Service section -->
+
+
+
+	</main>
+
+	<footer id="footer" style="background-color: #2e2e2e; color: #ffffff; padding: 3rem 0rem;">
+		<div class="container">
+			<div class="row text-center">
+				<div class="footer-content">
+					<div class="wow animated fadeInDown">
+						<p>LET'S CELEBRATE TECHNOLOGY!</p>
+					</div>
+					<!-- 	<form action="#" method="post" class="subscribe-form wow animated fadeInUp">
 												<div class="input-field">
 														<input type="email" class="subscribe form-control" placeholder="Enter Your Email...">
 														<button type="submit" class="submit-icon">
@@ -638,34 +954,33 @@
 														</button>
 												</div>
 										</form> -->
-										<div class="row">
-											<div class="col-md-4 col-xs-12 text-center">
-												Karthik<br/>9962017896
-											</div>
-											<div class="col-md-4 col-xs-12 text-center">
-											Goutham<br/>8056167057
-											</div>
-											<div class="col-md-4 col-xs-12 text-center">
-											Kishore<br/>9003202764
-											</div>
-										</div>
-										<div class="footer-social">
-											<ul>
-												<!-- 								<li class="wow animated zoomIn"><a href="#"><i class="fa fa-thumbs-up fa-3x"></i></a></li>
+					<div class="row" style="padding: 1.5rem 0rem;">
+						<div class="col-md-6 col-xs-12 text-center">
+							Bandavya<br />+917760942275
+						</div>
+						<div class="col-md-6 col-xs-12 text-center">
+							Tushanth<br />+918220152648
+						</div>
+					</div>
+					<div class="footer-social">
+						<ul>
+							<!-- 								<li class="wow animated zoomIn"><a href="#"><i class="fa fa-thumbs-up fa-3x"></i></a></li>
 												<li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#"><i class="fa fa-twitter fa-3x"></i></a></li>
 												<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="#"><i class="fa fa-skype fa-3x"></i></a></li>
 												<li class="wow animated zoomIn" data-wow-delay="0.9s"><a href="#"><i class="fa fa-dribbble fa-3x"></i></a></li>
 												<li class="wow animated zoomIn" data-wow-delay="1.2s"><a href="#"><i class="fa fa-youtube fa-3x"></i></a></li>
-											-->							</ul>
-										</div>
-										
-										<p>Made with &hearts; by <a href="http://delta.nitt.edu">Delta Force</a> </p>
-									</div>
-								</div>
-							</div>
-						</footer>
-						
-						
-						
-					</body>
-				</html>
+											-->
+						</ul>
+					</div>
+
+					<p>Made with &hearts; by <a class="delta" href="http://delta.nitt.edu">Delta Force</a> </p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+</body>
+
+</html>
