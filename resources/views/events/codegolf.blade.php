@@ -60,6 +60,10 @@
 			<b class="header">Duration:</b>
 			<p>2 Hours</p>
 		</div>
+		<div class="row">
+			<b class="header">Registration Link:</b>
+			<p>Join <a href="https://chat.whatsapp.com/Dn6uuh1C8QF4TOkEcReU1F">the Code Golf group</a> to register for the event.</p>
+		</div>
 		<div class="row" style="color: black">
 			<b class="header">Contact:</b>
 			<p>
