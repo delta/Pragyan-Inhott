@@ -70,7 +70,7 @@
 			<b class="header">Contact:</b>
 			<ul>
 				<li>Sahaj Jain - +917989395958</li>
-				<li>Krishnadas Nair - +919508363460</li>
+				<li>Aastha Agarwal - +919508363460</li>
 			</ul>
 		</div>
 	</div>

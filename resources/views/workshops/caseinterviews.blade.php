@@ -6,7 +6,7 @@
 		<div class="row">
 			<div class="text-center wow animated fadeInDown">
 				<!-- <br> -->
-				<h2 style="font-weight: bold;font-size: 2.5em;">Consult-Quest by 180 Degrees Consulting</h2>
+				<h2 style="font-weight: bold;font-size: 2.5em;">Case Interviews by 180 Degrees Consulting</h2>
 			</div>
 		</div>
 		<div class="row" style="color: black">
@@ -29,11 +29,11 @@
 		</div>
 		<div class="row">
 			<b class="header">Tentative Duration:</b>
-			<p>4 hours (including the mock case interview).</p>
+			<p>3 hours (including the mock case interview).</p>
 		</div>
 		<div class="row">
 			<b class="header">Platform:</b>
-			<p>Offline - Orion classroom</p>
+			<p>Offline</p>
 		</div>
 		<div class="row">
 			<b class="header">Registration Link</b>

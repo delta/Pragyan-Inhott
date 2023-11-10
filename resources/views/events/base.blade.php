@@ -83,12 +83,12 @@
 		<div class="container">
 			<div class="navbar-header">
 				<!-- responsive nav button -->
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
-				</button>
+				</button> -->
 				<!-- /responsive nav button -->
 
 				<!-- logo -->
@@ -99,7 +99,7 @@
 			</div>
 
 			<!-- main nav -->
-			<nav class="collapse navbar-collapse navbar-right" role="navigation">
+			<!--<nav class="collapse navbar-collapse navbar-right" role="navigation">
 				<ul id="nav" class="nav navbar-nav">
 					@if (Session::has('user_name'))
 					<li><a>{{Session::get('user_name')}}</a></li>
@@ -107,13 +107,13 @@
 					<li><a href="{{ url('/logout') }}">Logout</a></li>
 					@else
 					<li><a id="loginbtn" href="{{ url('login') }}">Register</a></li>
-					@endif
-					<!--                   <li><a href="#portfolio">portfolio</a></li>
+					@endif -->
+			<!--                   <li><a href="#portfolio">portfolio</a></li>
                         <li><a href="#testimonials">Testimonial</a></li>
                         <li><a href="#price">price</a></li>
                         <li><a href="#contact">Contact</a></li> -->
-				</ul>
-			</nav>
+			<!--	</ul>
+			</nav> -->
 			<!-- /main nav -->
 
 		</div>
@@ -128,7 +128,7 @@
 
 	</main>
 
-	<footer id="footer">
+	<footer id="footer" style="background-color: #2e2e2e; color: #ffffff; padding: 3rem 0rem;">
 		<div class="container">
 			<div class="row text-center">
 				<div class="footer-content">
@@ -153,7 +153,7 @@
 							</ul>
 						</div> -->
 
-					<p>Made with &hearts; by <a href="http://delta.nitt.edu">Delta Force</a> </p>
+					<p style="padding: 1.5rem 0rem;">Made with &hearts; by <a class="delta" href="http://delta.nitt.edu">Delta Force</a> </p>
 				</div>
 			</div>
 		</div>

@@ -18,11 +18,6 @@
 			</ul>
 		</div>
 		<div class="row">
-			<b class="header">Date of Workshop:</b>
-			<p>18th November</p>
-			</ul>
-		</div>
-		<div class="row">
 			<b class="header">Tentative Duration:</b>
 			<p>2.5 hours</p>
 		</div>

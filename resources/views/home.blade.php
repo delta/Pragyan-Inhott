@@ -103,12 +103,12 @@
 		<div class="container">
 			<div class="navbar-header">
 				<!-- responsive nav button -->
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
-				</button>
+				</button> -->
 				<!-- /responsive nav button -->
 
 				<!-- logo -->
@@ -280,7 +280,7 @@
 										<div class="service-icon">
 											<i class="fa fa-question-circle fa-3x"></i>
 										</div>
-										<h3>Decision Quest</h3>
+										<h3>Decision Quest: A Financial Journey</h3>
 									</div>
 								</div>
 							</a>
@@ -655,7 +655,7 @@
 											<td>2:00 PM - 6:00 PM</td>
 											<td>Intro to Mergers & Acquisition</td>
 											<td></td>
-											<td>Trackmaster</td>
+											<td>Track Master</td>
 										</tr>
 										<tr>
 											<td>5:00 PM - 8:00 PM</td>
@@ -683,7 +683,7 @@
 											<td>22nd November</td>
 											<td>Wednesday</td>
 											<td>5:30 PM - 8:30 PM</td>
-											<td>Onion Web Routing Workshop</td>
+											<td>Dark Web Workshop</td>
 											<td></td>
 											<td>MergerScape</td>
 										</tr>
@@ -704,12 +704,12 @@
 											<td>Scrap House</td>
 										</tr>
 										<tr>
-											<td rowspan="3" style="vertical-align: middle;">25th November</td>
-											<td rowspan="3" style="vertical-align: middle;">Saturday</td>
+											<td rowspan="4" style="vertical-align: middle;">25th November</td>
+											<td rowspan="4" style="vertical-align: middle;">Saturday</td>
 											<td>10:00 AM - 11:30 AM</td>
 											<td></td>
 											<td></td>
-											<td>Decision Quest</td>
+											<td>Decision Quest: A Financial Journey</td>
 										</tr>
 										<tr>
 											<td>1:00PM - 4:00PM</td>
@@ -722,6 +722,12 @@
 											<td></td>
 											<td></td>
 											<td>Startup Shipwreck</td>
+										</tr>
+										<tr>
+											<td>6:00PM</td>
+											<td></td>
+											<td></td>
+											<td>3D Problem Statements Release</td>
 										</tr>
 										<tr>
 											<td>26th November</td>

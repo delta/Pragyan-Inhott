@@ -78,6 +78,11 @@
 		<div class="row">
 			<p>Video submissions will be given preference over PDF Submissions as they show the real egg drop.</p>
 		</div>
+
+		<div class="row">
+			<b class="header">Registration:</b>
+			<p>Submissions to <a href="mailto:3daeromodellingnitt@gmail.com">3D Aeromodelling Official Email Address</a> with the specified format will count as registrations. </p>
+		</div>
 	</div>
 </section>
 <!-- end Contact section -->
