@@ -727,7 +727,7 @@
 											<td>6:00PM</td>
 											<td></td>
 											<td></td>
-											<td>3D Problem Statements Release</td>
+											<td>Third Dimension Problem Statements Release</td>
 										</tr>
 										<tr>
 											<td>26th November</td>
