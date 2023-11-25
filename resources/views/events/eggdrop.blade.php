@@ -6,7 +6,7 @@
 		<div class="row">
 			<div class="text-center wow animated fadeInDown">
 				<!-- <br> -->
-				<h2 style="font-weight: bold;font-size: 2.5em">Egg Drop Challenge by The 3rd Dimension</h2>
+				<h2 style="font-weight: bold;font-size: 2.5em">Egg Drop Challenge by The Third Dimension</h2>
 			</div>
 		</div>
 		<div class="row" style="color: black">
@@ -55,10 +55,9 @@
 						<li>Advantages of the given mechanism</li>
 					</ol>
 				</li>
-				<li>The video/PDF should be named EDC_<Name>_<Dept_Video /PDF>. The last
-							entry should be based on the choice of submission made. Keep the font size as 12, font as Calibri and the document must be a total of 2 pages.</li>
-				<li>The named video/PDF should be sent to “3daeromodellingnitt@gmail.com” with
-					subject: EggDropChallenge_<Name>_<Dept>_<Roll Number>.</li>
+				<li>The video/PDF should be named EDC_&lt;Name&gt;_&lt;Dept&gt;_&lt;Video/PDF&gt;. The last
+					entry should be based on the choice of submission made. Keep the font size as 12, font as Calibri and the document must be a total of 2 pages.</li>
+				<li>Submit your video/PDF at <a href="https://docs.google.com/forms/d/e/1FAIpQLScq1pCLBdapH2n4JmCUE6AS3cfvVYcJ6VWnHZKVILvmRYop6A/viewform?usp=send_form">this Google Form.</a></li>
 			</ul>
 
 		</div>
@@ -81,7 +80,7 @@
 
 		<div class="row">
 			<b class="header">Registration:</b>
-			<p>Submissions to <a href="mailto:3daeromodellingnitt@gmail.com">3D Aeromodelling Official Email Address</a> with the specified format will count as registrations. </p>
+			<p>Submissions to <a href="https://docs.google.com/forms/d/e/1FAIpQLScq1pCLBdapH2n4JmCUE6AS3cfvVYcJ6VWnHZKVILvmRYop6A/viewform?usp=send_form">Google Form</a> with the specified format will count as registrations. </p>
 		</div>
 	</div>
 </section>
